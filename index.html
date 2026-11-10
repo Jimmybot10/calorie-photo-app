@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F3F5F2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121614" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Calorie Lab">
+  <title>Calorie Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top" id="top">
+    <div class="top-inner">
+      <a class="brand" href="#meals" aria-label="Calorie Lab home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Calorie Lab</span>
+      </a>
+      <nav id="nav" class="nav" hidden aria-label="Main">
+        <a href="#meals" data-view="meals">Meals</a>
+        <a href="#results" data-view="results">Results</a>
+        <a href="#foods" data-view="foods">Foods</a>
+        <button type="button" class="link-btn" id="signout">Sign out</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="wrap" aria-live="polite">
+    <p class="muted loading">Loading…</p>
+  </main>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="vendor/supabase-2.118.0.js"></script>
+  <script src="config.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
