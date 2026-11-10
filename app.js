@@ -23,11 +23,13 @@ const CAT = Object.fromEntries(CATEGORIES.map((c) => [c.id, c]));
 const SOURCES = {
   claude_photo: { label: "Claude, photo only", short: "Claude" },
   claude_photo_answer: { label: "Claude, photo + cooking answer", short: "Claude + Q" },
+  claude_photo_db: { label: "Claude grams × CoFID, photo only", short: "CoFID" },
+  claude_photo_answer_db: { label: "Claude grams × CoFID, photo + answer", short: "CoFID + Q" },
   cal_ai: { label: "Cal AI", short: "Cal AI" },
   myfitnesspal: { label: "MyFitnessPal", short: "MFP" },
   other_app: { label: "Other app", short: "Other" },
 };
-const SOURCE_ORDER = ["claude_photo", "claude_photo_answer", "cal_ai", "myfitnesspal", "other_app"];
+const SOURCE_ORDER = ["claude_photo", "claude_photo_answer", "claude_photo_db", "claude_photo_answer_db", "cal_ai", "myfitnesspal", "other_app"];
 const APP_SOURCES = ["cal_ai", "myfitnesspal", "other_app"];
 
 const ANGLES = [
@@ -445,9 +447,15 @@ function mealCard(m) {
 
 // ---------- meal form ----------
 
+let rowSeq = 0;
 function itemRowHtml(it = {}) {
-  return `<div class="item-row">
-    <input name="food_name" list="foods-list" placeholder="Food, e.g. basmati rice, boiled" maxlength="80" value="${esc(it.food_name)}" aria-label="Food" autocomplete="off">
+  const id = `sug-${++rowSeq}`;
+  return `<div class="item-row" data-code="${esc(it.food_code ?? "")}">
+    <div class="name-cell">
+      <input name="food_name" placeholder="Food, e.g. rice basmati boiled" maxlength="160" value="${esc(it.food_name)}" aria-label="Food"
+        autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="${id}">
+      <ul class="suggest" id="${id}" role="listbox" aria-label="Matching foods" hidden></ul>
+    </div>
     <input name="grams" class="num" type="number" inputmode="decimal" min="0.1" max="5000" step="0.1" placeholder="grams" value="${esc(it.grams)}" aria-label="Grams">
     <input name="kcal_per_100g" class="num" type="number" inputmode="decimal" min="0" max="900" step="0.1" placeholder="kcal/100g" value="${esc(it.kcal_per_100g)}" aria-label="kcal per 100 g">
     <span class="kcal-out" aria-label="kcal for this item">—</span>
@@ -457,14 +465,14 @@ function itemRowHtml(it = {}) {
 
 async function renderMealForm(mealId, seq) {
   document.title = (mealId ? "Edit meal" : "Log a meal") + " · Calorie Lab";
-  const foodsP = sb.from("foods").select("name, kcal_per_100g").order("name");
+  const foodsP = sb.from("foods").select("name, kcal_per_100g, source, source_ref").order("name");
   let meal = null;
   let items = [];
   let photos = [];
   if (mealId) {
     const [m, it, ph] = await Promise.all([
       sb.from("meals").select("*").eq("id", mealId).maybeSingle(),
-      sb.from("meal_items").select("food_name, grams, kcal_per_100g, position").eq("meal_id", mealId).order("position"),
+      sb.from("meal_items").select("food_name, grams, kcal_per_100g, food_code, position").eq("meal_id", mealId).order("position"),
       sb.from("meal_photos").select("id, storage_path, angle, created_at").eq("meal_id", mealId).order("created_at"),
     ]);
     meal = must(m);
@@ -478,7 +486,14 @@ async function renderMealForm(mealId, seq) {
   const urls = await signedUrls(Object.values(existing).map((p) => p.storage_path));
   if (seq !== renderSeq) return;
 
-  const foodMap = new Map(foods.map((f) => [f.name.toLowerCase(), Number(f.kcal_per_100g)]));
+  // Your own foods, offered first in suggestions and auto-filled on an exact name.
+  const personal = foods.map((f) => ({
+    name: f.name,
+    kcal: Number(f.kcal_per_100g),
+    code: f.source === "cofid" && f.source_ref ? f.source_ref : "",
+    mine: true,
+  }));
+  const foodMap = new Map(personal.map((f) => [f.name.toLowerCase(), f]));
   const files = {}; // angle -> { blob, width, height, preview }
   let currentId = mealId;
 
@@ -517,12 +532,11 @@ async function renderMealForm(mealId, seq) {
       </div>
 
       <div class="card">
-        <div><h2>Weighed items</h2><p class="small muted">Grams as served, and energy per 100 g of the cooked food. Add measured oil, butter and sauces as their own items.</p></div>
+        <div><h2>Weighed items</h2><p class="small muted">Grams as served. Start typing a food to pick it from your foods or the UK CoFID tables, which fills in the energy per 100 g. Add measured oil, butter and sauces as their own items.</p></div>
         <div class="item-head" aria-hidden="true"><span>Food</span><span>Grams</span><span>kcal/100g</span><span>kcal</span><span></span></div>
         <div class="items" id="items">${(items.length ? items : [{}]).map(itemRowHtml).join("")}</div>
         <div><button type="button" class="btn small" id="add-item">Add item</button></div>
         <div class="total-line"><span class="muted">Weighed total</span><span><span class="num" id="total">0</span> kcal</span></div>
-        <datalist id="foods-list">${foods.map((f) => `<option value="${esc(f.name)}">${kcalText(f.kcal_per_100g)} kcal/100g</option>`).join("")}</datalist>
       </div>
 
       <div class="card">
@@ -566,20 +580,123 @@ async function renderMealForm(mealId, seq) {
   }
   recalc();
 
+  // ----- food suggestions -----
+  let suggestTimer;
+  let suggestSeq = 0;
+  function closeSuggest(row) {
+    const ul = row.querySelector(".suggest");
+    ul.hidden = true;
+    ul.innerHTML = "";
+    row._options = [];
+    row._active = -1;
+    row.querySelector("[name=food_name]").setAttribute("aria-expanded", "false");
+    row.querySelector("[name=food_name]").removeAttribute("aria-activedescendant");
+  }
+  function pickOption(row, opt) {
+    row.querySelector("[name=food_name]").value = opt.name;
+    const per = row.querySelector("[name=kcal_per_100g]");
+    per.value = opt.kcal;
+    per.dataset.auto = "1";
+    row.dataset.code = opt.code || "";
+    closeSuggest(row);
+    recalc();
+    row.querySelector("[name=grams]").focus();
+  }
+  function setActive(row, i) {
+    const items = row.querySelectorAll(".suggest [role=option]");
+    if (!items.length) return;
+    row._active = (i + items.length) % items.length;
+    items.forEach((li, j) => li.setAttribute("aria-selected", String(j === row._active)));
+    const active = items[row._active];
+    row.querySelector("[name=food_name]").setAttribute("aria-activedescendant", active.id);
+    active.scrollIntoView({ block: "nearest" });
+  }
+  async function suggest(input) {
+    const row = input.closest(".item-row");
+    const ul = row.querySelector(".suggest");
+    const q = input.value.trim();
+    if (q.length < 2) return closeSuggest(row);
+    const seq = ++suggestSeq;
+    const words = q.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+    const mine = personal.filter((f) => words.every((w) => f.name.toLowerCase().includes(w))).slice(0, 4);
+    let ref = [];
+    try {
+      ref = must(await sb.rpc("search_food_reference", { q, max_results: 8 })) || [];
+    } catch (err) {
+      console.error(err);
+    }
+    if (seq !== suggestSeq || document.activeElement !== input) return;
+    const seen = new Set(mine.map((m) => m.name.toLowerCase()));
+    const options = [
+      ...mine,
+      ...ref
+        .filter((r) => !seen.has(r.name.toLowerCase()))
+        .map((r) => ({ name: r.name, kcal: Number(r.kcal_per_100g), code: r.code, group: r.group_name })),
+    ];
+    row._options = options;
+    row._active = -1;
+    ul.innerHTML = options.length
+      ? options
+          .map(
+            (o, i) => `<li role="option" id="${ul.id}-${i}" data-i="${i}" aria-selected="false">
+              <span class="s-name">${esc(o.name)}</span>
+              <span class="s-meta">${o.mine ? '<span class="s-tag">Yours</span> · ' : ""}${kcalText(o.kcal)} kcal/100g${o.group ? ` · ${esc(o.group)}` : ""}</span>
+            </li>`,
+          )
+          .join("")
+      : '<li class="suggest-empty">No match. Type the kcal per 100 g yourself.</li>';
+    ul.hidden = false;
+    input.setAttribute("aria-expanded", options.length ? "true" : "false");
+  }
+
   itemsEl.addEventListener("input", (e) => {
     const row = e.target.closest(".item-row");
     if (!row) return;
     if (e.target.name === "food_name") {
+      row.dataset.code = "";
       const per = row.querySelector("[name=kcal_per_100g]");
       const known = foodMap.get(e.target.value.trim().toLowerCase());
-      if (known != null && (!per.value || per.dataset.auto === "1")) {
-        per.value = known;
+      if (known && (!per.value || per.dataset.auto === "1")) {
+        per.value = known.kcal;
         per.dataset.auto = "1";
+        row.dataset.code = known.code;
       }
+      clearTimeout(suggestTimer);
+      const input = e.target;
+      suggestTimer = setTimeout(() => suggest(input), 180);
     } else if (e.target.name === "kcal_per_100g") {
       e.target.dataset.auto = "";
+      row.dataset.code = "";
     }
     recalc();
+  });
+  itemsEl.addEventListener("keydown", (e) => {
+    if (e.target.name !== "food_name") return;
+    const row = e.target.closest(".item-row");
+    const open = !row.querySelector(".suggest").hidden && row._options?.length;
+    if (e.key === "Enter") {
+      e.preventDefault(); // Enter in a food name never submits the whole form
+      if (open) pickOption(row, row._options[row._active >= 0 ? row._active : 0]);
+    } else if (open && (e.key === "ArrowDown" || e.key === "ArrowUp")) {
+      e.preventDefault();
+      setActive(row, (row._active ?? -1) + (e.key === "ArrowDown" ? 1 : -1));
+    } else if (e.key === "Escape") {
+      closeSuggest(row);
+    }
+  });
+  itemsEl.addEventListener("pointerdown", (e) => {
+    const li = e.target.closest(".suggest [role=option]");
+    if (!li) return;
+    e.preventDefault(); // keep focus in the input until the pick is done
+    const row = li.closest(".item-row");
+    pickOption(row, row._options[Number(li.dataset.i)]);
+  });
+  itemsEl.addEventListener("focusout", (e) => {
+    if (e.target.name !== "food_name") return;
+    const row = e.target.closest(".item-row");
+    setTimeout(() => {
+      if (!row.contains(document.activeElement) || document.activeElement.name !== "food_name") closeSuggest(row);
+    }, 120);
   });
   itemsEl.addEventListener("click", (e) => {
     const btn = e.target.closest("[data-remove]");
@@ -638,6 +755,7 @@ async function renderMealForm(mealId, seq) {
         food_name: r.querySelector("[name=food_name]").value.trim(),
         grams: r.querySelector("[name=grams]").value.trim(),
         per: r.querySelector("[name=kcal_per_100g]").value.trim(),
+        code: r.dataset.code || "",
       }))
       .filter((r) => r.food_name || r.grams || r.per);
 
@@ -680,10 +798,18 @@ async function renderMealForm(mealId, seq) {
         currentId = must(await sb.from("meals").insert({ ...mealRow, user_id: uid }).select("id").single()).id;
       }
 
-      // Remember foods for next time (one row per exact name).
-      const foodRows = new Map();
-      for (const r of rows) foodRows.set(r.food_name, { user_id: uid, name: r.food_name, kcal_per_100g: Number(r.per) });
-      if (foodRows.size) must(await sb.from("foods").upsert([...foodRows.values()], { onConflict: "user_id,name" }));
+      // Remember foods for next time (one row per exact name). CoFID picks keep their code;
+      // the two kinds go in separate calls so a plain entry never wipes a food's source.
+      const coded = new Map();
+      const plain = new Map();
+      for (const r of rows) {
+        const base = { user_id: uid, name: r.food_name, kcal_per_100g: Number(r.per) };
+        if (r.code) coded.set(r.food_name, { ...base, source: "cofid", source_ref: r.code });
+        else plain.set(r.food_name, base);
+      }
+      for (const name of coded.keys()) plain.delete(name);
+      if (coded.size) must(await sb.from("foods").upsert([...coded.values()], { onConflict: "user_id,name" }));
+      if (plain.size) must(await sb.from("foods").upsert([...plain.values()], { onConflict: "user_id,name" }));
 
       // Replace the weighed items.
       if (isUpdate) must(await sb.from("meal_items").delete().eq("meal_id", currentId));
@@ -696,6 +822,7 @@ async function renderMealForm(mealId, seq) {
               food_name: r.food_name,
               grams: Number(r.grams),
               kcal_per_100g: Number(r.per),
+              food_code: r.code || null,
               position: i,
             })),
           ),
@@ -741,7 +868,7 @@ async function renderMealForm(mealId, seq) {
 async function renderMeal(mealId, seq) {
   const [m, it, ph, es] = await Promise.all([
     sb.from("meals").select("*").eq("id", mealId).maybeSingle(),
-    sb.from("meal_items").select("food_name, grams, kcal_per_100g, kcal, position").eq("meal_id", mealId).order("position"),
+    sb.from("meal_items").select("food_name, grams, kcal_per_100g, kcal, food_code, position").eq("meal_id", mealId).order("position"),
     sb.from("meal_photos").select("id, storage_path, angle, created_at").eq("meal_id", mealId).order("created_at"),
     sb.from("estimates").select("*").eq("meal_id", mealId).order("created_at", { ascending: false }),
   ]);
@@ -778,7 +905,7 @@ async function renderMeal(mealId, seq) {
               <tbody>${items
                 .map(
                   (i) =>
-                    `<tr><td>${esc(i.food_name)}</td><td class="r num">${esc(i.grams)}</td><td class="r num">${esc(i.kcal_per_100g)}</td><td class="r num">${kcalText(i.kcal)}</td></tr>`,
+                    `<tr><td>${esc(i.food_name)}${i.food_code ? ` <span class="small muted">CoFID ${esc(i.food_code)}</span>` : ""}</td><td class="r num">${esc(i.grams)}</td><td class="r num">${esc(i.kcal_per_100g)}</td><td class="r num">${kcalText(i.kcal)}</td></tr>`,
                 )
                 .join("")}</tbody></table></div>`
           : `<div class="notice warn">No weighed items yet. <a href="#edit/${meal.id}">Add them</a> so estimates can be scored.</div>`
@@ -846,9 +973,14 @@ async function renderMeal(mealId, seq) {
           }
           throw new Error(msg);
         }
-        const est = data?.estimate;
-        const sp = est && hasTruth ? signedPct(est.kcal, truth) : null;
-        toast(`Claude says ${kcalText(est?.kcal)} kcal${sp != null ? ` (${fmtPct(sp)})` : ""}.`);
+        const said = (x) => {
+          const sp = x && hasTruth ? signedPct(x.kcal, truth) : null;
+          return `${kcalText(x?.kcal)} kcal${sp != null ? ` (${fmtPct(sp)})` : ""}`;
+        };
+        let msg = `Claude says ${said(data?.estimate)}.`;
+        if (data?.db_estimate) msg += ` Priced with CoFID: ${said(data.db_estimate)}.`;
+        else if (data?.db_error) msg += ` The CoFID step failed: ${data.db_error}`;
+        toast(msg, data?.db_error ? "error" : "info");
         route();
       } catch (err) {
         fail(err);
@@ -912,8 +1044,24 @@ function estimateHtml(e, truth) {
   const hasRange = e.kcal_low != null && e.kcal_high != null;
   const inRange = hasRange && truth ? Number(e.kcal_low) <= truth && truth <= Number(e.kcal_high) : null;
   const isClaude = e.source.startsWith("claude");
+  const isDb = e.source.endsWith("_db");
   let more = "";
-  if (isClaude && Array.isArray(d.foods)) {
+  if (isDb && Array.isArray(d.items)) {
+    more = `<details><summary>How CoFID priced it (${esc(d.matched ?? 0)} of ${esc(d.items.length)} foods matched)</summary>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Food</th><th class="r">Est. g</th><th>CoFID match</th><th class="r">kcal</th></tr></thead>
+        <tbody>${d.items
+          .map(
+            (it) => `<tr>
+              <td>${esc(it.name)}<div class="small muted">${esc(it.cofid_name)}</div></td>
+              <td class="r num">${kcalText(it.grams)}</td>
+              <td>${it.matched ? `${esc(it.ref_name)}<div class="small muted num">${kcalText(it.kcal_per_100g)} kcal/100g · was ${kcalText(it.claude_kcal)}</div>` : '<span class="small muted">No good match, kept Claude\'s value</span>'}</td>
+              <td class="r num">${kcalText(it.kcal)}</td></tr>`,
+          )
+          .join("")}</tbody></table></div>
+      <p class="small">Hidden fat added: <span class="num">${kcalText(d.hidden_fat_kcal)}</span> kcal (Claude's figure)</p>
+    </details>`;
+  } else if (isClaude && Array.isArray(d.foods)) {
     const usage = d.usage ? ` · ${d.usage.input_tokens ?? "?"} in / ${d.usage.output_tokens ?? "?"} out tokens` : "";
     more = `<details><summary>What Claude saw</summary>
       <div class="table-wrap"><table>
@@ -984,19 +1132,37 @@ async function renderResults(seq) {
     "Measured separately with the iPhone depth test. Record the result alongside this page.",
   );
 
+  // Average error of two sources on the meals that have both.
+  function paired(a, b) {
+    const A = new Map(latest.filter((r) => r.source === a && r.abs_pct != null).map((r) => [r.meal_id, Number(r.abs_pct)]));
+    const B = latest.filter((r) => r.source === b && r.abs_pct != null && A.has(r.meal_id));
+    return { n: B.length, a: mean(B.map((r) => A.get(r.meal_id))), b: mean(B.map((r) => Number(r.abs_pct))) };
+  }
+
   // Check 3: the cooking answer reduces Claude's error on the same meals.
-  const photoOnly = new Map(latest.filter((r) => r.source === "claude_photo" && r.abs_pct != null).map((r) => [r.meal_id, Number(r.abs_pct)]));
-  const withAnswer = latest.filter((r) => r.source === "claude_photo_answer" && r.abs_pct != null && photoOnly.has(r.meal_id));
+  const q = paired("claude_photo", "claude_photo_answer");
   let gate3;
-  if (withAnswer.length < 10) {
-    gate3 = check("wait", "The cooking question reduces Claude's error", `Needs 10+ meals with both Claude runs. Have ${withAnswer.length}.`);
+  if (q.n < 10) {
+    gate3 = check("wait", "The cooking question reduces Claude's error", `Needs 10+ meals with both Claude runs. Have ${q.n}.`);
   } else {
-    const before = mean(withAnswer.map((r) => photoOnly.get(r.meal_id)));
-    const after = mean(withAnswer.map((r) => Number(r.abs_pct)));
-    const drop = before - after;
-    const body = `Average error ${fmtPct(before, false)} without the answer, ${fmtPct(after, false)} with it, across ${withAnswer.length} meals (${drop >= 0 ? "down" : "up"} ${Math.abs(drop).toFixed(1)} points). Pass needs a drop of at least 2 points.`;
+    const drop = q.a - q.b;
+    const body = `Average error ${fmtPct(q.a, false)} without the answer, ${fmtPct(q.b, false)} with it, across ${q.n} meals (${drop >= 0 ? "down" : "up"} ${Math.abs(drop).toFixed(1)} points). Pass needs a drop of at least 2 points.`;
     gate3 = check(drop >= 2 ? "pass" : "fail", "The cooking question reduces Claude's error", body);
   }
+
+  // Design question: does pricing Claude's grams with CoFID beat Claude's own numbers?
+  const dbRows = [
+    ["Photo only", paired("claude_photo", "claude_photo_db")],
+    ["Photo + cooking answer", paired("claude_photo_answer", "claude_photo_answer_db")],
+  ]
+    .map(([label, r]) => {
+      const change = r.n ? r.b - r.a : null;
+      return `<tr><td>${label}</td><td class="r num">${r.n}</td>
+        <td class="r"><span class="badge ${band(r.a)}">${fmtPct(r.a, false)}</span></td>
+        <td class="r"><span class="badge ${band(r.b)}">${fmtPct(r.b, false)}</span></td>
+        <td class="r num">${change == null ? "—" : `${change <= 0 ? "−" : "+"}${Math.abs(change).toFixed(1)} pts`}</td></tr>`;
+    })
+    .join("");
 
   const sourceRows = activeSources.length
     ? activeSources
@@ -1038,7 +1204,15 @@ async function renderResults(seq) {
         <thead><tr><th>Source</th><th class="r">Meals</th><th class="r">Avg error</th><th class="r">Bias</th><th class="r">Within ±20%</th><th class="r">Range hit</th></tr></thead>
         <tbody>${sourceRows}</tbody>
       </table></div>
-      <p class="small muted">Range hit is how often the weighed total fell inside Claude's 80% range. Near 80% means its ranges are honest.</p>
+      <p class="small muted">Range hit is how often the weighed total fell inside Claude's 80% range. Near 80% means its ranges are honest. CoFID rows are Claude's gram estimates priced with CoFID values.</p>
+    </div>
+
+    <div class="card">
+      <div><h2>Does the CoFID lookup help?</h2><p class="small muted">Same meals, same Claude gram estimates. Claude's own kcal against the grams priced with CoFID. A negative change means CoFID made it more accurate. Trust it after 10+ meals.</p></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Run</th><th class="r">Meals</th><th class="r">Claude</th><th class="r">CoFID</th><th class="r">Change</th></tr></thead>
+        <tbody>${dbRows}</tbody>
+      </table></div>
     </div>
 
     <div class="card">

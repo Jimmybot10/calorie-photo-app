@@ -1,17 +1,23 @@
 // Supabase Edge Function: estimate
-// Sends a meal's photos to Claude and stores a structured calorie estimate.
+// Sends a meal's photos to Claude and stores two estimates:
+//   1. Claude's own calorie total.
+//   2. Claude's gram estimates priced with CoFID values (Claude picks the matching
+//      CoFID food from a shortlist; foods with no good match keep Claude's value).
 //
 // POST { meal_id: string, with_answer?: boolean }
 // Requires the caller's Supabase session token in the Authorization header.
 //
 // Secrets (Supabase dashboard → Edge Functions → Secrets):
-//   ANTHROPIC_API_KEY  required
-//   ANTHROPIC_MODEL    optional, defaults to claude-sonnet-5-5
+//   ANTHROPIC_API_KEY      required
+//   ANTHROPIC_MODEL        optional, defaults to claude-sonnet-5-5
+//   ANTHROPIC_MATCH_MODEL  optional, model for the CoFID matching step; defaults to ANTHROPIC_MODEL
 
-import { createClient } from "npm:@supabase/supabase-js@2";
+import { createClient, type SupabaseClient } from "npm:@supabase/supabase-js@2";
 import { encodeBase64 } from "jsr:@std/encoding@1/base64";
 
 const MAX_PHOTOS = 3;
+const MAX_FOODS = 15;
+const CANDIDATES_PER_FOOD = 8;
 const DEFAULT_MODEL = "claude-sonnet-5-5";
 
 const CORS = {
@@ -38,6 +44,12 @@ function envKey(jsonVar: string, legacyVar: string): string | undefined {
   return Deno.env.get(legacyVar) ?? undefined;
 }
 
+const num = (v: unknown): number | null => {
+  const n = Number(v);
+  return v === null || v === undefined || v === "" || !Number.isFinite(n) ? null : n;
+};
+const round1 = (n: number) => Math.round(n * 10) / 10;
+
 const FAT_LABELS: Record<string, string> = {
   none: "no added oil or butter",
   oil: "cooked in oil",
@@ -54,14 +66,17 @@ const AMOUNT_LABELS: Record<string, string> = {
 };
 
 const SYSTEM_PROMPT = `You estimate the energy content (kcal) of meals from photos for a UK user.
-- Identify each distinct food and estimate its weight in grams from what is visible.
+- Identify each distinct food and estimate its weight in grams as served, from what is visible.
 - Use the plate, bowl, cutlery and any bank card in shot for scale. A bank card is 85.6 x 54 mm. A typical UK dinner plate is 26-27 cm across.
-- Use typical UK composition values (McCance and Widdowson's CoFID) for cooked foods as served.
-- Include energy from cooking fats, sauces, dressings and spreads, even when they are hard to see. Restaurant and takeaway food usually contains more fat than home cooking.
-- Give a low and high value that you expect to contain the true total about 80% of the time.
+- For each food give cofid_name: how UK food composition tables (McCance and Widdowson's CoFID) would name it, main food first, then type, then how it was cooked or bought. Examples: "Rice, white, basmati, boiled in unsalted water", "Curry, chicken, average, takeaway", "Potato chips, homemade, fried in sunflower oil", "Bread, naan, retail".
+- Use typical UK composition values for foods as served.
+- Each food's kcal covers that food as described, including any fat its description already includes (for example "fried in oil").
+- hidden_fat_kcal is extra energy from oils, butter, dressings or sauces that you can't see and that no food's description already covers. Restaurant and takeaway food usually has more fat than home cooking.
+- total_kcal must equal the sum of the foods' kcal plus hidden_fat_kcal.
+- Give low_kcal and high_kcal so the true total falls inside that range about 80% of the time.
 - Report through the report_estimate tool only.`;
 
-const TOOL = {
+const ESTIMATE_TOOL = {
   name: "report_estimate",
   description: "Report the calorie estimate for the meal in the photos.",
   input_schema: {
@@ -69,20 +84,22 @@ const TOOL = {
     properties: {
       foods: {
         type: "array",
+        maxItems: MAX_FOODS,
         items: {
           type: "object",
           properties: {
-            name: { type: "string" },
+            name: { type: "string", description: "Plain name, e.g. 'chicken curry'." },
+            cofid_name: { type: "string", description: "CoFID-style name, e.g. 'Curry, chicken, average, takeaway'." },
             estimated_grams: { type: "number" },
             kcal: { type: "number" },
             notes: { type: "string" },
           },
-          required: ["name", "estimated_grams", "kcal"],
+          required: ["name", "cofid_name", "estimated_grams", "kcal"],
         },
       },
       hidden_fat_kcal: {
         type: "number",
-        description: "Energy from oils, butter or sauces you assumed but cannot see directly.",
+        description: "Extra energy from unseen oils, butter or sauces not covered by any food's description.",
       },
       total_kcal: { type: "number" },
       low_kcal: { type: "number" },
@@ -90,9 +107,125 @@ const TOOL = {
       confidence: { type: "string", enum: ["high", "medium", "low"] },
       assumptions: { type: "string" },
     },
-    required: ["foods", "total_kcal", "low_kcal", "high_kcal", "confidence"],
+    required: ["foods", "hidden_fat_kcal", "total_kcal", "low_kcal", "high_kcal", "confidence"],
   },
 };
+
+const MATCH_SYSTEM = `You match foods from a meal to entries in the UK food composition table (CoFID).
+For each food, choose the candidate that is the same food as eaten: same main food, same type, and the same cooking method where the table offers one.
+Choose "none" if no candidate is a reasonable match. A wrong match is worse than none.
+Report through the pick_matches tool only.`;
+
+const MATCH_TOOL = {
+  name: "pick_matches",
+  description: "Report the chosen CoFID candidate for each food.",
+  input_schema: {
+    type: "object",
+    properties: {
+      matches: {
+        type: "array",
+        items: {
+          type: "object",
+          properties: {
+            food: { type: "integer", description: "Food number from the list." },
+            choice: { type: "string", description: "Candidate id such as '2c', or 'none'." },
+          },
+          required: ["food", "choice"],
+        },
+      },
+    },
+    required: ["matches"],
+  },
+};
+
+async function callClaude(apiKey: string, payload: Record<string, unknown>) {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify(payload),
+  });
+  if (!res.ok) {
+    const text = await res.text();
+    let msg = text.slice(0, 300);
+    try { msg = JSON.parse(text)?.error?.message ?? msg; } catch { /* keep raw */ }
+    throw new Error(`Claude returned an error (${res.status}): ${msg}`);
+  }
+  const body = await res.json();
+  const toolUse = (body.content ?? []).find((c: { type: string }) => c.type === "tool_use");
+  return { input: toolUse?.input, model: body.model as string | undefined, usage: body.usage ?? null };
+}
+
+type Food = { name: string; cofid_name: string; estimated_grams: number; kcal: number; notes?: string };
+type Candidate = { idx: number; ref_id: number; code: string; name: string; kcal_per_100g: number; score: number };
+
+// Price Claude's grams with CoFID values. Returns null if matching can't run.
+async function priceWithCofid(
+  admin: SupabaseClient,
+  apiKey: string,
+  model: string,
+  foods: Food[],
+  hiddenFat: number,
+) {
+  const names = foods.map((f) => String(f.cofid_name || f.name).slice(0, 160));
+  const { data, error } = await admin.rpc("food_reference_candidates", { names, per_name: CANDIDATES_PER_FOOD });
+  if (error) throw new Error(`Food lookup failed: ${error.message}`);
+  const byFood = new Map<number, Candidate[]>();
+  for (const c of (data ?? []) as Candidate[]) {
+    if (!byFood.has(c.idx)) byFood.set(c.idx, []);
+    byFood.get(c.idx)!.push(c);
+  }
+
+  const letters = "abcdefghij";
+  const options = new Map<string, Candidate>();
+  const lines: string[] = [];
+  foods.forEach((f, i) => {
+    const n = i + 1;
+    lines.push(`Food ${n}: "${f.name}", described as "${f.cofid_name}"${f.notes ? ` (${f.notes})` : ""}`);
+    (byFood.get(n) ?? []).forEach((c, j) => {
+      const id = `${n}${letters[j]}`;
+      options.set(id, c);
+      lines.push(`  ${id}: ${c.name} (${Number(c.kcal_per_100g)} kcal/100 g)`);
+    });
+  });
+
+  const pick = await callClaude(apiKey, {
+    model,
+    max_tokens: 600,
+    system: MATCH_SYSTEM,
+    tools: [MATCH_TOOL],
+    tool_choice: { type: "tool", name: "pick_matches" },
+    messages: [{ role: "user", content: `For each food, pick one candidate id or "none".\n\n${lines.join("\n")}` }],
+  });
+  const choices = new Map<number, string>();
+  for (const m of (pick.input?.matches ?? []) as { food: number; choice: string }[]) {
+    choices.set(Number(m.food), String(m.choice ?? "none").trim().toLowerCase());
+  }
+
+  let total = 0;
+  let matched = 0;
+  const items = foods.map((f, i) => {
+    const grams = Math.max(0, num(f.estimated_grams) ?? 0);
+    const own = Math.max(0, num(f.kcal) ?? 0);
+    const c = options.get(choices.get(i + 1) ?? "none");
+    if (c && c.idx === i + 1) {
+      const kcal = (grams * Number(c.kcal_per_100g)) / 100;
+      total += kcal;
+      matched++;
+      return {
+        name: f.name, cofid_name: f.cofid_name, grams, claude_kcal: own,
+        ref_code: c.code, ref_name: c.name, kcal_per_100g: Number(c.kcal_per_100g), kcal: round1(kcal), matched: true,
+      };
+    }
+    total += own;
+    return { name: f.name, cofid_name: f.cofid_name, grams, claude_kcal: own, kcal: round1(own), matched: false };
+  });
+  total += Math.max(0, hiddenFat);
+  return { total: round1(total), items, matched, hidden_fat_kcal: hiddenFat, model: pick.model ?? model, usage: pick.usage };
+}
 
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: CORS });
@@ -103,6 +236,7 @@ Deno.serve(async (req) => {
   const secret = envKey("SUPABASE_SECRET_KEYS", "SUPABASE_SERVICE_ROLE_KEY");
   const anthropicKey = Deno.env.get("ANTHROPIC_API_KEY");
   const model = Deno.env.get("ANTHROPIC_MODEL") || DEFAULT_MODEL;
+  const matchModel = Deno.env.get("ANTHROPIC_MATCH_MODEL") || model;
 
   if (!publishable || !secret) return json({ error: "Server keys are missing." }, 500);
   if (!anthropicKey) {
@@ -169,64 +303,85 @@ Deno.serve(async (req) => {
     instruction += ` The person who ate it says: ${FAT_LABELS[meal.cooking_fat] ?? meal.cooking_fat}; amount of added fat: ${AMOUNT_LABELS[meal.fat_amount ?? "unsure"] ?? meal.fat_amount}.`;
   }
 
+  // 1. Claude's own estimate from the photos.
   const started = Date.now();
-  const aiRes = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "x-api-key": anthropicKey,
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json",
-    },
-    body: JSON.stringify({
+  let ai;
+  try {
+    ai = await callClaude(anthropicKey, {
       model,
-      max_tokens: 1500,
+      max_tokens: 2000,
       system: SYSTEM_PROMPT,
-      tools: [TOOL],
+      tools: [ESTIMATE_TOOL],
       tool_choice: { type: "tool", name: "report_estimate" },
       messages: [{ role: "user", content: [...imageBlocks, { type: "text", text: instruction }] }],
-    }),
-  });
-
-  if (!aiRes.ok) {
-    const text = await aiRes.text();
-    let msg = text.slice(0, 300);
-    try { msg = JSON.parse(text)?.error?.message ?? msg; } catch { /* keep raw */ }
-    return json({ error: `Claude returned an error (${aiRes.status}): ${msg}` }, 502);
+    });
+  } catch (e) {
+    return json({ error: (e as Error).message }, 502);
   }
-
-  const ai = await aiRes.json();
-  const toolUse = (ai.content ?? []).find((c: { type: string }) => c.type === "tool_use");
-  const est = toolUse?.input;
-  const total = Number(est?.total_kcal);
-  if (!est || !Number.isFinite(total) || total < 0 || total > 10000) {
+  const est = ai.input;
+  const total = num(est?.total_kcal);
+  if (!est || total === null || total < 0 || total > 10000 || !Array.isArray(est.foods)) {
     return json({ error: "Claude's answer couldn't be read. Try again." }, 502);
   }
-  const low = Number.isFinite(Number(est.low_kcal)) ? Math.max(0, Number(est.low_kcal)) : null;
-  const high = Number.isFinite(Number(est.high_kcal)) ? Math.max(0, Number(est.high_kcal)) : null;
+  const low = num(est.low_kcal);
+  const high = num(est.high_kcal);
+  const foods: Food[] = est.foods.slice(0, MAX_FOODS);
+  const hiddenFat = Math.max(0, num(est.hidden_fat_kcal) ?? 0);
+  const visionMs = Date.now() - started;
 
   // Store with the admin client: users can't write Claude estimates themselves.
   const admin = createClient(url, secret, { auth: { persistSession: false, autoRefreshToken: false } });
+  const source = withAnswer ? "claude_photo_answer" : "claude_photo";
   const { data: saved, error: saveErr } = await admin
     .from("estimates")
     .insert({
       meal_id: mealId,
       user_id: userId,
-      source: withAnswer ? "claude_photo_answer" : "claude_photo",
-      kcal: Math.round(total * 10) / 10,
-      kcal_low: low,
-      kcal_high: high,
+      source,
+      kcal: round1(total),
+      kcal_low: low === null ? null : Math.max(0, low),
+      kcal_high: high === null ? null : Math.max(0, high),
       model: String(ai.model ?? model).slice(0, 80),
-      detail: {
-        ...est,
-        photos_used: photos.length,
-        instruction,
-        usage: ai.usage ?? null,
-        ms: Date.now() - started,
-      },
+      detail: { ...est, photos_used: photos.length, instruction, usage: ai.usage, ms: visionMs },
     })
     .select("id, source, kcal, kcal_low, kcal_high, model, detail, created_at")
     .single();
   if (saveErr) return json({ error: saveErr.message }, 500);
 
-  return json({ estimate: saved });
+  // 2. The same grams priced with CoFID. A failure here doesn't lose estimate 1.
+  let dbSaved = null;
+  let dbError: string | null = null;
+  if (foods.length) {
+    try {
+      const t0 = Date.now();
+      const priced = await priceWithCofid(admin, anthropicKey, matchModel, foods, hiddenFat);
+      const { data, error } = await admin
+        .from("estimates")
+        .insert({
+          meal_id: mealId,
+          user_id: userId,
+          source: `${source}_db`,
+          kcal: Math.min(10000, priced.total),
+          model: String(priced.model).slice(0, 80),
+          detail: {
+            based_on: saved.id,
+            items: priced.items,
+            matched: priced.matched,
+            foods: priced.items.length,
+            hidden_fat_kcal: priced.hidden_fat_kcal,
+            usage: priced.usage,
+            ms: Date.now() - t0,
+          },
+        })
+        .select("id, source, kcal, kcal_low, kcal_high, model, detail, created_at")
+        .single();
+      if (error) throw new Error(error.message);
+      dbSaved = data;
+    } catch (e) {
+      dbError = (e as Error).message;
+      console.error("CoFID pricing failed:", dbError);
+    }
+  }
+
+  return json({ estimate: saved, db_estimate: dbSaved, db_error: dbError });
 });
