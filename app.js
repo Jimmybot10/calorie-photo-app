@@ -43,7 +43,24 @@ const FATS = [["none", "None"], ["oil", "Oil"], ["butter", "Butter"], ["other", 
 const AMOUNTS = [["tsp", "About 1 tsp"], ["tbsp", "About 1 tbsp"], ["more", "More than 1 tbsp"], ["unsure", "Not sure"]];
 const FAT_LABEL = Object.fromEntries(FATS);
 const AMOUNT_LABEL = { none: "none", ...Object.fromEntries(AMOUNTS) };
-const FOOD_SOURCES = [["manual", "Manual"], ["label", "Pack label"], ["cofid", "CoFID"], ["other", "Other"]];
+const FOOD_SOURCES = [["manual", "Manual"], ["label", "Pack label"], ["cofid", "CoFID"], ["usda", "USDA"], ["ciqual", "Ciqual"], ["other", "Other"]];
+const MAX_KCAL = 950; // a few oils are listed at 901-902 kcal/100 g
+
+// Reference codes: CoFID codes as they are; USDA and Ciqual codes carry a prefix.
+function splitRef(ref) {
+  const m = /^(usda|ciqual):(.+)$/.exec(ref || "");
+  return m ? { source: m[1], code: m[2] } : { source: "cofid", code: ref || "" };
+}
+function refFromFood(f) {
+  if (!f.source_ref) return "";
+  if (f.source === "cofid") return f.source_ref;
+  if (f.source === "usda" || f.source === "ciqual") return `${f.source}:${f.source_ref}`;
+  return "";
+}
+function refLabel(ref) {
+  const { source, code } = splitRef(ref);
+  return `${{ cofid: "CoFID", usda: "USDA", ciqual: "Ciqual" }[source]} ${code}`;
+}
 const FOOD_SOURCE_LABEL = Object.fromEntries(FOOD_SOURCES);
 
 // ---------- setup ----------
@@ -452,12 +469,12 @@ function itemRowHtml(it = {}) {
   const id = `sug-${++rowSeq}`;
   return `<div class="item-row" data-code="${esc(it.food_code ?? "")}">
     <div class="name-cell">
-      <input name="food_name" placeholder="Food, e.g. rice basmati boiled" maxlength="160" value="${esc(it.food_name)}" aria-label="Food"
+      <input name="food_name" placeholder="Food, e.g. rice basmati boiled" maxlength="255" value="${esc(it.food_name)}" aria-label="Food"
         autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="${id}">
       <ul class="suggest" id="${id}" role="listbox" aria-label="Matching foods" hidden></ul>
     </div>
     <input name="grams" class="num" type="number" inputmode="decimal" min="0.1" max="5000" step="0.1" placeholder="grams" value="${esc(it.grams)}" aria-label="Grams">
-    <input name="kcal_per_100g" class="num" type="number" inputmode="decimal" min="0" max="900" step="0.1" placeholder="kcal/100g" value="${esc(it.kcal_per_100g)}" aria-label="kcal per 100 g">
+    <input name="kcal_per_100g" class="num" type="number" inputmode="decimal" min="0" max="950" step="0.1" placeholder="kcal/100g" value="${esc(it.kcal_per_100g)}" aria-label="kcal per 100 g">
     <span class="kcal-out" aria-label="kcal for this item">—</span>
     <button type="button" class="icon-btn" data-remove aria-label="Remove item">×</button>
   </div>`;
@@ -490,7 +507,7 @@ async function renderMealForm(mealId, seq) {
   const personal = foods.map((f) => ({
     name: f.name,
     kcal: Number(f.kcal_per_100g),
-    code: f.source === "cofid" && f.source_ref ? f.source_ref : "",
+    code: refFromFood(f),
     mine: true,
   }));
   const foodMap = new Map(personal.map((f) => [f.name.toLowerCase(), f]));
@@ -532,7 +549,7 @@ async function renderMealForm(mealId, seq) {
       </div>
 
       <div class="card">
-        <div><h2>Weighed items</h2><p class="small muted">Grams as served. Start typing a food to pick it from your foods or the UK CoFID tables, which fills in the energy per 100 g. Add measured oil, butter and sauces as their own items.</p></div>
+        <div><h2>Weighed items</h2><p class="small muted">Grams as served. Start typing a food to pick it from your foods or the reference tables (UK CoFID first, then USDA and Ciqual), which fills in the energy per 100 g. Add measured oil, butter and sauces as their own items.</p></div>
         <div class="item-head" aria-hidden="true"><span>Food</span><span>Grams</span><span>kcal/100g</span><span>kcal</span><span></span></div>
         <div class="items" id="items">${(items.length ? items : [{}]).map(itemRowHtml).join("")}</div>
         <div><button type="button" class="btn small" id="add-item">Add item</button></div>
@@ -631,7 +648,7 @@ async function renderMealForm(mealId, seq) {
       ...mine,
       ...ref
         .filter((r) => !seen.has(r.name.toLowerCase()))
-        .map((r) => ({ name: r.name, kcal: Number(r.kcal_per_100g), code: r.code, group: r.group_name })),
+        .map((r) => ({ name: r.name, kcal: Number(r.kcal_per_100g), code: r.code, group: r.group_name, src: r.source_label })),
     ];
     row._options = options;
     row._active = -1;
@@ -640,7 +657,7 @@ async function renderMealForm(mealId, seq) {
           .map(
             (o, i) => `<li role="option" id="${ul.id}-${i}" data-i="${i}" aria-selected="false">
               <span class="s-name">${esc(o.name)}</span>
-              <span class="s-meta">${o.mine ? '<span class="s-tag">Yours</span> · ' : ""}${kcalText(o.kcal)} kcal/100g${o.group ? ` · ${esc(o.group)}` : ""}</span>
+              <span class="s-meta">${o.mine ? '<span class="s-tag">Yours</span> · ' : ""}${kcalText(o.kcal)} kcal/100g${o.group ? ` · ${esc(o.group)}` : ""}${o.src ? ` · <span class="s-src">${esc(o.src)}</span>` : ""}</span>
             </li>`,
           )
           .join("")
@@ -769,7 +786,7 @@ async function renderMealForm(mealId, seq) {
       const label = r.food_name || `Item ${i + 1}`;
       if (!r.food_name) problems.push(`Item ${i + 1} needs a name.`);
       if (!r.grams || !(g > 0 && g <= 5000)) problems.push(`${label}: grams must be between 0.1 and 5000.`);
-      if (r.per === "" || !(k >= 0 && k <= 900)) problems.push(`${label}: kcal per 100 g must be between 0 and 900.`);
+      if (r.per === "" || !(k >= 0 && k <= MAX_KCAL)) problems.push(`${label}: kcal per 100 g must be between 0 and ${MAX_KCAL}.`);
     });
     if (problems.length) {
       errEl.textContent = problems.join(" ");
@@ -804,7 +821,10 @@ async function renderMealForm(mealId, seq) {
       const plain = new Map();
       for (const r of rows) {
         const base = { user_id: uid, name: r.food_name, kcal_per_100g: Number(r.per) };
-        if (r.code) coded.set(r.food_name, { ...base, source: "cofid", source_ref: r.code });
+        if (r.code) {
+          const ref = splitRef(r.code);
+          coded.set(r.food_name, { ...base, source: ref.source, source_ref: ref.code });
+        }
         else plain.set(r.food_name, base);
       }
       for (const name of coded.keys()) plain.delete(name);
@@ -905,7 +925,7 @@ async function renderMeal(mealId, seq) {
               <tbody>${items
                 .map(
                   (i) =>
-                    `<tr><td>${esc(i.food_name)}${i.food_code ? ` <span class="small muted">CoFID ${esc(i.food_code)}</span>` : ""}</td><td class="r num">${esc(i.grams)}</td><td class="r num">${esc(i.kcal_per_100g)}</td><td class="r num">${kcalText(i.kcal)}</td></tr>`,
+                    `<tr><td>${esc(i.food_name)}${i.food_code ? ` <span class="small muted">${esc(refLabel(i.food_code))}</span>` : ""}</td><td class="r num">${esc(i.grams)}</td><td class="r num">${esc(i.kcal_per_100g)}</td><td class="r num">${kcalText(i.kcal)}</td></tr>`,
                 )
                 .join("")}</tbody></table></div>`
           : `<div class="notice warn">No weighed items yet. <a href="#edit/${meal.id}">Add them</a> so estimates can be scored.</div>`
@@ -1275,8 +1295,8 @@ async function renderFoods(seq) {
     <form class="card" id="food-form" novalidate>
       <h2 id="food-form-title">Add a food</h2>
       <div class="grid2">
-        <label class="field">Name<input name="fname" maxlength="80" required></label>
-        <label class="field">kcal per 100 g<input name="kcal" class="num" type="number" inputmode="decimal" min="0" max="900" step="0.1" required></label>
+        <label class="field">Name<input name="fname" maxlength="255" required></label>
+        <label class="field">kcal per 100 g<input name="kcal" class="num" type="number" inputmode="decimal" min="0" max="950" step="0.1" required></label>
         <label class="field">Source<select name="source">${FOOD_SOURCES.map(([v, l]) => `<option value="${v}">${esc(l)}</option>`).join("")}</select></label>
         <label class="field">Reference <span class="hint">Optional, e.g. CoFID code</span><input name="ref" maxlength="40"></label>
       </div>
@@ -1299,6 +1319,18 @@ async function renderFoods(seq) {
                 .join("")}</tbody></table></div>`
           : '<p class="small muted">No foods yet.</p>'
       }
+    </div>
+    <div class="card small muted" id="data-credits">
+      <h3 style="color:var(--ink)">Where the reference values come from</h3>
+      <p>Food search uses 18,750 foods, per 100 g:</p>
+      <ul style="margin:0;padding-left:18px" class="stack">
+        <li><strong>CoFID 2021 (UK).</strong> Contains public sector information licensed under the
+          <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noopener">Open Government Licence v3.0</a>.
+          McCance and Widdowson's Composition of Foods Integrated Dataset.</li>
+        <li><strong>USDA FoodData Central</strong> (Foundation Foods, SR Legacy, FNDDS). U.S. Department of Agriculture, Agricultural Research Service. Public domain.</li>
+        <li><strong>Ciqual 2020.</strong> ANSES, French food composition table,
+          <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Values reformatted to per 100 g columns.</li>
+      </ul>
     </div>`;
 
   const form = document.getElementById("food-form");
@@ -1307,7 +1339,7 @@ async function renderFoods(seq) {
     const name = form.fname.value.trim();
     const value = Number(form.kcal.value);
     if (!name) return toast("Add a name.", "error");
-    if (form.kcal.value === "" || !(value >= 0 && value <= 900)) return toast("kcal per 100 g must be between 0 and 900.", "error");
+    if (form.kcal.value === "" || !(value >= 0 && value <= MAX_KCAL)) return toast(`kcal per 100 g must be between 0 and ${MAX_KCAL}.`, "error");
     try {
       must(
         await sb.from("foods").upsert(
