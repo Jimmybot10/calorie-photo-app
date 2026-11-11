@@ -1,0 +1,2299 @@
+code	name	food_group	kcal	protein_g	carb_g	fat_g
+25608	Tabbouleh, prepacked	mixed salads	179.0	4.9	23.7	6.7
+25609	Potato salad, piémontaise-style, prepacked	mixed salads	130.0	4.5	8.9	8.3
+25616	Salad, vegetable, without dressing (average)	mixed salads	29.9	0.9	3.1	0.7
+25629	Salad, veggie, bulgur and/or quinoa-based, with vegetables, prepacked	mixed salads	168.0	3.8	17.4	8.3
+26259	Coleslaw, w sauce, prepacked	mixed salads	105.0	0.9	5.8	8.1
+25900	Soup, lentils, prepacked, to be reheated	soups	55.0	3.7	6.6	1.1
+25901	Soup, chicken and vegetables, prepacked, to be reheated	soups	30.8	3.1	2.6	0.8
+25903	Soup, mixed vegetables, prepacked, to be reheated	soups	39.4	0.8	5.0	1.6
+25904	Soup, fish and/or crustacean, prepacked, to be reheated	soups	42.8	3.5	2.9	1.8
+25905	Soup, mixed vegetables, dehydrated and reconstituted	soups	34.5	0.9	4.4	1.2
+25907	Soup, leek and potato, prepacked, to be reheated	soups	37.1	0.8	4.5	1.5
+25908	Soup, chicken and vermicelli, prepacked, to be reheated	soups	30.8	1.3	3.9	1.0
+25909	Broth, stock or bouillon, meat and vegetables, dehydrated and reconstituted	soups	4.8	0.2	0.1	0.4
+25910	Soup, onions, prepacked, to be reheated	soups	40.4	1.4	4.9	1.4
+25912	Soup, mushrooms, prepacked, to be reheated	soups	48.2	0.8	4.1	3.1
+25913	Soup, carrots, prepacked, to be reheated	soups	33.2	0.6	3.9	1.4
+25914	Soup, tomatoes, prepacked, to be reheated	soups	38.7	0.7	6.3	1.0
+25915	Soup, chorba frik, w meat and frik	soups	62.9	3.8	5.4	2.5
+25916	Soup, minestrone, prepacked, to be reheated	soups	48.8	1.2	5.6	2.0
+25917	Soup, pistou (basil, garlic and olive oil), dehydrated and reconstituted	soups	30.4	1.2	5.2	0.3
+25919	Soup, fish and/or crustacean, dehydrated and reconstituted	soups	29.0	0.9	5.1	0.5
+25923	Soup, Asian-style with noodles, dehydrated and reconstituted	soups	29.8	1.0	5.2	0.4
+25924	Soup, Moroccan, dehydrated and reconstituted	soups	34.3	1.2	5.8	0.6
+25925	Soup, leek and potato, dehydrated and reconstituted	soups	26.1	0.6	4.8	0.4
+25928	Soup, chicken and vegetables, dehydrated and reconstituted	soups	27.3	1.0	4.6	0.4
+25930	Broth, stock or bouillon, beef, dehydrated and reconstituted	soups	9.1	0.6	1.3	0.1
+25932	Soup, asparagus, dehydrated and reconstituted	soups	35.3	0.6	5.1	1.3
+25933	Soup, tomatoes and vermicelli, prepacked, to be reheated	soups	37.7	1.1	5.9	0.8
+25934	Soup, cereals and vegetables, dehydrated and reconstituted	soups	47.8	1.4	6.8	1.4
+25935	Soup, tomatoes, dehydrated and reconstituted	soups	36.2	0.8	5.8	1.0
+25936	Soup, mushrooms, dehydrated and reconstituted	soups	37.8	0.7	4.4	1.8
+25942	Soup, onions, dehydrated and reconstituted	soups	24.0	0.6	4.4	0.4
+25945	Soup, pumpkin, prepacked, to be reheated	soups	35.9	0.7	4.1	1.6
+25947	Broth, stock or bouillon, poultry, dehydrated and reconstituted	soups	5.6	0.6	0.5	0.1
+25948	Broth, stock or bouillon, vegetables, dehydrated and reconstituted	soups	5.4	0.3	0.7	0.2
+25949	Soup, tomato and vermicelli, dehydrated and reconstituted	soups	21.6	0.6	4.2	0.2
+25950	Soup, chicken and vermicelli, dehydrated and reconstituted	soups	21.3	0.8	3.9	0.2
+25953	Soup, pistou (basil, garlic and olive oil), prepacked, to be reheated	soups	31.9	2.0	4.1	0.5
+25954	Soup, pumpkin, dehydrated and reconstituted	soups	38.3	0.8	5.6	1.2
+25955	Soup, Asian-style with noodles, prepacked, to be reheated	soups	22.3	0.7	3.4	0.5
+25956	Soup, minestrone, dehydrated and reconstituted	soups	31.3	1.1	5.5	0.3
+25957	Soup, watercress, dehydrated and reconstituted	soups	25.1	0.4	4.0	0.8
+25958	Soup, watercress, prepacked, to be reheated	soups	34.0	1.0	5.4	0.8
+25962	Soup, vegetables with cheese, prepacked, to be reheated	soups	50.2	1.3	5.1	2.5
+25963	Soup, green vegetables, prepacked, to be reheated	soups	33.4	1.0	3.8	1.3
+25964	Soup, green vegetables, dehydrated and reconstituted	soups	34.8	0.7	5.3	1.1
+25965	Soup, split peas, prepacked, to be reheated	soups	56.7	2.7	6.2	2.0
+25967	Soup, gazpacho, cold, prepacked	soups	32.8	0.7	3.4	1.6
+25968	Soup, asparagus, prepacked, to be reheated	soups	133.0	4.6	4.7	10.4
+25969	Soup (average)	soups	37.4	1.3	4.5	1.4
+25972	Miso soup, dehydrated, reconstituted	soups	17.1	1.4	2.2	0.25
+8601	Caen-style tripe	dishes	116.0	20.4	0.3	3.7
+8602	Caen-style tripe, prepacked	dishes	112.0	18.4	0.7	3.6
+8612	Provencal-type tripe (with tomato)	dishes	94.1	15.7	0.6	3.2
+25001	Veal stew in white sauce	dishes	113.0	15.4	3.1	4.0
+25033	Burgundy-style beef stew	dishes	84.6	8.9	4.2	3.3
+25058	Duck with sauce (green pepper sauce, hunter-style sauce,etc.) , prepacked	dishes	145.0	9.6	10.2	7.3
+25063	Rabbit with mustard sauce, prepacked	dishes	108.0	14.9	0.5	5.0
+25121	Cockerel in red wine sauce	dishes	133.0	13.0	4.0	7.0
+25125	Veal olive or veal paupiette	dishes	193.0	14.5	2.6	13.8
+25126	Poultry paupiette	dishes	164.0	23.9	8.8	3.4
+25172	Meat in sauce (average)	dishes	104.0	11.3	3.6	4.6
+25174	Chicken with curry and coconut milk sauce	dishes	124.0	10.6	3.1	6.9
+25175	Molokhia, jute and beef-based meal, home-made	dishes	189.0	10.6	1.2	14.7
+25200	Devilled pork shoulder in mustard sauce, prepacked	dishes	120.0	13.5	2.1	6.1
+25201	Beef tongue with Madeira wine sauce, prepacked	dishes	180.0	9.5	4.5	13.5
+25207	Pork with caramel sauce, prepacked	dishes	136.0	10.0	11.4	5.4
+25211	Meat balls, beef, with tomato sauce, prepacked	dishes	117.0	9.0	5.5	6.5
+25213	Veal paupiette, prepacked, cooked in oven	dishes	276.0	22.0	0.5	20.5
+25538	Beef carpaccio, w marinade	dishes	271.0	15.2	0.6	23.0
+25565	Yakitori (grilled meat on skewers, Japanese-style, with sauce)	dishes	172.0	26.0	9.3	3.3
+25585	Beef on skewer, with vegetables (onion, sweet pepper…), cooked	dishes	139.0	21.9	0.3	5.2
+25586	Poultry on skewer, with vegetables (onion, sweet pepper…), cooked	dishes	137.0	23.1	1.4	4.0
+25009	Shepherd's pie or cottage pie with meat, prepacked	dishes	138.0	6.0	9.4	8.2
+25029	Couscous w mutton	dishes	149.0	8.3	12.2	7.2
+25043	Couscous with meat or chicken, light, prepacked	dishes	90.7	5.9	11.5	1.9
+25057	Pre-fried potatoes, pan-fried, lardoons or chicken, and other, without green vegetables, prepacked	dishes	168.0	3.2	16.2	9.6
+25127	Couscous royal (with different meats), prepacked	dishes	132.0	7.7	14.0	4.5
+25138	Couscous w chicken	dishes	130.0	7.5	15.6	3.9
+25152	Couscous w meat, prepacked	dishes	128.0	7.6	12.5	4.7
+25195	Shepherd's pie with duck, prepacked	dishes	146.0	6.8	8.5	9.1
+25587	Shepherd's pie with duck, prepacked, cooked	dishes	168.0	7.0	10.5	10.2
+25002	White bean stew, canned	dishes	129.0	8.1	9.4	5.8
+25003	Sauerkraut, with garnish, prepacked	dishes	109.0	5.1	2.8	8.1
+25010	Salt-cured pork belly with lentils, prepacked	dishes	118.0	8.2	8.9	4.9
+25013	Boiled meat with vegetables, prepacked	dishes	77.5	10.9	3.2	2.0
+25065	Beef stew with carrots	dishes	96.6	13.2	3.3	3.1
+25071	Pork sausage stew with cabbage, carrots and potatoes	dishes	82.1	6.0	3.7	4.3
+25098	White bean stew, with pork, canned	dishes	132.0	8.3	8.6	6.3
+25099	White bean stew, with duck or goose, canned	dishes	161.0	10.5	10.1	7.9
+25103	Stuffed tomatoes	dishes	122.0	5.5	2.0	9.7
+25106	Stuffed cabbage, prepacked	dishes	94.9	5.3	2.0	6.6
+25111	Chili con carne, prepacked	dishes	118.0	7.1	13.0	3.4
+25123	Moussaka	dishes	147.0	5.8	5.2	10.8
+25124	Stewed lamb garnished with potatoes and other vegetables	dishes	133.0	8.1	5.0	8.6
+25159	Mutton tagine	dishes	132.0	12.8	4.5	6.8
+25164	Osso buco	dishes	96.7	11.2	3.5	4.1
+25190	Chicken, Basque style, prepacked	dishes	107.0	9.3	2.5	6.4
+25204	Chicken tagine, prepacked	dishes	127.0	7.5	14.4	3.7
+25205	Chop suey (pork or chicken), prepacked	dishes	78.2	5.0	7.8	3.0
+25511	Stuffed vegetables (excluding tomato)	dishes	69.8	6.4	3.6	3.0
+10082	Mussels, in a shallot and white wine broth	dishes	92.0	10.3	7.4	2.2
+10083	Mussels, filled (fat, parsley and garlic…), prepacked	dishes	284.0	9.6	4.4	24.8
+25037	Fish or seafood au gratin, intended to be cook, prepacked	dishes	105.0	6.1	8.4	5.1
+25038	Fish and shrimp 'au gratin', previously frozen, prepacked	dishes	117.0	6.7	5.3	7.5
+25077	Salmon with sorrel, prepacked	dishes	133.0	8.4	7.4	7.7
+25086	Fish w bordelaise sauce, prepacked	dishes	176.0	14.8	5.3	10.4
+25128	White fish with Provencal-style sauce (tomato sauce), prepacked	dishes	75.2	9.3	3.1	2.3
+25140	White fish with Florentine-style sauce (spinach sauce), prepacked	dishes	100.0	11.4	2.9	4.3
+25141	White fish with shallots, mussels and white wine sauce, prepacked	dishes	80.0	11.5	2.2	2.8
+25142	White fish with mustard sauce, prepacked	dishes	90.8	9.2	5.4	3.6
+25143	White fish with Parisian-style sauce (mushrooms sauce), prepacked	dishes	79.9	9.2	3.0	3.2
+25145	White fish with tarragon sauce, prepacked	dishes	77.2	8.8	4.2	2.8
+25146	White fish with sorrel sauce, prepacked	dishes	114.0	11.8	3.9	5.5
+25210	Stuffed salmon, prepacked	dishes	227.0	18.8	0.4	16.2
+25539	Fish on skewer	dishes	127.0	18.0	0.9	5.7
+25540	Shrimps on skewer	dishes	93.5	18.5	1.5	1.5
+26054	Fish, in sauce, frozen	dishes	132.0	13.3	3.2	7.0
+26140	Fish, cooked (average)	dishes	144.0	23.5	0.0	5.5
+26249	Fish, white, without skin, cooked	dishes	107.0	22.0	0.0	2.2
+26250	Marine fish, white, without skin, cooked	dishes	106.0	22.1	0.0	2.0
+25031	Paëlla	dishes	148.0	7.9	17.1	4.9
+25107	Couscous w fish	dishes	105.0	7.5	14.2	1.6
+25154	Fish brandade or fish shepherd's pie, prepacked	dishes	117.0	6.4	8.6	6.2
+25456	Sushi or maki with seafood products	dishes	171.0	6.7	26.9	3.7
+20262	Vegetables pan-fried without mushrooms, frozen, raw	dishes	81.2	2.6	12.1	1.8
+25220	Sauerkraut, without garnish, drained, cooked	dishes	75.3	1.4	0.05	6.6
+25571	Falafel	dishes	252.0	8.2	18.7	14.4
+25590	Falafel, prepacked	dishes	211.0	7.4	17.7	10.8
+9082	Durum wheat, pre-cooked, cooked, in a microwaveable bag	dishes	188.0	4.9	29.5	4.8
+9083	Durum wheat pre-cooked, whole grain, cooked, to pan-fry	dishes	344.0	11.1	67.2	1.6
+25019	Ravioli filled with meat, in tomato sauce, canned	dishes	95.3	4.2	12.5	2.8
+25081	Lasagna or cannelloni with meat (bolognese sauce)	dishes	134.0	6.3	13.5	5.7
+25085	Bolognese-style pasta (spaghetti, tagliatelle…)	dishes	116.0	5.3	13.6	4.1
+25088	Cantonese rice	dishes	164.0	5.5	23.6	4.9
+25110	Dumplings, steamed, with shrimps, cooked	dishes	190.0	5.5	27.8	5.5
+25122	Pasta au gratin (oven grilled)	dishes	179.0	7.1	16.4	9.2
+25131	Lasagna or cannelloni with vegetables, prepacked	dishes	103.0	2.8	11.0	4.8
+25135	Carbonara-style pasta (spaghetti, tagliatelle…)	dishes	161.0	5.9	14.2	8.7
+25139	Lasagna or cannelloni with fish, prepacked	dishes	148.0	7.3	13.0	7.1
+25149	Fresh pasta, stuffed with cheese (e.g. ravioli), cooked	dishes	226.0	10.0	26.8	8.3
+25150	Couscous with vegetables, prepacked	dishes	108.0	4.3	16.4	2.2
+25155	Fresh pasta, stuffed with cheese and vegetables (e.g. ravioli), cooked, prepacked	dishes	219.0	7.9	27.8	7.5
+25157	Fresh pasta, stuffed with meat (e.g. bolognese-style ravioli), prepacked, raw	dishes	265.0	11.4	40.3	5.8
+25158	Fresh pasta, stuffed with meat (e.g. bolognese-style ravioli), prepacked, cooked	dishes	174.0	6.9	25.1	4.7
+25181	Fresh pasta, stuffed with cheese (e.g. ravioli, prepacked, raw	dishes	268.0	11.3	37.3	7.7
+25182	Fresh pasta, stuffed with cheese and vegetables (e.g. ravioli), prepacked, raw	dishes	262.0	10.0	41.4	5.7
+25183	Noodles with shrimps sautéed/pan-fried	dishes	104.0	4.9	12.6	3.4
+25184	White rice, with chicken, prepacked, cooked	dishes	175.0	4.2	31.5	3.2
+25185	White rice, cooked, with vegetables and meat, prepacked	dishes	167.0	4.6	28.3	3.6
+25187	Risotto, w vegetables, prepacked	dishes	120.0	2.7	18.4	3.8
+25188	Risotto, w seafood, prepacked	dishes	130.0	5.5	12.5	6.1
+25189	Risotto, w cheeses, prepacked	dishes	195.0	5.7	30.9	5.2
+25192	Ravioli filled with vegetables, in tomato sauce, canned	dishes	91.1	2.9	13.5	2.5
+25193	Fresh pasta, stuffed with vegetables (e.g. ravioli), prepacked, cooked	dishes	156.0	5.2	20.9	4.9
+25198	Pasta with cheese sauce (spaghetti, tagliatelle…), prepacked	dishes	163.0	7.2	15.9	7.4
+25203	Fresh pasta, stuffed with vegetables (e.g. ravioli), prepacked, raw	dishes	255.0	9.4	41.4	5.1
+25216	Pasta (e.g. ravioli), filled, cooked	dishes	199.0	8.0	25.7	6.5
+25217	Vine leaf stuffed wih rice or dolmas, drained, prepacked	dishes	150.0	2.5	18.6	6.5
+25218	Lasagna or cannelloni with vegetables, prepacked, cooked	dishes	122.0	4.4	11.8	5.9
+25219	Lasagna or cannelloni with vegetables and goat cheese, prepacked, cooked	dishes	179.0	7.0	14.0	10.2
+25635	Lasagna or cannelloni with goat cheese and spinach, prepacked	dishes	133.0	6.1	11.4	6.6
+4041	Mashed potatoes w fresh tome cheese, prepacked	dishes	195.0	8.1	9.5	13.3
+25020	Cheese soufflé	dishes	184.0	12.9	3.8	12.6
+25137	Tartiflette (cheese fondue), prepacked	dishes	161.0	6.0	13.5	8.9
+25437	Small cheese chou-pastry puff	dishes	399.0	16.2	22.7	26.6
+25509	Savoy-style fondue cheese preparation (cheese, wine ...), prepacked	dishes	231.0	16.2	2.6	17.2
+25546	Cheese and ham, breaded	dishes	263.0	17.4	15.3	14.6
+20917	Tempeh	dishes	157.0	16.1	7.9	4.7
+25225	Wheat-based nuggets (wo soybean)	dishes	284.0	12.6	22.4	14.9
+25226	Soybean and wheat-based nuggets (not vegan)	dishes	253.0	14.1	18.5	12.6
+25227	Soybean and wheat-based nuggets (vegan)	dishes	251.0	15.5	19.7	10.9
+25228	Schnitzel, soybean and wheat-based (not vegan)	dishes	260.0	14.4	16.8	13.9
+25229	Schnitzel, soybean and wheat-based (vegan)	dishes	245.0	16.9	18.8	10.0
+25230	Schnitzel, soybean, wheat and cheese-based, cordon bleu-style	dishes	247.0	15.2	15.1	13.1
+25231	Ravioli filled with tofu, w tomato sauce	dishes	91.7	3.1	12.5	2.7
+25233	Cereal burger with cheese (without soybean)	dishes	241.0	7.0	27.8	10.3
+25234	Cereal burger with végétables (without soybean)	dishes	211.0	5.3	28.0	7.6
+25589	Plant-based ball with wheat and/or soybean	dishes	211.0	17.6	8.0	10.6
+25591	Plant-based burger or steak from lentil, soybean and vegetables	dishes	170.0	9.7	16.7	5.6
+25592	Plant-based burger or steak from wheat (seitan) and vegetables	dishes	208.0	12.5	20.8	7.1
+25593	Plant-based burger or steak from wheat and soybean (vegan)	dishes	215.0	16.0	8.2	11.0
+25594	Plant-based burger or steak from wheat and soybean (not vegan)	dishes	201.0	10.2	13.3	10.2
+25595	Plant-based burger or steak from soybean and cheese	dishes	204.0	16.8	6.1	12.0
+25596	Plant-based burger or steak from soybean and vegetables	dishes	175.0	13.1	8.4	8.1
+25597	Plant-based burger or steak from soybean, cheese and vegetables	dishes	180.0	15.1	7.7	9.1
+30181	Soy-based minced	dishes	143.0	11.5	7.0	5.8
+25404	Pizza, cheese and tomato or Margherita pizza, prepacked	pizzas, crepe and pies	227.0	8.9	29.6	7.6
+25405	Quiche Lorraine (eggs and lardoons quiche), prepacked	pizzas, crepe and pies	274.0	9.0	21.0	16.8
+25409	Crepe, filled with ham, prepacked	pizzas, crepe and pies	136.0	5.8	18.7	4.0
+25410	Crepe or buckwheat crepe, filled with cheese, ham and bechamel sauce, prepacked	pizzas, crepe and pies	182.0	8.8	19.1	7.5
+25411	Crepe or buckwheat crepe, filled with mushrooms and bechamel sauce, prepacked	pizzas, crepe and pies	150.0	4.8	20.7	5.0
+25417	Vegetables tart, prepacked	pizzas, crepe and pies	216.0	5.0	21.8	11.7
+25435	Pizza, ham and cheese, prepacked	pizzas, crepe and pies	218.0	10.3	28.0	6.7
+25444	Cheese tart, prepacked	pizzas, crepe and pies	289.0	10.3	20.7	18.0
+25454	Provencal-style tart, prepacked	pizzas, crepe and pies	241.0	5.5	20.0	14.3
+25457	Pizza, bolognese-style w meat, prepacked	pizzas, crepe and pies	227.0	10.3	27.2	8.0
+25459	Burritos	pizzas, crepe and pies	170.0	8.0	14.3	8.5
+25460	Fajitas	pizzas, crepe and pies	158.0	12.7	16.0	4.5
+25462	Pizza, chorizo or salami, prepacked	pizzas, crepe and pies	248.0	10.4	26.5	10.7
+25463	Pizza, seafood, prepacked	pizzas, crepe and pies	200.0	10.3	24.6	6.7
+25464	Pizza, salmon, prepacked	pizzas, crepe and pies	231.0	10.1	26.7	8.8
+25468	Pizza, goat cheese and lardoons, prepacked	pizzas, crepe and pies	245.0	10.7	26.9	10.0
+25472	Pizza, vegetables or pizza 4 seasons, prepacked	pizzas, crepe and pies	214.0	8.5	25.7	8.0
+25477	Pizza, cheese and mushrooms, prepacked	pizzas, crepe and pies	217.0	7.8	31.6	6.1
+25478	Pizza, four cheeses, prepacked	pizzas, crepe and pies	267.0	13.1	28.2	10.5
+25516	Pizza (average)	pizzas, crepe and pies	233.0	10.7	27.3	8.4
+25528	Pizza, onion anchovy and black olives, prepacked	pizzas, crepe and pies	284.0	6.4	33.8	13.1
+25529	Onion tart, prepacked	pizzas, crepe and pies	280.0	7.0	23.5	17.2
+25548	Pizza, ham cheese and mushrooms, prepacked	pizzas, crepe and pies	205.0	9.5	25.7	6.7
+25549	Crepe or buckwheat crepe, filled with cheese and bechamel sauce, prepacked	pizzas, crepe and pies	149.0	6.0	17.7	5.8
+25550	Flamed tart (thin-crusted onion tart with cream and lardoons), prepacked	pizzas, crepe and pies	300.0	8.8	31.8	14.8
+25552	Crepe or buckwheat crepe, filled with cheese, ham, mushrooms and bechamel sauce, prepacked	pizzas, crepe and pies	159.0	8.3	16.6	6.3
+25553	Leek tart or pie, prepacked	pizzas, crepe and pies	243.0	5.8	21.6	14.3
+25555	Salmon tart, prepacked	pizzas, crepe and pies	215.0	8.5	21.0	10.5
+25560	Riesling wine and pork pie, prepacked	pizzas, crepe and pies	251.0	10.2	23.7	12.6
+25561	Tomato tart, prepacked	pizzas, crepe and pies	218.0	5.2	19.3	12.8
+25562	Crepe or buckwheat crepe, filled with egg, ham and cheese, prepacked	pizzas, crepe and pies	209.0	12.7	15.2	9.8
+25564	Scallops tart, prepacked	pizzas, crepe and pies	266.0	8.2	24.2	14.5
+25568	Pastilla, filled with chicken (pie), prepacked	pizzas, crepe and pies	218.0	12.3	14.1	12.2
+25570	Pizza, lardoons onions and cheese, prepacked	pizzas, crepe and pies	255.0	11.2	27.7	10.6
+25572	Crepe or buckwheat crepe, filled with scallops, prepacked	pizzas, crepe and pies	168.0	7.7	15.8	8.0
+25573	Savoury tart (average food)	pizzas, crepe and pies	267.0	8.1	22.7	15.6
+25581	Crepe or buckwheat crepe, filled with mushrooms and bechamel sauce, prepacked, cooked	pizzas, crepe and pies	172.0	5.5	18.5	7.7
+25623	Maroilles cheese tart or maroilles cheese flamiche, prepacked	pizzas, crepe and pies	315.0	14.1	22.1	18.3
+25625	Crepe or buckwheat crepe, filled with fish and/or seafood, prepacked	pizzas, crepe and pies	206.0	8.5	14.3	12.4
+26256	Ham and mushroom pancake in cheese sauce, dehydrated, reconstituted	pizzas, crepe and pies	151.0	8.6	11.9	7.5
+26267	Goat cheese and spinach tart, prepacked	pizzas, crepe and pies	244.0	7.1	22.2	13.6
+26268	Squid and spicy tomato sauce pie, prepacked	pizzas, crepe and pies	306.0	8.2	30.9	16.0
+26270	Pizza, tuna, prepacked	pizzas, crepe and pies	220.0	10.8	23.3	8.8
+26271	Pizza, kebab, prepacked	pizzas, crepe and pies	211.0	9.4	26.6	7.0
+26272	Pizza, chicken, prepacked	pizzas, crepe and pies	215.0	9.9	27.5	6.7
+26273	Pizza with raclette or tartiflette cheese and lardoons, prepacked	pizzas, crepe and pies	276.0	11.8	27.5	12.7
+26274	Pizza, cured ham, prepacked	pizzas, crepe and pies	240.0	12.2	25.7	9.4
+7811	Focaccia, filled	sandwiches	233.0	8.0	29.5	8.8
+7812	Fougasse, filled	sandwiches	306.0	9.5	38.8	11.8
+25403	Hot-dog, prepacked	sandwiches	278.0	10.9	26.3	13.8
+25413	Hamburger, from fast foods restaurant	sandwiches	246.0	13.3	28.3	8.4
+25414	Cheeseburger, from fast foods restaurant	sandwiches	268.0	13.7	23.1	12.9
+25415	Cheeseburger, double, from fast foods restaurant	sandwiches	299.0	15.5	21.5	16.7
+25416	Fish burger, fast foods restaurant,from fast-food	sandwiches	263.0	12.2	26.7	11.5
+25428	Sandwich made with pita bread, kebab and raw vegetables	sandwiches	233.0	15.2	17.4	10.9
+25429	Sandwich made with French bread, kebab and raw vegetables	sandwiches	246.0	15.0	23.6	9.8
+25431	Sandwich made with French bread, tuna, raw vegetables (tomato and lettuce) and mayonnaise	sandwiches	274.0	10.3	32.0	11.3
+25434	Sandwich made with panini bread, raw cured ham, mozzarella cheese and tomato	sandwiches	243.0	14.2	27.2	8.3
+25475	Sandwich made with French bread, hard-boiled egg, raw vegetables (tomato and lettuce) and butter	sandwiches	222.0	10.1	30.9	6.0
+25476	Sandwich made with French bread, chicken, raw vegetables (lettuce & tomato) and mayonnaise	sandwiches	247.0	10.0	36.3	6.3
+25485	Sandwich made with French bread, ham and emmental cheese, prepacked	sandwiches	285.0	13.3	26.9	13.1
+25488	Sandwich made with French bread, smoked salmon and butter	sandwiches	265.0	11.5	40.8	5.6
+25490	Sandwich made with French bread, tuna, sweet corn and raw vegetables, prepacked	sandwiches	198.0	8.9	25.0	6.0
+25502	Chicken burger , fast foods restaurant	sandwiches	249.0	12.7	23.8	11.0
+25513	Large round sandwich with lettuce, tuna, anchovy and black olives	sandwiches	215.0	8.0	30.3	6.5
+25517	Sandwich made with French bread, ham and butter	sandwiches	285.0	9.9	33.7	11.5
+25518	Sandwich made with French bread, camembert cheese and butter	sandwiches	339.0	11.9	34.3	16.7
+25519	Sandwich made with French bread, pâté and pickles	sandwiches	298.0	10.1	32.1	13.9
+25520	Sandwich made with French bread, dry sausage and butter	sandwiches	383.0	13.7	32.0	21.6
+25521	Sandwich made with French bread, ham, emmental cheese and butter	sandwiches	286.0	12.2	32.7	10.9
+25522	Sandwich (average)	sandwiches	243.0	14.2	27.2	8.3
+25523	Canapés (toasts w various toppings), prepacked	sandwiches	233.0	9.1	17.8	13.3
+25530	Sandwich made with French bread, raw vegetables and mayonnaise	sandwiches	221.0	6.5	30.0	7.9
+25531	Sandwich made with French bread, turkey, raw vegetables (lettuce & tomato) and mayonnaise	sandwiches	255.0	12.4	30.6	8.8
+25532	Sandwich made with French bread, egg, raw vegetables (tomato and lettuce) and mayonnaise	sandwiches	247.0	8.5	30.9	9.5
+25533	Sandwich made with French bread, pork, raw vegetables (lettuce & tomato) and mayonnaise	sandwiches	267.0	12.0	30.1	10.6
+25535	Sandwich made with French bread, merguez sausage, ketchup and mustard	sandwiches	282.0	13.1	31.0	11.4
+25536	Sandwich made with French bread, salami and butter	sandwiches	379.0	12.5	33.2	21.4
+25542	Toasted ham sandwich topped with grated cheese and a fried egg	sandwiches	264.0	13.7	16.9	15.5
+25543	Sandwich on french bread (average)	sandwiches	277.0	11.2	31.4	11.6
+25544	Sandwich made with loaf bread, various filling, prepacked	sandwiches	267.0	11.7	25.1	12.4
+25547	Grilled cheese & ham sandwich, prepacked	sandwiches	273.0	11.3	26.8	12.9
+25574	Sandwich made with wholemeal loaf bread, ham, raw vegetables, cheese (optional), prepacked	sandwiches	243.0	10.0	23.1	11.6
+25575	Sandwich made with wholemeal loaf bread, tuna, raw vegetables and mayonnaise, prepacked	sandwiches	240.0	9.8	23.1	11.3
+25576	Sandwich made with wholemeal loaf bread, ham and cheese, prepacked	sandwiches	292.0	12.9	26.1	14.6
+25577	Sandwich made with wholemeal loaf bread, chicken, raw vegetables and mayonnaise, prepacked	sandwiches	232.0	9.2	23.7	10.4
+7814	Savoury cake (with cheese, vegetables, meat, fish, poultry,etc.), prepacked	savoury pastries and other starters	321.0	11.6	25.6	18.4
+25108	Samosas or samoosas, , prepacked	savoury pastries and other starters	230.0	9.3	16.5	13.7
+25151	Fish or seafood in puff pastry	savoury pastries and other starters	255.0	6.5	26.5	13.0
+25169	Chinese specialty or dumplings, prepacked	savoury pastries and other starters	149.0	5.9	28.0	1.4
+25399	Snails in puff pastry, prepacked	savoury pastries and other starters	321.0	6.7	23.1	22.1
+25401	Cheese in puff pastry	savoury pastries and other starters	302.0	8.2	28.1	17.1
+25402	Meat in puff pastry, prepacked	savoury pastries and other starters	348.0	9.6	25.9	22.6
+25412	Vol-au-vent, with meat/poultry/quenelle	savoury pastries and other starters	292.0	6.1	23.5	18.9
+25418	Croissant filled with ham	savoury pastries and other starters	243.0	7.9	19.2	14.6
+25419	Spring roll	savoury pastries and other starters	103.0	4.6	16.6	1.8
+25420	Egg roll or Nem	savoury pastries and other starters	216.0	6.5	21.1	11.2
+25438	Fritter, filled (filo pastry) (garnish : shrimps, vegetables, poultry, meat, etc.), home-made, cooked	savoury pastries and other starters	187.0	12.2	8.5	11.5
+25503	Vol-au-vent with fish and seafood	savoury pastries and other starters	206.0	6.7	13.4	13.8
+25508	Ham and cheese in puffed pastry	savoury pastries and other starters	290.0	8.5	25.7	16.7
+25551	Meat, poultry or fish fritters, home-made, raw	savoury pastries and other starters	238.0	18.7	10.0	13.5
+25557	Fritter, filled with eggs (filo pastry), home-made, cooked	savoury pastries and other starters	255.0	10.4	12.3	18.1
+25558	Fritter, filled with beef (filo pastry)	savoury pastries and other starters	342.0	10.4	33.5	17.0
+25559	Fritter, filled with potatoes (filo pastry), home-made	savoury pastries and other starters	215.0	3.2	19.6	13.4
+25578	Puff pastry, savoury (average)	savoury pastries and other starters	301.0	8.4	26.1	17.8
+25580	Vol-au-vent, filled (average)	savoury pastries and other starters	249.0	6.4	18.4	16.3
+25582	Egg roll or Nem, with chicken, prepacked, cooked	savoury pastries and other starters	197.0	8.1	20.9	8.1
+25583	Egg roll or Nem, with pork, prepacked, cooked	savoury pastries and other starters	237.0	6.9	22.6	12.7
+25584	Egg roll or Nem, with shrimp and/or crab, prepacked, cooked	savoury pastries and other starters	213.0	7.4	23.7	9.2
+26266	Croissant filled with ham and cheese, prepacked	savoury pastries and other starters	258.0	8.9	22.0	14.5
+13004	Avocado, pulp, raw	vegetables	205.0	1.6	0.8	20.6
+20004	Swiss chard, raw	vegetables	16.4	1.0	1.6	0.25
+20009	Carrot, raw	vegetables	40.2	0.6	7.6	0.25
+20010	Mushroom, all types, raw	vegetables	21.7	2.4	1.9	0.2
+20014	Red cabbage, raw	vegetables	30.0	1.1	4.3	0.25
+20016	Cauliflower, raw	vegetables	26.2	1.8	2.1	0.7
+20019	Cucumber, pulp and peel, raw	vegetables	15.6	0.6	2.5	0.1
+20020	Courgette or zucchini, pulp and peel, raw	vegetables	16.5	1.2	1.8	0.3
+20023	Celery stalk, raw	vegetables	17.6	0.6	2.4	0.25
+20026	Chicory, raw	vegetables	20.2	1.2	2.8	0.25
+20028	Fennel, raw	vegetables	21.8	1.0	2.6	0.25
+20039	Leek, raw	vegetables	32.3	1.5	4.9	0.2
+20045	Radish, raw	vegetables	14.5	0.9	1.5	0.25
+20047	Tomato, raw	vegetables	19.3	0.9	2.5	0.3
+20055	Celeriac, raw	vegetables	29.3	1.4	4.0	0.25
+20056	Button mushroom or cultivated mushroom, raw	vegetables	28.0	2.6	3.1	0.4
+20070	French bean, frozen, raw	vegetables	34.0	2.0	4.3	0.2
+20085	Sweet pepper, green, raw	vegetables	26.0	0.8	3.4	0.25
+20087	Sweet pepper, red, raw	vegetables	36.6	1.1	6.0	0.25
+20089	Radish, black, raw	vegetables	29.2	0.9	5.5	0.15
+20097	Shallot, raw	vegetables	63.6	1.8	12.2	0.25
+20099	Lamb's lettuce, raw	vegetables	16.8	2.0	0.5	0.25
+20101	Mixed vegetables, frozen, raw	vegetables	65.1	2.3	5.7	2.6
+20103	Chanterelle or girolle mushroom, raw	vegetables	33.1	2.3	2.3	0.8
+20105	Morel, raw	vegetables	24.5	3.2	0.1	0.5
+20114	Oyster mushroom, raw	vegetables	25.5	3.1	1.5	0.4
+20116	White cabbage, raw	vegetables	36.5	1.4	4.6	0.6
+20123	Lettuce, var. batavia, raw	vegetables	17.9	1.2	1.8	0.25
+20126	Lima bean, raw	vegetables	105.0	6.8	15.3	0.9
+20159	Caesar's mushroom or royal agaric, raw	vegetables	23.2	2.0	2.5	0.3
+20160	Cep or boletus mushroom, raw	vegetables	31.6	3.1	3.0	0.4
+20161	Field mushroom, raw	vegetables	25.3	2.3	2.5	0.4
+20168	Sweet pepper, yellow, raw	vegetables	30.7	0.9	4.7	0.3
+20172	Tomato, cherry, raw	vegetables	33.7	1.3	5.6	0.25
+20181	Parsnip, raw	vegetables	58.3	1.5	10.1	0.4
+20192	Tomato, beef heart, raw	vegetables	19.8	0.5	3.2	0.25
+20198	Bamboo shoots, raw	vegetables	35.1	2.5	5.1	0.2
+20210	Cucumber, pulp, raw	vegetables	14.7	0.6	2.2	0.25
+20228	Button mushroom or cultivated mushroom, frozen, raw	vegetables	15.9	1.8	0.8	0.2
+20236	Leek, frozen, raw	vegetables	26.7	1.4	3.4	0.3
+20238	Red onion, raw	vegetables	36.3	1.3	5.6	0.4
+20239	Yellow onion, raw	vegetables	37.8	1.2	6.4	0.25
+20263	Mixed vegetables for soups, frozen, raw	vegetables	34.1	1.4	4.7	0.4
+20270	Spinach, young leaves, raw	vegetables	18.3	2.1	0.42	0.4
+20276	Tomato, round, raw	vegetables	20.3	0.5	3.6	0.25
+20288	Lettuce, sucrine, raw	vegetables	17.9	1.1	2.6	0.15
+20295	Lettuce, oak-leaf, raw	vegetables	14.3	1.1	1.0	0.25
+20496	Mixed vegetables for couscous, frozen, raw	vegetables	46.5	2.0	6.8	0.7
+20584	Tomato, bunch, raw	vegetables	20.1	0.5	3.0	0.25
+20003	Beetroot, cooked	vegetables	42.8	1.4	7.1	0.4
+20005	Swiss chard, cooked	vegetables	14.7	0.7	1.2	0.25
+20007	Carrot, canned, drained	vegetables	21.9	0.7	3.4	0.2
+20008	Carrot, cooked	vegetables	18.9	0.6	2.6	0.1
+20011	Mushroom, all types, canned, drained	vegetables	24.9	1.9	2.6	0.3
+20017	Cauliflower, cooked	vegetables	20.9	1.6	1.6	0.5
+20021	Courgette or zucchini, pulp and peel, cooked	vegetables	15.5	0.9	1.4	0.4
+20030	French bean, cooked	vegetables	29.4	2.0	3.0	0.2
+20036	Garden peas, canned, drained	vegetables	81.5	5.1	10.7	0.8
+20048	Tomato, peeled, canned, drained	vegetables	18.3	1.1	1.9	0.3
+20051	Diced mixed vegetables, canned, drained	vegetables	40.4	2.3	5.6	0.3
+20062	French bean, canned, drained	vegetables	23.1	1.3	2.1	0.3
+20066	Sweet corn, canned, drained	vegetables	106.0	2.8	18.4	1.7
+20068	Tomato paste, concentrated, canned	vegetables	99.2	4.4	17.1	0.5
+20071	French bean, frozen, cooked	vegetables	36.3	1.9	5.1	0.2
+20074	Artichoke, steamed	vegetables	47.3	2.6	3.2	0.15
+20078	Celery stalk, canned, drained	vegetables	13.1	0.6	1.4	0.1
+20079	Button mushroom or cultivated mushroom, canned, drained	vegetables	19.4	2.2	0.7	0.4
+20093	Garden peas and carrots, canned, drained	vegetables	49.0	2.5	7.4	0.3
+20102	Button mushroom or cultivated mushroom, boiled/cooked in water	vegetables	28.7	2.2	3.0	0.5
+20122	Cauliflower, frozen, cooked	vegetables	18.0	1.6	1.1	0.2
+20125	Button mushroom or cultivated mushroom, sautéed/pan-fried, without fat	vegetables	38.4	4.4	4.5	0.6
+20133	Parsnip, cooked	vegetables	67.8	1.3	13.4	0.3
+20155	Artichoke, heart, canned, drained	vegetables	26.0	1.8	2.3	0.25
+20156	Artichoke base, canned, drained	vegetables	25.2	1.2	3.0	0.25
+20169	Tomato pulp, canned	vegetables	26.1	1.2	3.6	0.25
+20170	Tomato puree, canned	vegetables	47.1	1.4	7.5	0.4
+20209	Carrot, frozen, cooked	vegetables	32.9	0.6	4.5	0.7
+20212	Shiitake mushroom, cooked	vegetables	60.9	1.6	12.3	0.2
+20216	Snow pea, boiled/cooked in water	vegetables	30.5	2.2	3.4	0.3
+20258	Vegetables (3-4 types), mashed	vegetables	61.8	1.9	4.2	3.4
+20261	Carrots, puree	vegetables	31.5	0.9	5.1	0.15
+20268	Tomato paste, double concentrate, canned	vegetables	92.8	3.7	17.0	0.3
+20271	Mixed diced vegetables, raw, frozen	vegetables	54.5	3.5	6.8	0.3
+20277	Asparagus, white, boiled/cooked in water	vegetables	18.6	1.4	1.6	0.3
+20289	Tomato, roasted/baked, with skin	vegetables	31.1	0.9	4.1	0.6
+20290	Romanesco cauliflower or romanesco broccoli, cooked	vegetables	35.8	3.0	2.0	0.8
+20291	Red kuri squash, pulp, braised	vegetables	44.8	1.3	7.0	0.5
+20292	Pumpkin (cucurbita moschata), pulp, cooked	vegetables	30.7	1.1	5.2	0.25
+20298	Carrots, puree with cream	vegetables	44.4	1.4	4.6	1.6
+20299	Asparagus, green, boiled/cooked in water	vegetables	26.6	2.7	1.7	0.3
+20300	Eggplant, pulp and skin, roasted/baked	vegetables	33.8	1.3	3.8	0.15
+20301	Swiss chard, leaf and stalk, boiled/cooked in water	vegetables	16.9	0.9	1.4	0.3
+20302	Broccoli, boiled/cooked in water, crunchy	vegetables	23.5	2.5	1.2	0.4
+20303	Broccoli, boiled/cooked in water, tender	vegetables	23.1	2.2	1.0	0.5
+20304	Broccoli, steamed	vegetables	37.6	4.1	2.5	0.7
+20305	Carrot, boiled/cooked in water, crunchy	vegetables	35.7	0.8	6.3	0.15
+20306	Carrot, boiled/cooked in water, tender	vegetables	31.6	0.25	5.7	0.15
+20307	Carrot, steamed	vegetables	41.6	0.6	7.3	0.3
+20308	White cabbage, boiled/cooked in water	vegetables	23.5	1.0	3.2	0.15
+20309	Brussels sprout, boiled/cooked in water	vegetables	45.4	3.2	5.4	0.15
+20310	Red cabbage, braised	vegetables	34.9	1.2	5.7	0.15
+20311	Green cabbage, boiled/cooked in water	vegetables	21.6	1.6	1.8	0.15
+20312	Cauliflower, steamed	vegetables	30.1	2.6	3.4	0.3
+20313	Courgette or zucchini, pulp and peel, roasted/baked	vegetables	23.0	1.5	3.1	0.15
+20314	Celery stalk, braised	vegetables	16.7	0.8	2.5	0.15
+20315	Celeriac, boiled/cooked in water	vegetables	26.2	0.9	4.3	0.3
+20316	Chicory, roasted/baked	vegetables	23.5	1.1	4.4	0.15
+20317	Fennel, braised	vegetables	13.7	0.25	1.9	0.15
+20318	Butter bean or yellow bean, boiled/cooked in water	vegetables	34.6	2.2	4.5	0.3
+20320	French bean, boiled/cooked in water	vegetables	28.0	1.8	3.4	0.15
+20321	Turnip, boiled/cooked in water	vegetables	21.1	0.8	3.2	0.15
+20322	Onion, white or yellow, sautéed/pan-fried, without fat	vegetables	40.2	1.6	6.7	0.15
+20323	Spring onion, sautéed/pan-fried, without fat	vegetables	27.6	1.1	3.6	0.3
+20324	Onion, red, sautéed/pan-fried, without fat	vegetables	42.4	1.7	7.5	0.15
+20325	Parsnip, braised	vegetables	90.8	1.9	16.6	0.5
+20326	Garden peas, boiled/cooked in water	vegetables	80.3	6.4	9.9	0.6
+20327	Leek, boiled/cooked in water	vegetables	27.4	2.6	2.2	0.15
+20328	Pepper, sweet, yellow, sautéed/pan-fried, without fat	vegetables	35.8	1.0	5.3	0.6
+20329	Pepper, sweet, red, sautéed/pan-fried, without fat	vegetables	35.7	0.9	6.5	0.15
+20330	Pepper, sweet, green, sautéed/pan-fried, without fat	vegetables	28.6	1.2	3.5	0.3
+20331	Red kuri squash, pulp, boiled/cooked in water	vegetables	38.2	1.1	6.9	0.3
+20332	Pumpkin, roasted/baked	vegetables	30.2	0.25	5.7	0.15
+20333	Salsify, boiled/cooked in water	vegetables	57.9	2.6	9.3	0.15
+20334	Tomato, roasted/baked	vegetables	25.3	1.0	3.5	0.4
+20335	Shallot, grilled/pan-fried, without fat	vegetables	66.9	2.0	12.3	0.4
+20336	Spinach, boiled/cooked in water	vegetables	28.1	3.4	0.42	0.7
+20499	Vegetable, cooked (average)	vegetables	43.5	2.1	5.8	0.3
+20590	Chinese or Japanese artichokes, cooked	vegetables	50.8	2.1	9.1	0.25
+20211	Shiitake mushroom, dried	vegetables	316.0	9.6	63.9	1.0
+20256	Tomato, dried, in oil	vegetables	187.0	4.3	13.4	11.7
+20296	Chinese cabbageor bok choï bredes, rods and leafs, steamed, from the island La Réunion (Brassica rapa subsp. Chinensis)	vegetables	17.7	1.7	1.7	0.15
+20297	Chayote, without skin, steamed, from the Island La Réunion (Sechium edule)	vegetables	22.2	0.6	3.5	0.15
+4000	Tapioca, raw	potatoes and other tubers	354.0	0.2	87.8	0.0
+4002	Potato, peeled, roasted/baked	potatoes and other tubers	91.9	2.0	20.1	0.1
+4003	Potato, boiled/cooked in water	potatoes and other tubers	80.5	1.8	16.7	0.3
+4004	Potato, crisps, plain or flavoured	potatoes and other tubers	545.0	5.7	51.1	34.3
+4008	Potato, peeled, raw	potatoes and other tubers	80.5	2.2	16.2	0.2
+4011	Potato, canned, drained	potatoes and other tubers	59.9	1.5	11.7	0.3
+4013	Mashed potato balls pre-fried, frozen, raw	potatoes and other tubers	181.0	2.8	24.9	7.2
+4014	Potato, steamed, vacuum-packed	potatoes and other tubers	73.6	1.7	15.4	0.2
+4015	Potato, sautéed/pan-fried	potatoes and other tubers	137.0	2.5	17.3	5.7
+4016	Potato flakes, dehydrated, with milk or cream	potatoes and other tubers	371.0	10.6	69.4	4.0
+4017	Potato puree, made from flakes, reconstituted with whole milk, with added fat	potatoes and other tubers	97.9	1.9	10.2	5.2
+4018	Potato puree, with milk and butter, unsalted	potatoes and other tubers	88.8	1.9	14.2	2.4
+4019	Potato puree, made from flakes, reconstituted with semi-skimmed milk and water, unsalted	potatoes and other tubers	67.3	2.6	12.1	0.5
+4020	Dauphine potato, frozen, raw	potatoes and other tubers	285.0	4.6	25.6	17.7
+4021	Dauphine potato, frozen, cooked	potatoes and other tubers	302.0	4.5	30.2	17.7
+4022	Potato flakes, dehydrated, plain	potatoes and other tubers	361.0	8.0	76.1	0.5
+4023	New potato, raw	potatoes and other tubers	76.4	1.9	15.9	0.3
+4025	Potato chip, quarter, spiced, frozen, cooked	potatoes and other tubers	174.0	3.2	25.3	5.8
+4026	Potato, roasted/baked	potatoes and other tubers	89.4	2.5	18.5	0.1
+4027	Potato, pre-fried into cubes, frozen, cooked	potatoes and other tubers	156.0	2.8	23.0	4.8
+4028	Ware potato, boiled/cooked in water, peeled	potatoes and other tubers	76.1	1.8	15.7	0.25
+4029	Early potato, boiled/cooked in water, peeled	potatoes and other tubers	71.6	1.8	14.9	0.05
+4030	French fries or chips, frozen, roasted/baked	potatoes and other tubers	213.0	3.8	32.6	6.6
+4032	French fries or chips, frozen, deep-fried	potatoes and other tubers	285.0	3.3	39.4	11.9
+4034	Duchesse potato, frozen, cooked	potatoes and other tubers	218.0	3.4	29.5	8.5
+4035	Mashed potato balls pre-fried, frozen, cooked	potatoes and other tubers	191.0	2.8	28.5	6.6
+4036	Potato, sautéed/pan-fried, with goose fat	potatoes and other tubers	213.0	2.5	21.9	12.1
+4037	Potato crisps, "à l'ancienne" (old-fashioned style)	potatoes and other tubers	570.0	5.6	49.8	37.6
+4038	Potato crisps and related, reduced fat	potatoes and other tubers	463.0	6.6	62.1	19.8
+4039	Rostis or Potatoes cake	potatoes and other tubers	182.0	2.4	22.5	8.3
+4042	Duchesse potato, frozen, raw	potatoes and other tubers	178.0	2.8	23.2	7.7
+4043	Potato, pre-fried into cubes, frozen, raw	potatoes and other tubers	135.0	2.3	20.9	4.2
+4044	French fries or chips, frozen, pre-fried, raw, intended to be roasted/baked	potatoes and other tubers	154.0	2.4	23.4	5.1
+4045	French fries or chips, frozen, pre-fried, aw, intended to be microwaved	potatoes and other tubers	254.0	3.5	34.0	10.8
+4046	French fries or chips, frozen, pre-fried, raw, intended to be deep-fried	potatoes and other tubers	244.0	3.1	29.1	12.1
+4047	Mashed potatoes (average)	potatoes and other tubers	91.8	2.1	12.7	3.2
+4048	Potato, cooked (average food)	potatoes and other tubers	93.2	2.0	17.2	1.4
+4101	Sweet potato, raw	potatoes and other tubers	86.3	1.5	18.3	0.1
+4102	Sweet potato, cooked	potatoes and other tubers	62.8	1.7	12.2	0.1
+4103	Sweet potato, puree, cooked with cream	potatoes and other tubers	79.8	1.1	12.1	2.0
+20050	Jerusalem artichoke, cooked	potatoes and other tubers	81.9	1.8	16.0	0.7
+20196	Jerusalem artichoke, raw	potatoes and other tubers	60.7	1.9	11.5	0.3
+53101	Plantain banana, cooked	potatoes and other tubers	125.0	0.8	28.9	0.2
+53200	Taro, tuber, raw	potatoes and other tubers	107.0	1.5	22.8	0.2
+53201	Taro, tuber, cooked	potatoes and other tubers	131.0	0.5	29.5	0.1
+53502	Yam or Indian potato, peeled, raw	potatoes and other tubers	111.0	1.5	23.8	0.2
+53503	Yam or Indian potato, peeled, boiled/cooked in water	potatoes and other tubers	109.0	1.5	23.6	0.1
+54031	Cassava or manioc, roots, raw	potatoes and other tubers	157.0	1.3	36.3	0.3
+54034	Cassava or manioc, roots, cooked	potatoes and other tubers	132.0	0.7	32.0	0.0
+54500	Breadfruit, raw	potatoes and other tubers	105.0	1.1	22.2	0.2
+20293	Coco bean, boiled/cooked in water	legumes	131.0	9.6	13.7	0.5
+20500	Broad bean, boiled/cooked in water	legumes	82.9	8.1	9.3	0.8
+20502	Haricot bean, boiled/cooked in water	legumes	112.0	6.8	12.0	1.1
+20503	Red kidney bean, boiled/cooked in water	legumes	116.0	9.6	12.3	0.6
+20507	Chick pea, boiled/cooked in water	legumes	147.0	8.3	17.7	3.0
+20513	Flageolet bean, boiled/cooked in water	legumes	112.0	6.8	12.0	1.1
+20587	Lentil, green, boiled/cooked in water	legumes	127.0	10.1	16.2	0.6
+13000	Apricot, pitted, raw	fruits	45.9	0.8	9.0	0.25
+13002	Pineapple, pulp, raw	fruits	54.4	0.25	11.7	0.25
+13005	Banana, pulp, raw	fruits	90.5	1.1	19.7	0.25
+13008	Cherry, pitted, raw	fruits	55.7	0.8	13.0	0.15
+13009	Lemon, pulp, raw	fruits	27.6	0.25	1.6	0.25
+13012	Fig, raw	fruits	69.4	1.2	13.5	0.25
+13014	Strawberry, raw	fruits	38.6	0.6	6.0	0.25
+13015	Raspberry, raw	fruits	49.2	1.2	5.8	0.8
+13016	Passion fruit, pulp and pips, raw	fruits	101.0	2.1	10.9	3.0
+13018	Pomegranate, pulp and pips, raw	fruits	80.6	1.4	14.3	1.2
+13019	Red currant, raw	fruits	68.5	1.6	7.1	0.7
+13021	Kiwi fruit, pulp and seeds, raw	fruits	60.5	0.9	11.0	0.6
+13023	Lychee, pulp, raw	fruits	81.0	1.1	16.1	0.25
+13024	Clementine or Mandarin orange, pulp, raw -> ARCHIVE	fruits	47.3	0.8	9.2	0.25
+13025	Mango, pulp, raw	fruits	73.9	0.6	14.3	0.25
+13026	Melon, cantaloupe (ex Cavaillon or Charentais melon), pulp, raw	fruits	62.7	1.1	14.8	0.25
+13027	Mirabelle plum, raw	fruits	76.9	0.6	18.0	0.25
+13028	Blueberry, raw	fruits	57.7	0.9	10.6	0.3
+13029	Blackberry, raw	fruits	47.3	1.1	6.5	0.7
+13034	Orange, pulp, raw	fruits	45.5	0.8	8.0	0.25
+13035	Papaya, pulp, raw	fruits	42.2	0.8	8.5	0.15
+13036	Watermelon, pulp, raw	fruits	38.9	0.7	8.3	0.25
+13040	Grapefruit, pulp, raw	fruits	39.8	0.25	8.0	0.25
+13041	Greengage plum, raw	fruits	71.3	0.9	16.4	0.25
+13044	Grape, white, raw	fruits	73.4	0.8	16.6	0.25
+13066	Persimmon, pulp, raw	fruits	68.6	0.9	14.3	0.15
+13067	Lime, pulp, raw	fruits	40.2	1.1	3.1	0.15
+13086	Apple, var. Golden, pulp, raw	fruits	54.9	0.25	11.7	0.25
+13101	Grape, Chasselas, raw	fruits	79.1	0.8	16.9	0.5
+13121	Apple, var. Granny Smith, pulp, raw	fruits	53.9	0.25	11.4	0.25
+13122	Apple, var. Granny Smith, pulp and skin, raw	fruits	51.5	0.25	10.7	0.25
+13148	Nectarine, yellow, flesh and skin, raw	fruits	51.3	0.7	11.3	0.25
+13149	Nectarine, white, flesh and skin, raw	fruits	51.8	0.8	11.4	0.25
+13188	Pear, var. Conférence, pulp, raw	fruits	53.1	0.25	11.4	0.25
+13189	Pear, var. Williams, pulp, raw	fruits	54.1	0.25	11.5	0.25
+13190	Apple, var. Chanteclerc, pulp, raw	fruits	51.8	0.25	11.2	0.25
+13191	Apple, var. Gala, pulp, raw	fruits	54.5	0.25	11.9	0.25
+13192	Apple, var. Pink lady, pulp, raw	fruits	60.1	0.25	12.8	0.25
+13193	Peach, white-flesh variety, pulp and skin, raw	fruits	47.2	0.7	9.5	0.25
+13194	Peach, white-flesh variety, pulp, raw	fruits	46.1	0.6	9.6	0.25
+13195	Peach, yellow-flesh variety, pulp, raw	fruits	46.3	0.7	9.8	0.25
+13620	Apple, var. Golden, pulp and skin, raw	fruits	57.1	0.25	12.8	0.25
+13621	Grape, red, Muscat, raw	fruits	90.1	0.7	20.0	0.25
+13999	Fruit (average)	fruits	59.5	0.7	11.6	0.3
+13038	Apple compote	fruits	102.0	0.2	24.4	0.2
+13108	Fruits compote, miscellaneous	fruits	102.0	0.25	23.9	0.1
+13109	Fruits compote, miscellaneous, reduced sugar	fruits	66.0	0.25	15.3	0.1
+13151	Apple compote, reduced sugar	fruits	65.1	0.25	15.1	0.1
+13153	Fruits puree, without sugar added	fruits	58.9	0.25	13.4	0.15
+13185	Fruit compote, reduced sugar or not	fruits	80.1	0.2	18.6	0.1
+13187	Fruits puree, apple, without sugar added	fruits	56.4	1.1	11.7	0.15
+13734	Pear, canned in light syrup, drained	fruits	64.9	0.25	13.9	0.4
+13001	Apricot, pitted, dried	fruits	239.0	2.9	59.1	0.5
+13042	Prune	fruits	229.0	1.6	55.4	0.4
+13046	Raisin	fruits	321.0	3.0	73.2	0.9
+13051	Tropical fruit mix, sweetened, for snack, dried	fruits	389.0	2.2	69.5	10.5
+13178	Cranberry, dried, with sugar	fruits	333.0	0.25	76.4	1.0
+13623	Apricot, pitted, dried, rehydrated to 35-45% water	fruits	200.0	2.3	51.1	0.4
+13200	Mango José, flesh, raw, from the island La Réunion (Mangifera indica L.)	fruits	88.8	0.8	19.3	0.5
+13201	Queen Vicoria ananas, flesh, raw, from the island La Réunion (Ananas comosus (L.) merr var. Queen)	fruits	71.8	0.9	15.1	0.15
+13202	Colombo Papaya (fruit), mature, seeds and peel removed, raw, from the island La Réunion (Carica papaya L.)	fruits	40.0	0.6	7.9	0.15
+15018	Mix of salted grains/nuts and raisins	nuts and seeds	560.0	16.6	27.1	39.6
+15049	Mix of unsalted grains/nuts and raisins	nuts and seeds	541.0	12.5	31.8	37.2
+15054	Cashew nut, grilled, unsalted	nuts and seeds	618.0	17.4	21.3	48.1
+15055	Cashew nut, dry-grilled, unsalted	nuts and seeds	630.0	17.4	23.5	49.0
+15201	Almond paste or marzipan, prepacked	nuts and seeds	432.0	5.8	70.3	13.5
+20901	Soybean, whole grain	nuts and seeds	432.0	34.5	20.8	19.2
+9081	Durum wheat pre-cooked, whole grain, cooked, unsalted	pasta, rice and grains	149.0	5.5	27.4	0.9
+9085	Asian noodles, flavoured, cooked	pasta, rice and grains	147.0	4.8	18.8	4.3
+9086	Asian noodles, plain, cooked, unsalted	pasta, rice and grains	165.0	3.5	21.4	6.9
+9103	Rice, brown, cooked, unsalted	pasta, rice and grains	158.0	3.2	32.6	1.0
+9104	Rice, cooked, unsalted	pasta, rice and grains	145.0	2.9	31.8	0.4
+9105	Rice, parboiled, cooked, unsalted	pasta, rice and grains	146.0	3.0	31.7	0.6
+9110	Rice, red, cooked, unsalted	pasta, rice and grains	141.0	3.5	28.2	0.7
+9111	Wild rice, cooked, unsalted	pasta, rice and grains	102.0	3.8	19.7	0.3
+9124	Rice, thaï, cooked	pasta, rice and grains	143.0	2.9	30.5	0.7
+9125	Rice, basmati, cooked	pasta, rice and grains	117.0	2.7	24.4	0.6
+9313	Oat flakes, boiled/cooked in water	pasta, rice and grains	75.5	2.5	11.9	1.5
+9322	Pearled barley, boiled/cooked in water, unsalted	pasta, rice and grains	119.0	2.3	24.4	0.4
+9331	Millet, cooked, unsalted	pasta, rice and grains	116.0	3.5	22.4	1.0
+9341	Quinoa, boiled/cooked in water, unsalted	pasta, rice and grains	149.0	4.7	27.9	1.1
+9615	Polenta or maize semolina, cooked, unsalted	pasta, rice and grains	77.5	1.4	16.9	0.15
+9683	Couscous (precooked durum wheat semolina), cooked, unsalted	pasta, rice and grains	157.0	4.6	31.0	1.0
+9691	Wheat bulgur, cooked, unsalted	pasta, rice and grains	111.0	3.7	21.7	0.5
+9811	Dried pasta, cooked, unsalted	pasta, rice and grains	126.0	4.0	25.0	0.6
+9816	Fresh egg pasta, cooked, unsalted	pasta, rice and grains	168.0	5.8	32.0	1.3
+9822	Dried egg pasta, cooked, unsalted	pasta, rice and grains	134.0	4.6	23.0	2.0
+9824	Dried pasta, gluten-free, cooked, unsalted	pasta, rice and grains	163.0	3.1	34.4	1.1
+9871	Dried pasta, wholemeal, cooked, unsalted	pasta, rice and grains	128.0	4.5	23.4	0.9
+9875	Rice-maize based pasta, gluten-free, boiled	pasta, rice and grains	170.0	3.1	36.6	0.8
+9876	Lens based pasta, gluten-free, boiled	pasta, rice and grains	168.0	11.7	25.1	0.8
+9901	Rice noodle, cooked, unsalted	pasta, rice and grains	89.3	1.4	20.1	0.25
+9903	Soy noodle, cooked, unsalted	pasta, rice and grains	61.2	0.28	14.4	0.1
+25479	Gnocchi, from semolina, cooked	pasta, rice and grains	185.0	5.6	34.4	2.4
+25510	Gnocchi, from potato, cooked	pasta, rice and grains	177.0	5.0	33.6	2.0
+25579	Gnocchi, cooked (average)	pasta, rice and grains	181.0	6.3	34.0	7.9
+51511	Frik (crushed immature durum wheat), cooked, unsalted	pasta, rice and grains	76.0	2.0	14.0	0.5
+9001	Spelt, raw	pasta, rice and grains	344.0	14.6	59.5	2.4
+9003	Khorasan wheat	pasta, rice and grains	342.0	14.5	59.5	2.1
+9011	Wheat sprouted, raw	pasta, rice and grains	211.0	7.5	41.4	1.3
+9060	Durum wheat, whole, raw	pasta, rice and grains	343.0	12.1	62.4	2.2
+9080	Wheat, whole, pre-cooked, raw	pasta, rice and grains	359.0	13.7	67.7	1.8
+9100	Rice, raw	pasta, rice and grains	352.0	7.0	78.0	0.9
+9101	Rice, parboiled, raw	pasta, rice and grains	356.0	7.1	78.6	1.0
+9102	Rice, brown, raw	pasta, rice and grains	350.0	7.0	71.4	2.8
+9108	Wild rice, raw	pasta, rice and grains	344.0	11.1	69.2	0.9
+9109	Rice, red, raw	pasta, rice and grains	352.0	8.0	70.6	3.0
+9119	Basmati rice, raw	pasta, rice and grains	353.0	7.7	77.8	0.8
+9121	Rice, mix of species (white, wholegrain, wild, red,etc.), raw	pasta, rice and grains	355.0	7.1	78.1	1.0
+9200	Corn or maize grain, raw	pasta, rice and grains	346.0	8.1	67.2	3.7
+9310	Oat, raw	pasta, rice and grains	378.0	16.9	55.7	6.9
+9320	Barley, whole, raw	pasta, rice and grains	334.0	12.5	56.2	2.3
+9321	Pearled barley, raw	pasta, rice and grains	346.0	9.9	68.6	1.2
+9330	Millet, whole	pasta, rice and grains	359.0	11.0	64.3	4.2
+9340	Quinoa, raw	pasta, rice and grains	358.0	13.2	58.1	6.1
+9345	Amaranth, raw	pasta, rice and grains	369.0	13.5	58.6	7.0
+9360	Sorghum, whole, raw	pasta, rice and grains	349.0	10.6	65.4	3.5
+9380	Buckwheat, whole, raw	pasta, rice and grains	356.0	12.9	64.6	3.5
+9390	Rye, whole, raw	pasta, rice and grains	334.0	9.8	61.0	2.0
+9610	Durum wheat semolina, raw	pasta, rice and grains	352.0	10.9	71.6	1.2
+9611	Semolina, cooked	pasta, rice and grains	122.0	3.4	24.0	0.8
+9612	Mix of cereals and legumes, raw	pasta, rice and grains	354.0	13.7	59.0	4.0
+9614	Polenta or Maize/corn semolina, pre-cooked, dried	pasta, rice and grains	350.0	7.9	74.0	1.8
+9681	Couscous (precooked durum wheat semolina), raw	pasta, rice and grains	365.0	12.0	72.7	1.4
+9690	Wheat bulgur, raw	pasta, rice and grains	351.0	11.5	66.8	1.7
+9810	Dried pasta, raw	pasta, rice and grains	336.0	11.5	65.8	1.8
+9815	Fresh egg pasta, raw	pasta, rice and grains	283.0	10.1	53.8	1.9
+9821	Dried egg pasta, raw	pasta, rice and grains	381.0	14.0	68.0	4.7
+9863	Asian noodles, flavoured, dehydrated	pasta, rice and grains	371.0	11.9	71.0	3.0
+9870	Dried pasta, wholemeal, raw	pasta, rice and grains	353.0	11.8	67.6	2.2
+9874	Dried pasta, gluten-free, raw	pasta, rice and grains	356.0	6.2	79.0	1.2
+9900	Rice noodle, dried	pasta, rice and grains	365.0	7.4	80.5	1.0
+9902	Soy vermicelli or soy noodle, dried	pasta, rice and grains	344.0	0.28	84.7	0.1
+26264	Gnocchi, from potato, raw	pasta, rice and grains	176.0	4.7	35.0	1.4
+26265	Gnocchi, from semolina, raw	pasta, rice and grains	200.0	6.2	37.0	2.6
+51510	Frik (crushed immature durum wheat), raw	pasta, rice and grains	323.0	9.6	55.8	2.2
+7000	Bread (average)	breads and similar	276.0	8.2	54.4	1.6
+7001	Bread, French bread, baguette	breads and similar	287.0	8.3	58.3	1.4
+7002	Bread, French bread (baguette or ball), with yeast	breads and similar	261.0	7.4	53.1	1.3
+7007	Bread, French bread, baguette, unsalted	breads and similar	279.0	8.2	56.6	1.0
+7010	Brown bread, French bread (baguette or ball), with flour type 80 or 110	breads and similar	265.0	8.6	54.0	0.3
+7012	Bread, French bread, ball, 400g	breads and similar	266.0	7.9	52.0	2.0
+7025	Brear (baguette or ball), made with type T55-T110 flour	breads and similar	257.0	8.7	49.9	1.2
+7100	Country-style bread, French bread (baguette or ball)	breads and similar	253.0	7.5	50.0	1.3
+7110	Bread, wholemeal or integral bread (made with flour type 150)	breads and similar	244.0	8.4	44.3	1.8
+7111	Sandwich loaf, wholemeal	breads and similar	262.0	8.5	43.7	4.1
+7112	Sandwich loaf, bran grain	breads and similar	278.0	6.8	46.0	5.5
+7113	Sandwich loaf, multigrain	breads and similar	274.0	8.8	43.6	5.4
+7115	Bran grain bread	breads and similar	249.0	8.0	44.4	2.6
+7125	Rye bread, and wheat	breads and similar	260.0	8.3	51.5	1.0
+7130	Bread, gluten free	breads and similar	261.0	2.6	51.8	3.3
+7160	Bread, French bread, without salt	breads and similar	279.0	8.3	56.5	1.3
+7170	Panini bread	breads and similar	272.0	7.7	55.9	1.1
+7180	Pita bread	breads and similar	259.0	7.5	53.0	0.9
+7200	Sandwich loaf	breads and similar	278.0	7.1	52.3	3.6
+7201	Sandwich loaf, crust less, prepacked	breads and similar	271.0	7.5	49.5	3.8
+7210	Brioche sandwich bread, prepacked	breads and similar	309.0	7.9	52.4	6.5
+7255	Bread, French bread, (baguette or ball), multigrain, from bakery	breads and similar	269.0	9.6	46.9	3.2
+7256	English muffin, wholewheat flour, prepacked	breads and similar	217.0	12.5	32.9	1.9
+7257	English muffin, prepacked	breads and similar	228.0	10.6	39.6	1.9
+7258	Bagel	breads and similar	272.0	9.3	47.3	4.0
+7259	Rolls for hamburger/hotdog (buns), prepacked	breads and similar	293.0	9.1	49.7	5.3
+7260	Bread, home-made, with flour for home-made bread preparation	breads and similar	256.0	7.8	52.1	0.9
+7261	Country-style bread, home-made (with flour for bread making machine)	breads and similar	240.0	8.0	46.7	0.9
+7262	Rolls for hamburger/hotdog (buns), wholemeal, prepacked	breads and similar	285.0	8.9	46.3	5.8
+7263	Bretzel	breads and similar	330.0	9.2	54.6	7.1
+7813	Corn tortilla wrap, to be filled	breads and similar	313.0	9.1	54.7	5.8
+7815	Wheat tortilla wrap, to be filled	breads and similar	327.0	8.3	52.1	8.2
+7004	Toasted bread, home-made	breads and similar	317.0	9.5	64.0	1.3
+7300	Rusk	breads and similar	409.0	9.8	76.6	5.9
+7301	Rusk, w eggs	breads and similar	417.0	10.9	69.0	9.3
+7310	Rusk, unsalted	breads and similar	405.0	10.4	74.0	5.9
+7330	Rusk, multigrain	breads and similar	398.0	11.8	66.7	7.2
+7340	Rusk, wholemeal or rich in fibre	breads and similar	393.0	11.7	67.0	6.2
+7351	Wheat crackers	breads and similar	450.0	7.8	75.0	12.0
+7352	Puffed rice textured bread, wholemeal	breads and similar	385.0	7.3	80.5	3.0
+7353	Puffed cereals textured bread	breads and similar	394.0	8.4	82.4	2.5
+7400	Rusk, slice, wheat	breads and similar	404.0	9.8	74.4	6.2
+7403	Rusk with eggs, sliced, prepacked	breads and similar	419.0	10.6	70.8	9.2
+7407	Wheat swedish toast	breads and similar	402.0	8.9	68.5	8.2
+7409	Swedish toast, with linseeds	breads and similar	396.0	10.3	63.0	9.0
+7410	Crispbread, extruded and grilled	breads and similar	379.0	10.0	73.7	3.6
+7420	Wheat swedish toast, wholemeal	breads and similar	398.0	10.5	66.4	8.0
+7421	Swedish toast, with fruits	breads and similar	401.0	8.0	70.8	8.0
+7425	Rusk , slice, multigrain	breads and similar	419.0	11.1	68.8	9.3
+7431	Croutons, for spreads	breads and similar	374.0	12.3	70.0	2.9
+7432	Croutons, plain, prepacked	breads and similar	495.0	8.4	59.1	24.1
+7500	Breadcrumbs	breads and similar	374.0	11.6	70.0	3.8
+7525	Grissini or bread stick	breads and similar	433.0	12.7	65.3	11.8
+38500	Crouton with garlic, herbs or onions, prepacked	breads and similar	492.0	8.8	58.9	24.1
+9230	Pop-corn or oil popped maize, salted	savoury biscuits	485.0	11.0	52.6	23.8
+9231	Pop-corn or air-popped maize, unsalted	savoury biscuits	417.0	10.2	60.0	12.3
+9232	Pop-corn or popped maize, with caramel	savoury biscuits	418.0	3.0	85.4	6.5
+38104	Prawn crackers	savoury biscuits	508.0	3.1	63.7	26.6
+38105	Corn chips or tortilla chips	savoury biscuits	495.0	6.6	59.5	24.7
+38106	Puffed salty snacks, made from potato	savoury biscuits	484.0	4.2	60.5	24.1
+38107	Salty snacks, mini pretzels or sticks	savoury biscuits	379.0	11.2	74.4	3.1
+38108	Puffed salty snacks, made from potato and soy	savoury biscuits	409.0	17.4	58.3	9.3
+38399	Salty snacks	savoury biscuits	486.0	9.2	60.3	22.3
+38400	Puffed salty snacks, made from maize/corn, without peanuts	savoury biscuits	489.0	7.0	62.1	23.0
+38401	Salty snacks, crackers, garnished or filled with cheese	savoury biscuits	537.0	13.8	46.3	32.2
+38402	Salty snacks, crackers, plain	savoury biscuits	499.0	10.5	59.0	23.9
+38403	Salty snacks, crackers, reduced fat	savoury biscuits	410.0	6.5	73.1	9.3
+38404	Puffed salty snacks, made from maize/corn, with peanuts	savoury biscuits	487.0	13.3	54.8	22.9
+38405	Salty snacks, made from potato	savoury biscuits	521.0	4.6	59.1	28.8
+38406	Coated peanuts	savoury biscuits	518.0	15.8	45.4	29.7
+38407	Salty snacks, puff pastry	savoury biscuits	509.0	12.3	53.7	26.5
+38408	Salted crispy crepe with cheese, prepacked	savoury biscuits	555.0	9.3	48.8	35.6
+4090	Potato starch	nan	348.0	0.0	86.3	0.2
+9311	Oatmeal flakes	nan	367.0	13.3	57.9	6.5
+9410	Wheat flour, type 110	nan	343.0	9.6	68.6	1.5
+9415	Wheat flour, type 150	nan	342.0	11.4	64.9	1.5
+9435	Wheat flour, type 65	nan	346.0	13.6	67.6	1.0
+9436	Wheat flour, type 55 (for bread)	nan	350.0	9.0	73.7	1.0
+9437	Wheat flour, self-raising	nan	350.0	9.1	74.0	1.0
+9440	Wheat flour, type 55 (for pastry)	nan	356.0	9.1	75.9	0.8
+9445	Wheat flour, type 80	nan	355.0	9.9	73.2	1.2
+9480	Spelt flour	nan	352.0	11.4	64.0	3.0
+9510	Maize/corn starch	nan	362.0	0.4	89.2	0.2
+9520	Rice flour	nan	357.0	7.6	73.9	2.5
+9530	Rye flour, type 170	nan	315.0	15.9	44.8	2.2
+9532	Rye flour, type 85	nan	344.0	8.1	70.7	1.4
+9533	Rye flour, type 130	nan	344.0	7.2	70.9	1.1
+9540	Buckwheat flour	nan	348.0	11.5	68.4	2.2
+9545	Maize/corn flour	nan	361.0	6.2	78.1	2.1
+9550	Barley flour	nan	339.0	9.9	64.5	2.3
+9555	Millet flour	nan	350.0	10.2	63.2	4.1
+9580	Chick pea flour	nan	359.0	22.4	47.0	6.7
+20900	Soya flour	nan	460.0	35.8	22.9	21.4
+96781	Rice starch	nan	343.0	0.6	85.0	0.0
+23402	Thin-crust pizza shell, raw	nan	279.0	7.7	44.6	7.0
+23410	Short crust pastry, raw	nan	377.0	5.3	43.6	19.5
+23412	Pastry, short crust, baked	nan	505.0	7.5	58.3	26.4
+23414	Short crust pastry, pure butter, raw	nan	384.0	5.8	44.9	19.5
+23415	Short crust pastry, pure butter, frozen, raw	nan	387.0	5.7	43.3	20.7
+23416	Pastry, short crust, pure butter, cooked	nan	497.0	7.6	61.1	23.9
+23420	Puff pastry, raw	nan	377.0	5.4	41.4	20.4
+23421	Puff pastry, frozen, raw	nan	400.0	3.3	33.3	27.4
+23422	Puff pastry, cooked	nan	531.0	7.2	54.1	31.0
+23424	Puff pastry, pure butter, raw	nan	368.0	5.6	39.7	20.1
+23425	Puff pastry, pure butter, frozen, raw	nan	398.0	5.0	35.3	25.8
+23426	Puff pastry, pure butter, cooked	nan	509.0	4.6	57.0	28.7
+23430	Filo or phyllo pastry sheets, baked, without fat	nan	378.0	6.2	82.4	1.8
+23440	Shortbread dough, raw	nan	404.0	5.3	51.0	19.6
+23442	Shortbread dough, cooked	nan	505.0	5.7	64.4	24.6
+23444	Shortbread dough, pure butter, raw	nan	383.0	6.0	53.6	15.8
+23445	Phyllo or filo dough, raw	nan	289.0	7.1	50.8	6.0
+23446	Shortbread dough, pure butter, frozen, raw	nan	423.0	4.9	60.9	17.5
+23448	Shortbread dough, pure butter, cooked	nan	469.0	6.2	63.0	20.9
+37001	Pizza base, raw	nan	240.0	7.0	44.2	3.5
+51550	Khatfa (phyllo or filo pastry), prepacked	nan	283.0	7.0	59.0	1.5
+96778	Pizza base, cooked	nan	324.0	7.8	55.3	7.1
+6584	white meat, cooked (average)	cooked meat	173.0	28.1	0.3	6.5
+6585	Red meat, cooked (average)	cooked meat	195.0	26.0	0.0	10.1
+6999	Meat, cooked (average)	cooked meat	182.0	27.2	0.2	8.0
+36900	Poultry, cooked (average)	cooked meat	166.0	27.6	0.3	6.0
+6100	Beef, rib steak, lean, grilled/pan-fried	cooked meat	198.0	25.5	0.05	10.7
+6101	Beef, braised	cooked meat	240.0	32.1	0.0	12.4
+6104	Beef, round, cooked	cooked meat	102.0	21.0	0.2	1.9
+6105	Beef, sirloin steak, roasted/baked	cooked meat	194.0	28.8	0.0	8.7
+6110	Beef, sirloin steak, grilled/pan-fried	cooked meat	182.0	27.1	0.0	8.2
+6123	Beef, short ribs, braised	cooked meat	269.0	37.3	0.0	13.3
+6131	Beef, thin flank, grilled/pan-fried	cooked meat	174.0	21.6	0.0	9.8
+6141	Beef, cheek, braised or boiled	cooked meat	236.0	39.2	0.0	8.8
+6151	Beef, knuckle, boiled/cooked in water	cooked meat	161.0	31.0	0.0	4.1
+6161	Beef, topside, grilled/pan-fried	cooked meat	141.0	28.7	0.0	2.9
+6162	Beef, topside, roasted/baked	cooked meat	146.0	29.8	0.0	3.0
+6200	Beef, steak or beef steak, grilled	cooked meat	128.0	27.6	0.0	1.9
+6205	Beef, hanger steak, grilled	cooked meat	171.0	23.0	0.0	8.8
+6207	Beef, rump steak, grilled	cooked meat	123.0	25.0	0.0	2.5
+6208	Beef, bolar-blade, grilled/pan-fried	cooked meat	144.0	26.7	0.0	4.1
+6210	Beef, roast beef, roasted/baked	cooked meat	117.0	21.9	0.3	3.2
+6211	Beef, flank steak, grilled/pan-fried	cooked meat	162.0	25.0	0.0	6.9
+6214	Beef, bolar-blade, roasted/baked	cooked meat	147.0	27.3	0.0	4.2
+6230	Beef, stewing meat, cooked	cooked meat	172.0	34.0	0.0	4.0
+6241	Beef, neck, braised	cooked meat	184.0	33.0	0.0	5.8
+6251	Beef, minced steak, 5% fat, cooked	cooked meat	155.0	25.5	0.0	5.8
+6253	Beef, minced steak, 10% fat, cooked	cooked meat	210.0	26.1	0.0	11.8
+6255	Beef, minced steak, 15% fat, cooked	cooked meat	239.0	23.6	0.0	16.1
+6257	Beef, minced steak, 20% fat, cooked	cooked meat	265.0	23.0	0.1	19.2
+6259	Beef, ground, cooked (average)	cooked meat	231.0	23.8	0.0	15.1
+6271	Beef, chuck, braised or boiled	cooked meat	251.0	36.8	0.2	11.4
+6310	Beef, oxtail, boiled/cooked in water	cooked meat	196.0	28.0	0.0	9.3
+6511	Veal, chop, grilled/pan-fried	cooked meat	156.0	25.1	0.0	6.2
+6512	Veal, loin, sautéed/pan-fried	cooked meat	171.0	28.0	0.0	6.6
+6520	Veal, escalope, cooked	cooked meat	147.0	31.0	0.0	2.5
+6523	Veal, tenderloin, grilled/pan-fried	cooked meat	147.0	29.1	0.0	3.4
+6524	Veal, tenderloin, roasted	cooked meat	147.0	29.1	0.0	3.4
+6531	Veal fillet, roasted/baked	cooked meat	201.0	23.4	0.5	11.7
+6551	Veal, roast, cooked	cooked meat	143.0	28.1	0.0	3.4
+6562	Veal, shoulder, grilled/pan-fried	cooked meat	166.0	27.6	0.0	6.2
+6563	Veal, shoulder, braised/boiled	cooked meat	219.0	36.4	0.0	8.1
+6564	Veal, meat, cooked (average)	cooked meat	169.0	29.0	0.7	5.5
+6581	Veal, knuckle or shank, braised or boiled	cooked meat	207.0	37.4	0.0	6.4
+6582	Calf, head, boiled/cooked in water	cooked meat	187.0	21.0	0.0	11.4
+6591	Veal, neck, braised or boiled	cooked meat	233.0	34.9	0.0	10.4
+28007	Pork loin, cooked	cooked meat	240.0	27.1	0.0	14.7
+28009	Pork shoulder, raw	cooked meat	208.0	24.8	0.0	12.1
+28010	Pork, shoulder, cooked	cooked meat	253.0	30.0	0.0	14.8
+28101	Pork, chop, grilled	cooked meat	211.0	29.6	0.0	10.3
+28103	Pork, round steak, cooked	cooked meat	266.0	36.9	0.0	13.1
+28105	Pork, rack, cooked	cooked meat	206.0	34.1	0.6	7.5
+28202	Pork tenderloin roast, cooked	cooked meat	198.0	28.3	0.0	9.4
+28203	Pork filet mignon, cooked	cooked meat	168.0	26.1	0.0	7.1
+28205	Pork, meat, cooked (average)	cooked meat	205.0	29.1	0.2	9.8
+28301	Pork, roast, cooked	cooked meat	163.0	30.5	0.7	4.3
+28401	Pork, spare-ribs, braised	cooked meat	333.0	23.1	0.1	26.6
+28451	Pork, loin, roasted/baked	cooked meat	295.0	26.2	0.05	21.2
+28461	Pork, ham escalope, cooked	cooked meat	200.0	36.0	0.0	6.2
+36004	Chicken, leg, meat and skin, roasted/baked	cooked meat	213.0	25.9	2.0	11.3
+36005	Chicken, meat and skin, roasted/baked	cooked meat	213.0	28.9	2.1	9.9
+36006	Chicken leg, meat, roasted/baked	cooked meat	171.0	24.8	0.0	8.0
+36018	Chicken, breast, without skin, cooked	cooked meat	141.0	30.1	0.0	2.0
+36030	Chicken leg, meat, boiled/cooked in water	cooked meat	188.0	24.8	0.7	9.5
+36031	Chicken, leg, meat and skin, boiled/cooked in water	cooked meat	188.0	26.1	0.28	9.1
+36032	Chicken, breast, meat and skin, roasted/baked	cooked meat	189.0	29.8	0.0	7.8
+36033	Chicken, wing, meat and skin, roasted/baked	cooked meat	247.0	23.8	0.0	16.9
+36041	Chicken, breast, without skin, cooked, organic	cooked meat	144.0	31.1	0.0	1.8
+36302	Turkey, meat, roasted/baked	cooked meat	151.0	29.1	0.0	3.8
+36306	Turkey, escalope, sautéed/pan-fried, with salt	cooked meat	124.0	28.5	0.0	1.1
+36308	Turkey, escalope, roasted/baked	cooked meat	128.0	24.6	0.5	3.0
+21501	Lamb cutlet, grilled	cooked meat	240.0	25.7	0.0	15.2
+21503	Lamb, leg, roasted/baked	cooked meat	169.0	26.8	0.0	6.8
+21506	Lamb, shoulder, roasted/baked	cooked meat	252.0	30.5	0.05	14.5
+21507	Lamb, shoulder, lean, roasted/baked	cooked meat	197.0	24.9	0.0	10.8
+21508	Lamb, neck, braised or boiled	cooked meat	365.0	33.6	0.0	25.6
+21509	Lamb, chop fillet, grilled/pan-fried	cooked meat	157.0	26.3	0.0	5.8
+21512	Lamb, rib chop, grilled/pan-fried	cooked meat	185.0	26.1	0.0	9.0
+21513	Lamb, saddle, lean, roasted/baked	cooked meat	153.0	26.1	0.0	5.5
+21518	Lamb, leg, grilled/pan-fried	cooked meat	174.0	27.6	0.0	7.1
+21519	Lamb, leg, braised	cooked meat	222.0	35.2	0.0	9.0
+21520	Lamb, saddle, grilled/pan-fried	cooked meat	153.0	26.1	0.0	5.5
+21522	Lamb, chop, cooked (avergae)	cooked meat	157.0	26.3	0.0	5.8
+21523	Lamb, meat, cooked (average)	cooked meat	208.0	28.1	0.0	10.6
+21524	Lamb, chop, grilled (average)	cooked meat	157.0	26.3	0.0	5.8
+14000	Venison (roebuck), roasted/baked	cooked meat	150.0	30.2	0.0	3.2
+14003	Wild boar, roasted/baked	cooked meat	153.0	28.3	0.0	4.4
+14007	Venison (hart), roasted/baked	cooked meat	150.0	30.2	0.0	3.2
+14008	Game, cooked (average)	cooked meat	152.0	29.6	0.0	3.7
+36402	Pheasant, meat, roasted/baked	cooked meat	239.0	32.4	0.0	12.1
+36603	Feathered game, meat, cooked (average)	cooked meat	217.0	25.1	0.0	13.0
+6902	Horse, meat, roasted/baked	cooked meat	138.0	28.0	0.0	2.9
+6906	Horse, topside, grilled/pan-fried	cooked meat	135.0	27.9	0.0	2.6
+6907	Horse, sirloin steak, grilled/pan-fried	cooked meat	163.0	26.6	0.0	6.3
+6908	Horse, rib steak, grilled/pan-fried	cooked meat	169.0	28.2	0.0	6.2
+6909	Horse, sirloin steak, roasted/baked	cooked meat	173.0	28.3	0.0	6.7
+6910	Horse, topside, roasted/baked	cooked meat	144.0	29.7	0.0	2.8
+21801	Young goat, cooked	cooked meat	136.0	27.1	0.0	3.0
+34000	Rabbit, meat, braised	cooked meat	197.0	30.4	0.0	8.4
+34002	Rabbit, meat, cooked	cooked meat	167.0	20.5	0.5	9.2
+34004	Rabbit, wild, meat, cooked	cooked meat	164.0	33.0	0.0	3.5
+36051	Capon, meat and skin, roasted/baked	cooked meat	221.0	29.0	0.0	11.7
+36102	Quail, meat and skin, cooked	cooked meat	206.0	26.8	0.0	10.9
+36200	Duck, meat and skin, roasted/baked	cooked meat	331.0	19.0	0.0	28.4
+36202	Duck, meat, roasted/baked	cooked meat	194.0	23.3	0.0	11.2
+36205	Duck, magret, cooked in pan	cooked meat	222.0	26.7	0.0	12.8
+36502	Goose, meat, roasted/baked	cooked meat	230.0	29.0	0.0	12.7
+36503	Goose, meat and skin, roasted/baked	cooked meat	298.0	25.2	0.0	21.9
+36602	Pigeon, meat, roasted/baked	cooked meat	213.0	23.9	0.0	13.0
+36801	Ostrich, meat, cooked	cooked meat	168.0	26.2	0.0	7.1
+40003	Brain, lamb, cooked	cooked meat	145.0	12.6	0.8	10.2
+40004	Brain, pork, braised	cooked meat	174.0	12.4	0.03	13.8
+40007	Brain, calf, cooked	cooked meat	133.0	11.5	0.0	9.6
+40053	Heart, beef, cooked	cooked meat	133.0	23.0	0.1	4.5
+40056	Heart, chicken, cooked	cooked meat	177.0	26.4	0.1	7.9
+40057	Heart, turkey, cooked	cooked meat	167.0	24.9	0.0	7.5
+40059	Heart, lamb, cooked	cooked meat	179.0	25.0	1.9	7.9
+40103	Liver, lamb, cooked	cooked meat	157.0	23.0	3.2	5.8
+40105	Liver, young cow, cooked	cooked meat	165.0	26.3	2.2	5.7
+40107	Liver, calf, cooked	cooked meat	121.0	19.0	4.5	3.0
+40109	Liver, poultry, cooked	cooked meat	164.0	25.8	0.0	6.4
+40113	Liver, pork, cooked	cooked meat	159.0	26.0	3.8	4.4
+40116	Liver, chicken, cooked	cooked meat	160.0	24.5	0.8	6.5
+40118	Liver, turkey, cooked	cooked meat	182.0	27.0	0.0	8.2
+40201	Tongue, calf, cooked	cooked meat	237.0	21.0	0.0	17.0
+40203	Tongue, beef, cooked	cooked meat	235.0	23.7	0.0	15.6
+40303	Sweetbread, lamb, cooked	cooked meat	227.0	22.8	0.0	15.1
+40305	Sweetbread, calf, sautéed/pan-fried	cooked meat	136.0	21.0	0.0	5.8
+40401	Kidney, all types, cooked	cooked meat	161.0	26.1	0.0	6.3
+40403	Kidney, beef, cooked	cooked meat	171.0	27.0	0.0	7.0
+40405	Kidney, pork, cooked	cooked meat	144.0	25.4	0.0	4.7
+40406	Kidney, lamb, braised	cooked meat	127.0	23.7	0.0	3.6
+40408	Kidney, veal, sautéed/pan-fried	cooked meat	167.0	26.0	0.0	7.0
+40601	Offal, cooked (average)	cooked meat	162.0	25.1	1.4	6.2
+40701	Preserved gizzards, duck, canned	cooked meat	149.0	32.4	0.0	2.1
+6001	Beef, rib, raw	raw meat	251.0	18.7	0.0	19.6
+6002	Beef, shoulder, raw	raw meat	168.0	20.4	0.0	9.6
+6003	Beef, chuck steak, raw	raw meat	201.0	19.0	1.4	13.2
+6102	Beef, round, raw	raw meat	148.0	21.3	0.0	7.0
+6103	Beef, rib steak, raw	raw meat	231.0	19.4	0.0	17.1
+6106	Beef, eye of round, raw	raw meat	111.0	22.9	0.4	2.0
+6111	Beef, sirloin steak, raw	raw meat	152.0	22.3	0.6	6.7
+6116	Beef, tenderloin, raw	raw meat	132.0	21.6	0.2	5.0
+6122	Beef, short ribs, raw	raw meat	287.0	18.4	0.0	23.7
+6130	Beef, thin flank, raw	raw meat	154.0	19.0	0.0	8.6
+6140	Beef, cheek, raw	raw meat	136.0	22.3	0.4	5.0
+6150	Beef, knuckle, raw	raw meat	122.0	20.9	0.0	4.2
+6160	Beef, topside, raw	raw meat	116.0	23.1	0.6	2.3
+6201	Beef, steak or beef steak, raw	raw meat	223.0	19.2	0.0	16.2
+6202	Beef, bolar-blade, raw	raw meat	118.0	21.8	0.0	3.4
+6204	Beef, hanger steak, raw	raw meat	138.0	19.9	0.6	6.2
+6206	Beef, rump steak, raw	raw meat	114.0	22.5	0.4	2.5
+6212	Beef, flank steak, raw	raw meat	133.0	20.4	0.0	5.7
+6231	Beef, stewing meat, raw	raw meat	164.0	24.0	0.0	7.5
+6240	Beef, neck, raw	raw meat	198.0	20.1	0.8	12.7
+6250	Beef, minced steak, 5% fat, raw	raw meat	130.0	21.9	0.3	4.6
+6252	Beef, minced steak, 10% fat, raw	raw meat	171.0	20.0	0.03	10.1
+6254	Beef, minced steak, 15% fat, raw	raw meat	209.0	20.2	0.5	14.1
+6256	Beef, minced steak, 20% fat, raw	raw meat	249.0	17.3	0.0	20.0
+6270	Beef, chuck, raw	raw meat	144.0	21.2	0.0	6.5
+6311	Beef, oxtail, raw	raw meat	203.0	21.5	0.2	12.9
+6510	Veal, chop, raw	raw meat	189.0	18.3	0.0	12.9
+6513	Veal, loin, raw	raw meat	145.0	19.5	0.4	7.2
+6521	Veal, escalope, raw	raw meat	108.0	20.7	0.6	2.6
+6522	Veal, tenderloin, raw	raw meat	111.0	21.8	0.0	2.6
+6530	Veal fillet, raw	raw meat	95.0	20.6	0.0	1.4
+6535	Veal, minced steak, 20% fat, raw	raw meat	243.0	16.7	0.4	19.5
+6536	Veal, minced steak, 15% fat, raw	raw meat	208.0	18.2	0.0	15.0
+6540	Veal, breast, raw	raw meat	176.0	18.7	0.0	11.2
+6550	Veal, roast, raw	raw meat	145.0	27.3	0.0	4.0
+6560	Veal, shoulder, raw	raw meat	124.0	20.7	0.0	4.6
+6580	Calf, foot, raw	raw meat	184.0	19.1	0.0	12.0
+6583	Veal, knuckle or shank, raw	raw meat	118.0	21.3	0.0	3.7
+6590	Veal, neck, raw	raw meat	133.0	19.8	0.0	5.9
+28001	Pork, shoulder, raw	raw meat	178.0	18.9	0.4	11.2
+28002	Pork, belly, raw	raw meat	253.0	17.0	0.0	20.5
+28003	Pork loin, raw	raw meat	175.0	20.8	0.8	9.9
+28004	Pork, knuckle or shank, raw	raw meat	187.0	19.9	0.0	12.0
+28100	Pork, chop, raw	raw meat	164.0	19.8	0.4	9.3
+28102	Pork, round steak, raw	raw meat	149.0	20.2	0.0	7.6
+28104	Pork, rack, raw	raw meat	146.0	22.7	0.4	5.9
+28201	Pork tenderloin, lean, raw	raw meat	117.0	21.2	0.0	3.6
+28204	Pork filet mignon, raw	raw meat	123.0	21.2	0.4	4.1
+28300	Pork, roast, raw	raw meat	153.0	22.3	0.5	6.9
+28302	Pork, loin, raw	raw meat	198.0	18.0	0.1	14.0
+28400	Pork, spare-ribs, raw	raw meat	237.0	18.0	0.6	18.0
+28460	Pork, ham escalope, raw	raw meat	129.0	21.5	0.0	4.8
+28470	Pork, back fat, rindless, raw	raw meat	744.0	4.5	0.1	80.6
+28471	Pork, jowl, rindless, raw	raw meat	475.0	11.6	0.1	47.5
+28472	Pork, shoulder lower half, without rind, fat and bone, raw	raw meat	187.0	18.9	0.2	12.3
+28473	Pork, way leg, without rind, fat and bone, raw	raw meat	141.0	20.9	0.3	6.3
+28474	Pork, knuckle oh ham, without rind, fat and bone, raw	raw meat	148.0	20.2	0.3	7.3
+28475	Pork, 90/10 trimming, raw	raw meat	212.0	18.8	0.2	15.1
+28476	Pork, 80/20 trimming, raw	raw meat	293.0	17.3	0.3	24.7
+28477	Pork, shoulder upper half, without rind, fat and bone, raw	raw meat	174.0	19.9	0.2	10.4
+28479	Pork, belly, flank removed, raw	raw meat	323.0	15.9	0.2	28.7
+28480	Prok, eye of shortloin, raw	raw meat	146.0	22.3	0.4	6.2
+36002	Chicken, leg, meat and skin, raw	raw meat	192.0	17.3	0.0	13.5
+36003	Chicken, meat, raw	raw meat	113.0	20.0	0.0	3.7
+36007	Chicken, white race, meat and skin, raw	raw meat	123.0	21.2	0.0	4.3
+36008	Chicken, free-range, meat and skin, raw	raw meat	135.0	21.5	0.2	5.4
+36016	Chicken, meat and skin, raw	raw meat	173.0	20.2	0.3	10.1
+36017	Chicken, breast, without skin, raw	raw meat	110.0	23.4	0.0	1.5
+36019	Chicken high leg, meat, raw	raw meat	116.0	19.7	0.0	4.1
+36020	Chicken, eviscerated without offal, raw	raw meat	210.0	18.6	0.0	15.1
+36022	Chicken, drumstick, raw	raw meat	155.0	18.4	0.0	9.1
+36023	Chicken, wing, meat and skin, raw	raw meat	181.0	20.4	0.0	11.0
+36024	Chicken, leg, meat, raw	raw meat	114.0	19.3	0.0	4.0
+36029	Chicken, breast, meat and skin, raw	raw meat	157.0	21.1	0.0	8.1
+36037	Chicken, leg, meat and skin, raw, organic	raw meat	193.0	18.1	0.0	13.3
+36038	Chicken, leg, meat and skin, raw, label rouge	raw meat	173.0	19.1	0.0	10.6
+36039	Chicken, breast, without skin, raw, organic	raw meat	118.0	24.6	0.0	1.8
+36040	Chicken, breast, without skin, raw, label rouge	raw meat	113.0	25.2	0.0	1.0
+36300	Turkey, meat and skin, raw	raw meat	132.0	23.4	0.0	4.3
+36301	Turkey, meat, raw	raw meat	110.0	22.4	0.8	1.9
+36304	Turkey, escalope, raw	raw meat	109.0	24.1	0.5	1.2
+36305	Turkey, leg, meat and skin, raw	raw meat	150.0	19.8	0.0	7.8
+36307	Turkey, leg, meat only, raw	raw meat	109.0	21.3	0.4	2.5
+36310	Turkey, wing, raw	raw meat	192.0	20.2	0.0	12.3
+21001	Mutton, meat, raw	raw meat	137.0	20.6	0.0	6.1
+21003	Mutton, shoulder, raw	raw meat	204.0	18.3	0.1	14.5
+21004	Sheep, foot, raw	raw meat	204.0	18.1	0.0	14.6
+21005	Sheep, head, raw	raw meat	204.0	18.1	0.0	14.6
+21006	Mutton, leg, raw	raw meat	225.0	18.0	0.0	17.0
+21500	Lamb, cutlet, raw	raw meat	368.0	14.4	0.0	34.5
+21502	Lamb, leg, raw	raw meat	128.0	20.0	0.5	5.1
+21504	Lamb, shoulder, raw	raw meat	170.0	18.3	0.5	10.6
+21505	Lamb, shoulder, lean, raw	raw meat	139.0	19.6	0.0	6.8
+21514	Lamb, neck, raw	raw meat	195.0	18.0	0.0	13.7
+21515	Lamb, saddle, raw	raw meat	236.0	17.5	0.0	18.4
+21516	Lamb, chop fillet, raw	raw meat	242.0	17.6	2.3	18.0
+21517	Lamb, rib chop, raw	raw meat	276.0	16.9	0.0	23.1
+21521	Lamb, chop, raw (average)	raw meat	273.0	16.3	0.9	22.6
+21525	Lamb, chop "découverte", raw	raw meat	205.0	16.3	1.4	15.0
+14002	Wild boar, raw	raw meat	147.0	20.7	0.0	7.1
+14004	Hare, meat, raw	raw meat	111.0	21.6	0.0	2.7
+14005	Venison (roebuck), raw	raw meat	110.0	23.0	0.0	2.0
+14006	Venison (hart), raw	raw meat	113.0	23.7	0.0	2.0
+36401	Pheasant, meat, raw	raw meat	127.0	23.3	0.0	3.8
+36403	Pheasant, meat and skin, raw	raw meat	164.0	23.2	0.0	8.0
+6900	Horse, meat, raw	raw meat	167.0	18.8	0.6	10.0
+6901	Horse, steak, raw	raw meat	129.0	21.4	0.4	4.6
+6903	Horse, topside, raw	raw meat	106.0	22.7	0.0	1.7
+6904	Horse, sirloin steak, raw	raw meat	121.0	22.2	0.0	3.6
+6905	Horse, rib steak, raw	raw meat	118.0	22.1	0.0	3.3
+21800	Young goat, raw	raw meat	103.0	20.6	0.0	2.3
+34001	Rabbit, meat, raw	raw meat	189.0	20.4	0.7	11.6
+34003	Rabbit, wild, meat, raw	raw meat	108.0	21.8	0.0	2.3
+36000	Hen, meat and skin, raw	raw meat	215.0	17.8	0.4	15.8
+36001	Hen, meat only, raw	raw meat	124.0	20.9	0.0	4.5
+36014	Chicken, stewing, leg, raw	raw meat	131.0	19.6	0.0	5.9
+36050	Capon, meat and skin, raw	raw meat	183.0	21.8	0.0	10.6
+36100	Quail, meat and skin, raw	raw meat	136.0	21.5	0.0	5.5
+36101	Quail, meat, raw	raw meat	126.0	22.5	0.5	3.8
+36201	Duck, meat, raw	raw meat	126.0	19.4	0.0	5.3
+36203	Duck, leg, meat and skin, raw	raw meat	103.0	18.7	0.0	3.1
+36204	Duck, meat and skin, raw	raw meat	284.0	17.4	2.8	22.6
+36206	Duck, breast fillet	raw meat	340.0	17.9	0.8	29.4
+36500	Goose, meat, raw	raw meat	155.0	22.6	0.0	7.1
+36501	Goose, meat and skin, raw	raw meat	365.0	15.7	0.0	33.6
+36600	Pigeon, raw	raw meat	222.0	18.9	0.7	16.0
+36700	Guinea fowl, raw	raw meat	143.0	22.8	0.0	5.8
+36702	Guinea fowl, breast, raw	raw meat	107.0	25.1	0.0	0.7
+36703	Guinea fowl, leg, raw	raw meat	121.0	21.3	0.0	4.0
+36800	Ostrich, meat, raw	raw meat	159.0	20.2	0.0	8.7
+40002	Brain, lamb, raw	raw meat	122.0	10.4	0.8	8.6
+40005	Brain, pork, raw	raw meat	124.0	10.3	0.0	9.2
+40006	Brain, calf, raw	raw meat	117.0	10.3	0.5	8.2
+40052	Heart, beef, raw	raw meat	103.0	18.5	0.7	3.0
+40054	Heart, chicken, raw	raw meat	149.0	15.6	0.7	9.3
+40055	Heart, turkey, raw	raw meat	135.0	16.7	0.4	7.4
+40058	Heart, lamb, raw	raw meat	119.0	16.5	0.4	5.7
+40060	Heart, pork, raw	raw meat	109.0	17.1	0.4	4.3
+40062	Heart, veal, raw	raw meat	106.0	16.1	1.8	3.8
+40102	Liver, lamb, raw	raw meat	148.0	21.8	2.9	5.5
+40104	Liver, young cow, raw	raw meat	138.0	21.0	3.7	4.3
+40106	Liver, calf, raw	raw meat	120.0	15.5	5.6	3.4
+40108	Liver, poultry, raw	raw meat	133.0	21.3	1.1	4.9
+40110	Liver, rabbit, raw	raw meat	132.0	19.0	5.0	4.0
+40111	Liver, chicken, raw	raw meat	121.0	18.8	1.1	4.6
+40115	Liver, turkey, raw	raw meat	123.0	18.3	0.0	5.5
+40119	Liver, pork, raw	raw meat	127.0	20.6	1.9	4.2
+40120	Liver, goose, raw	raw meat	129.0	16.3	6.3	4.3
+40121	Liver, duck, raw	raw meat	131.0	18.7	3.5	4.6
+40202	Tongue, beef, raw	raw meat	193.0	16.8	0.4	13.8
+40204	Tongue, calf, raw	raw meat	151.0	17.0	0.9	8.8
+40205	Tongue, pork, raw	raw meat	191.0	16.6	0.5	13.6
+40207	Tongue, lamb, raw	raw meat	167.0	15.4	1.8	10.9
+40302	Sweetbread, lamb, raw	raw meat	122.0	14.6	0.0	7.0
+40304	Sweetbread, calf, raw	raw meat	96.6	17.4	0.0	3.0
+40402	Kidney, beef, raw	raw meat	95.9	17.1	0.9	2.6
+40404	Kidney, pork, raw	raw meat	97.9	16.4	1.1	3.1
+40407	Kidney, lamb, raw	raw meat	94.1	14.7	1.1	3.4
+40409	Kidney, calf, raw	raw meat	86.1	16.0	0.2	2.4
+40502	Tripe, beef, raw	raw meat	81.5	12.1	0.0	3.7
+40600	Blood, beef, raw	raw meat	82.1	19.5	0.8	0.1
+40700	Gizzard, chicken, raw	raw meat	105.0	17.3	0.6	3.8
+30900	Cured meat and sausages (average)	delicatessen meat and similar	238.0	19.7	1.5	17.1
+8429	Pork ham w parsley and jelly	delicatessen meat and similar	152.0	19.0	0.5	7.9
+28700	Pork ham, intended to be cooked or pork ham, intended to be roast/bake	delicatessen meat and similar	161.0	19.9	0.0	9.1
+28727	Bacon, back	delicatessen meat and similar	118.0	23.1	0.7	2.6
+28803	Cooked ham, smoked	delicatessen meat and similar	135.0	20.0	0.8	5.8
+28900	Cooked ham, superior quality	delicatessen meat and similar	125.0	20.8	0.8	4.3
+28901	Cooked ham, superior quality, with rind	delicatessen meat and similar	137.0	20.2	0.9	5.8
+28902	Cooked ham, superior quality, rind less	delicatessen meat and similar	117.0	20.5	0.8	3.5
+28905	Braised ham on the bone	delicatessen meat and similar	238.0	21.6	0.3	16.8
+28906	Cooked ham, superior quality, rind less and fatless	delicatessen meat and similar	119.0	20.3	1.0	3.7
+28907	Cooked ham, superior quality, reduced salt	delicatessen meat and similar	121.0	20.8	0.7	3.8
+28910	Cooked ham, choice	delicatessen meat and similar	125.0	19.5	1.7	4.5
+28911	Cooked pork shoulder, choice	delicatessen meat and similar	121.0	18.0	1.9	4.5
+28912	Cooked ham, choice, w rind	delicatessen meat and similar	137.0	19.4	0.6	6.3
+28913	Cooked ham, choice, rind less and fatless	delicatessen meat and similar	114.0	19.6	1.6	3.2
+28917	Round of ham, cooked	delicatessen meat and similar	182.0	20.3	1.4	10.6
+28922	Ham in cube, grated or minced	delicatessen meat and similar	121.0	17.9	2.1	4.5
+28924	Cooked pork shoulder, standard, rind less and fatless	delicatessen meat and similar	123.0	13.7	3.6	6.0
+28925	Cooked ham, Parisian-style, rind less and fatless	delicatessen meat and similar	115.0	20.0	1.1	3.4
+28929	Poultry ham in cube, grated or minced	delicatessen meat and similar	132.0	18.0	1.6	5.9
+28960	Knuckle of ham, cooked	delicatessen meat and similar	162.0	23.2	0.4	7.5
+28963	Chicken cooked ham, in slices	delicatessen meat and similar	106.0	20.7	1.4	1.8
+28964	Turkey cooked ham, in slices	delicatessen meat and similar	104.0	20.9	1.3	1.7
+28800	Cured ham, raw	delicatessen meat and similar	225.0	25.9	0.8	13.2
+28801	Cured ham, raw, smoked	delicatessen meat and similar	246.0	24.2	1.0	16.1
+28802	Dry-cured ham, fat and rind removed	delicatessen meat and similar	192.0	26.3	0.3	9.5
+28804	Cured ham, raw, smoked, reduced fat	delicatessen meat and similar	142.0	27.7	0.1	3.4
+28811	Bayonne Cured ham, raw, smoked	delicatessen meat and similar	228.0	28.0	0.6	12.6
+28812	Dry-cured ham	delicatessen meat and similar	230.0	28.7	0.5	12.6
+28844	Parma dry-cured ham	delicatessen meat and similar	248.0	27.2	0.3	15.4
+28845	Serrano dry-cured ham	delicatessen meat and similar	235.0	30.4	0.8	12.3
+28850	Coppa	delicatessen meat and similar	284.0	25.0	1.0	20.0
+28858	Pancetta, dried	delicatessen meat and similar	342.0	20.2	0.8	28.8
+30300	Dry sausage	delicatessen meat and similar	418.0	24.2	2.4	34.5
+30301	Dry sausage, pure pork	delicatessen meat and similar	417.0	28.7	1.8	32.3
+30302	Dry sausage, pure pork, superior quality	delicatessen meat and similar	366.0	27.7	1.6	27.6
+30304	Rosette dry sausage	delicatessen meat and similar	380.0	24.2	1.8	30.7
+30309	Sausage, dried	delicatessen meat and similar	451.0	27.3	1.7	37.1
+30311	Dry sausage w walnuts and/or hazelnuts	delicatessen meat and similar	477.0	27.7	1.8	39.7
+30005	Chipolata sausage, cooked	delicatessen meat and similar	282.0	18.8	0.8	22.4
+30011	Toulouse sausage, cooked	delicatessen meat and similar	274.0	18.8	0.0	22.1
+30050	Sausage meat, raw	delicatessen meat and similar	323.0	14.7	0.6	29.1
+30051	Sausage meat, pure pork, raw	delicatessen meat and similar	273.0	15.4	5.2	21.2
+30052	Sausage meat, pork and beef, raw	delicatessen meat and similar	309.0	11.8	4.4	26.5
+30104	Morteaux sausage	delicatessen meat and similar	397.0	16.0	1.0	36.6
+30105	Montbeliard sausage	delicatessen meat and similar	319.0	17.3	1.0	27.3
+30108	Morteaux sausage, boiled/cooked in water	delicatessen meat and similar	323.0	15.2	0.0	29.1
+30110	Toulouse sausage, raw	delicatessen meat and similar	327.0	13.2	1.0	30.0
+30115	Chipolata slim sausage, raw	delicatessen meat and similar	253.0	15.8	1.0	20.6
+30130	Poultry sausage, delicatessen style	delicatessen meat and similar	231.0	16.8	1.2	17.7
+30131	Poultry sausage	delicatessen meat and similar	236.0	14.0	1.8	18.9
+30134	Frankfurter sausage	delicatessen meat and similar	271.0	13.7	1.2	23.4
+30150	Merguez sausage, raw	delicatessen meat and similar	316.0	13.5	2.5	28.0
+30155	Merguez sausage, beef and mutton, cooked	delicatessen meat and similar	283.0	19.8	1.8	21.8
+30156	Merguez sausage, beef and mutton, raw	delicatessen meat and similar	315.0	14.0	2.8	27.6
+30176	Liver sausage	delicatessen meat and similar	374.0	11.7	0.9	35.9
+30742	Strasbourg sausage	delicatessen meat and similar	291.0	12.4	1.4	25.9
+30746	Cocktail sausage	delicatessen meat and similar	290.0	12.7	1.5	25.9
+30764	Ham sausage	delicatessen meat and similar	224.0	15.7	1.0	17.5
+30780	Sausage (average)	delicatessen meat and similar	281.0	17.3	0.9	23.0
+8120	Preserved pork liver	delicatessen meat and similar	346.0	16.0	14.1	25.0
+8125	Preserved poultry liver	delicatessen meat and similar	356.0	14.0	7.4	30.0
+8201	Pâté w green pepper	delicatessen meat and similar	358.0	10.1	1.4	34.6
+8211	Country-style pâté or terrine	delicatessen meat and similar	323.0	15.5	1.5	28.2
+8214	Breton pâté	delicatessen meat and similar	363.0	11.0	2.9	34.0
+8232	Duck terrine	delicatessen meat and similar	320.0	13.2	4.4	27.1
+8240	Rabbit pâté	delicatessen meat and similar	247.0	16.3	0.0	20.2
+8242	Rabbit terrine	delicatessen meat and similar	281.0	16.5	5.7	21.2
+8245	Game pâté	delicatessen meat and similar	284.0	15.0	4.0	23.0
+8250	Country-style pâté with mushrooms	delicatessen meat and similar	329.0	12.6	5.9	28.1
+8300	Pork liver pâté, superior quality	delicatessen meat and similar	341.0	13.0	2.4	31.0
+8305	Pork liver pâté	delicatessen meat and similar	355.0	10.8	2.9	33.3
+8312	Pork liver mousse, superior quality	delicatessen meat and similar	322.0	11.1	10.3	26.1
+8313	Pork liver mousse	delicatessen meat and similar	287.0	12.0	3.4	24.9
+8315	Duck mousse	delicatessen meat and similar	395.0	10.1	7.1	36.1
+8316	Poultry liver pâté	delicatessen meat and similar	269.0	13.8	2.0	22.9
+8326	Goose liver pâté	delicatessen meat and similar	459.0	11.4	4.7	43.8
+8332	Paté (average)	delicatessen meat and similar	325.0	13.6	4.6	27.9
+8391	Pâté in crust	delicatessen meat and similar	292.0	11.0	22.9	17.1
+8000	Rillettes, pork	delicatessen meat and similar	390.0	14.3	0.2	36.9
+8001	Rillettes, pure pork	delicatessen meat and similar	414.0	16.7	0.1	38.3
+8010	Rillettes from Tours	delicatessen meat and similar	522.0	18.0	0.0	50.0
+8015	Rillettes from Mans	delicatessen meat and similar	420.0	15.6	4.7	37.6
+8025	Rillettes, pure goose	delicatessen meat and similar	417.0	14.7	0.0	39.8
+8026	Rillettes, duck	delicatessen meat and similar	377.0	15.3	1.0	34.6
+8030	Rillettes, goose	delicatessen meat and similar	364.0	14.9	1.0	33.4
+8040	Rillettes, poultry	delicatessen meat and similar	340.0	16.4	0.5	30.3
+8903	Veal quenelle, in sauce	delicatessen meat and similar	165.0	3.5	15.6	9.5
+8910	Poultry quenelle, raw	delicatessen meat and similar	187.0	9.3	14.1	10.1
+8912	Poultry quenelle, in sauce	delicatessen meat and similar	138.0	3.5	10.3	8.9
+8932	Fish quenelle, in sauce	delicatessen meat and similar	135.0	3.8	10.5	8.5
+8933	Fish quenelle, raw	delicatessen meat and similar	245.0	8.1	23.6	12.7
+8937	Quenelle, plain, raw	delicatessen meat and similar	217.0	7.7	14.8	13.7
+8109	Duck confit (conserved in rendered fat), meat (leg) without skin, reheated	delicatessen meat and similar	195.0	32.0	0.0	7.4
+8110	Preserved duck	delicatessen meat and similar	273.0	25.7	0.1	18.8
+8111	Duck breast fillet, smoked	delicatessen meat and similar	364.0	21.9	0.6	30.5
+8321	Foie gras, duck's liver, whole, cooked	delicatessen meat and similar	535.0	8.4	2.3	54.6
+8323	Foie gras, duck's liver, without pieces	delicatessen meat and similar	482.0	5.8	2.1	50.0
+8324	Foie gras, duck's liver, 30% pieces	delicatessen meat and similar	489.0	6.9	2.4	50.1
+8325	Foie gras, duck's liver, 50% pieces	delicatessen meat and similar	479.0	6.4	2.0	49.5
+8328	Foie gras, duck, raw	delicatessen meat and similar	600.0	5.9	1.4	63.4
+8331	Foie gras, block (average)	delicatessen meat and similar	489.0	6.9	2.4	50.1
+8350	Galantine (average)	delicatessen meat and similar	279.0	15.2	1.6	23.4
+8373	Rolled escalope of pork with pistachios	delicatessen meat and similar	258.0	17.7	0.7	20.2
+8395	Ham, in a pastry crusty	delicatessen meat and similar	193.0	14.1	17.8	7.0
+8400	Head-cheese pâté or brawn	delicatessen meat and similar	173.0	14.1	0.2	12.9
+8406	Pork snout in salad dressing sauce	delicatessen meat and similar	185.0	8.2	1.0	16.3
+8450	Ox muzzle	delicatessen meat and similar	151.0	26.2	0.0	5.2
+8500	Chitterling sausage	delicatessen meat and similar	211.0	18.4	0.3	15.1
+8501	Chitterling sausage from Guéméné	delicatessen meat and similar	234.0	18.0	0.0	18.0
+8504	Chitterling sausage, pan-reheated	delicatessen meat and similar	271.0	22.5	0.0	20.0
+8512	Chitterling sausage from Vire	delicatessen meat and similar	238.0	19.0	0.0	18.0
+8550	Chitterling sausage, raw	delicatessen meat and similar	227.0	18.8	1.0	16.3
+8551	Chitterling sausage, sautéed/pan-fried	delicatessen meat and similar	303.0	24.5	1.0	22.3
+8552	Chitterling sausage from Troyes, raw	delicatessen meat and similar	254.0	19.7	0.5	19.0
+8703	Black pudding (blood sausage), refrigerated	delicatessen meat and similar	313.0	12.2	4.5	27.1
+8704	Black pudding (blood sausage), sautéed/pan-fried	delicatessen meat and similar	246.0	11.9	3.8	20.3
+8705	Black or white pudding (blood sausage), sautéed (average)	delicatessen meat and similar	246.0	11.3	4.0	19.4
+8803	White pudding, truffled, raw	delicatessen meat and similar	227.0	11.3	4.8	17.8
+25610	Ox muzzle in salad dressing sauce	delicatessen meat and similar	167.0	11.3	1.0	13.1
+28501	Lardoons, raw	delicatessen meat and similar	270.0	16.6	1.0	22.1
+28502	Pork belly, smoked, raw	delicatessen meat and similar	303.0	15.6	0.8	26.1
+28503	Bresaola	delicatessen meat and similar	165.0	31.6	0.0	4.3
+28504	Lardoons, cooked	delicatessen meat and similar	324.0	23.8	2.0	24.5
+28505	Corned-beef, canned	delicatessen meat and similar	188.0	23.1	0.05	10.5
+28530	Pork ear sat-cured	delicatessen meat and similar	228.0	22.5	0.6	15.1
+28540	Pork trotters salt-cured	delicatessen meat and similar	137.0	11.6	0.0	10.0
+28550	Pork belly salt-cured	delicatessen meat and similar	268.0	16.8	0.8	22.0
+28720	Smoked lardoons, raw	delicatessen meat and similar	275.0	16.7	1.0	22.6
+28725	Smoked lardoons, cooked	delicatessen meat and similar	261.0	14.7	0.8	22.1
+28860	Viande des Grisons or Bündnerfleisch or dried beef meat	delicatessen meat and similar	209.0	38.9	1.0	5.5
+28927	Poultry, minced meat	delicatessen meat and similar	137.0	17.7	3.5	5.7
+28976	Salt curing roast poultry, cooked	delicatessen meat and similar	110.0	22.0	1.3	1.7
+30315	Spicy pork sausage with red pepper, no precision	delicatessen meat and similar	433.0	23.5	3.0	36.1
+30316	Dry spicy pork sausage with red pepper	delicatessen meat and similar	476.0	20.9	2.6	41.9
+30317	Spicy pork sausage with red pepper, in large slices	delicatessen meat and similar	322.0	22.6	2.1	23.9
+30350	Salami	delicatessen meat and similar	451.0	17.7	1.1	41.8
+30351	Salami, pure pork	delicatessen meat and similar	400.0	22.6	1.6	33.7
+30352	Salami, pork and beef	delicatessen meat and similar	351.0	21.5	1.6	28.8
+30366	Salami, Danish-style	delicatessen meat and similar	459.0	17.0	1.4	42.9
+30700	Garlic sausage	delicatessen meat and similar	280.0	15.0	1.6	23.6
+30701	Cooked sausage, pure pork	delicatessen meat and similar	322.0	13.8	1.3	29.0
+30705	Sausage from Paris	delicatessen meat and similar	346.0	12.5	0.6	32.7
+30706	Sausage from Paris, smoked	delicatessen meat and similar	288.0	13.7	0.6	25.6
+30707	Sausage in a brioche crust, cooked	delicatessen meat and similar	309.0	14.7	22.6	17.4
+30730	Saveloy or cervelat	delicatessen meat and similar	278.0	11.9	1.6	24.8
+30731	Saveloy or cervelat (from Obernai Alsace)	delicatessen meat and similar	305.0	13.0	1.0	27.5
+30732	Saveloy or cervelat, pure pork with garlic	delicatessen meat and similar	297.0	12.5	0.2	27.4
+30789	Mortadella	delicatessen meat and similar	305.0	15.0	1.4	26.7
+30790	Mortadella, pure pork	delicatessen meat and similar	298.0	14.8	1.6	25.8
+30791	Pork and beef mortadella	delicatessen meat and similar	297.0	16.4	0.7	25.4
+30797	Mortadella with pistachios, pure pork	delicatessen meat and similar	320.0	14.4	1.2	28.2
+1030	Plant-based ham, prepacked	delicatessen meat and similar	242.0	29.7	4.1	11.1
+1031	Plant-based pâté, prepacked	delicatessen meat and similar	197.0	3.6	9.4	15.4
+20337	Plant-based sausage with tofu (vegan)	delicatessen meat and similar	231.0	13.4	5.7	16.3
+20338	Plant-based sausage with tofu (not vegan)	delicatessen meat and similar	136.0	11.0	5.0	7.2
+25232	Plant-based sausage with wheat or seitan	delicatessen meat and similar	250.0	27.1	7.5	10.5
+25089	Veal escalope cordon bleu (topped with a ham slice and Gruyere sauce), prepacked	other meat products	226.0	14.0	14.6	12.2
+25163	Beef, meat balls, cooked	other meat products	217.0	18.5	5.7	13.3
+25173	Veal, bread escalope, cooked	other meat products	271.0	22.9	12.6	14.1
+25186	Meat balls, pork and beef, (Swedish-style), prepacked	other meat products	260.0	14.4	7.8	18.6
+25194	Meat balls, beef and lamb (kefta type), prepacked, raw	other meat products	247.0	15.7	9.5	15.7
+25504	Poultry on skewer	other meat products	195.0	18.6	0.8	13.0
+25505	Beef on skewer	other meat products	191.0	17.1	1.0	12.9
+25506	Mixed meat on skewer	other meat products	208.0	19.7	1.0	13.8
+25512	Poultry nuggets	other meat products	239.0	13.1	16.2	13.2
+25541	Lamb on skewer	other meat products	112.0	12.6	2.5	5.1
+25566	Pork on skewer, raw	other meat products	131.0	15.6	2.1	6.5
+36027	Chicken, nugget, breaded croquette	other meat products	250.0	15.6	19.4	11.6
+36035	Chicken, marinated wing, roasted/baked	other meat products	213.0	22.4	2.1	12.6
+36036	Turkey, breaded escalope	other meat products	339.0	7.2	21.7	24.0
+36318	Milanese-style turkey escalope or breaded veal escalope	other meat products	211.0	14.1	13.5	10.9
+25996	Salmon, cooked (average)	fish, cooked	205.0	23.0	0.0	12.5
+25997	Cod, cooked (average)	fish, cooked	98.9	23.1	0.0	0.7
+25998	Atlantic herring, smoked, fillet	fish, cooked	162.0	18.1	0.0	9.9
+26003	European plaice, steamed	fish, cooked	93.0	19.0	0.0	1.9
+26008	Haddock, steamed	fish, cooked	89.0	20.9	0.0	0.6
+26012	Atlantic herring, fried	fish, cooked	201.0	23.0	0.0	12.1
+26013	Atlantic herring, smoked, plain	fish, cooked	173.0	16.5	0.5	11.7
+26014	Atlantic herring, grilled/pan-fried	fish, cooked	189.0	21.6	0.0	11.4
+26015	Saithe, cooked	fish, cooked	99.7	23.1	0.0	0.8
+26017	Lemon sole, steamed	fish, cooked	90.1	17.4	0.0	2.3
+26019	Mackerel, roasted/baked	fish, cooked	228.0	21.5	0.0	15.8
+26020	Mackerel, fried	fish, cooked	186.0	23.6	0.0	10.2
+26021	Whiting, fried	fish, cooked	125.0	23.1	0.0	3.6
+26022	Whiting, steamed	fish, cooked	98.3	23.0	0.0	0.7
+26023	Cod, roasted/baked	fish, cooked	94.6	22.3	0.0	0.6
+26024	Cod, salted, boiled/cooked in water	fish, cooked	113.0	26.0	0.0	1.0
+26025	Cod, steamed	fish, cooked	106.0	24.5	0.0	0.9
+26026	Mullet, roasted/baked	fish, cooked	143.0	24.8	0.0	4.9
+26031	Ray, roasted/baked	fish, cooked	96.3	23.0	0.0	0.5
+26033	Nursehound or lesser spotted dogfish, cooked	fish, cooked	256.0	25.4	0.0	17.2
+26037	Salmon, smoked	fish, cooked	178.0	22.0	0.9	9.5
+26038	Salmon, steamed	fish, cooked	195.0	23.0	0.0	11.5
+26041	Tuna, roasted/baked	fish, cooked	136.0	29.9	0.0	1.8
+26059	Common sole, steamed	fish, cooked	94.6	20.3	0.0	1.5
+26060	Common sole, roasted/baked	fish, cooked	78.2	15.7	0.0	1.7
+26061	Common sole, boiled/cooked in water	fish, cooked	69.0	15.0	0.0	1.0
+26062	Common sole, fried	fish, cooked	72.2	15.8	0.0	1.0
+26073	Ray, cooked in an aromatic stock	fish, cooked	97.8	23.2	0.0	0.6
+26081	Anglerfish, grilled	fish, cooked	98.2	23.0	0.0	0.7
+26087	Mackerel, smoked	fish, cooked	294.0	18.8	0.0	24.3
+26090	Haddock, smoked	fish, cooked	97.0	22.6	0.0	0.7
+26093	Swordfish, roasted/baked	fish, cooked	266.0	28.7	0.0	16.9
+26094	Turbot, roasted/baked	fish, cooked	118.0	21.3	0.0	3.6
+26120	European hake, braised	fish, cooked	112.0	21.2	0.0	3.0
+26126	Haddock, grilled/pan-fried	fish, cooked	84.9	20.0	0.0	0.6
+26136	European pilchard or sardine, grilled	fish, cooked	194.0	25.1	0.0	10.4
+26147	Snapper, cooked	fish, cooked	121.0	26.3	0.0	1.7
+26148	Spiny scorpionfish, steamed	fish, cooked	126.0	24.6	0.0	3.1
+26152	Alaska pollock, smoked	fish, cooked	81.3	18.3	0.0	0.9
+26192	Pollock, cooked	fish, cooked	100.0	24.4	0.0	0.25
+26211	Salmon, microwaved, farmed	fish, cooked	200.0	24.2	0.0	11.4
+26217	Salmon, boiled/cooked in water, farmed	fish, cooked	193.0	25.0	0.0	10.3
+26222	Black seabream, roasted/baked	fish, cooked	121.0	22.9	0.0	3.3
+26229	Salmon, grilled/pan-fried	fish, cooked	223.0	25.5	0.0	13.5
+26230	Salmon, farmed, roasted/baked	fish, cooked	210.0	22.1	0.0	13.5
+26232	Atlantic herring, smoked, in oil	fish, cooked	168.0	15.1	2.0	11.0
+26234	Ling, cooked	fish, cooked	105.0	24.5	0.0	0.8
+26247	Greenland halibut, steamed	fish, cooked	173.0	17.3	0.0	11.6
+26248	Common sole, grilled	fish, cooked	96.7	23.6	0.0	0.25
+26999	Eel, cooked (average)	fish, cooked	213.0	22.1	0.0	13.8
+27000	Eel, roasted/baked	fish, cooked	229.0	23.6	0.0	15.0
+27001	Eel, boiled/cooked in water	fish, cooked	197.0	20.5	0.0	12.7
+27002	Northern pike, roasted/baked	fish, cooked	100.0	23.1	0.0	0.9
+27004	Carp, roasted/baked	fish, cooked	151.0	21.6	0.0	7.2
+27005	European perch, roasted/baked	fish, cooked	119.0	22.1	0.0	3.4
+27006	Trout, roasted/baked	fish, cooked	183.0	26.6	0.0	8.5
+27007	Trout, steamed	fish, cooked	99.4	19.0	0.0	2.6
+27014	Rainbow trout, farmed, roasted/baked	fish, cooked	143.0	21.5	0.0	6.3
+27015	Rainbow trout, farmed, steamed	fish, cooked	117.0	20.0	0.0	4.1
+27018	Pangasius, filets, cooked	fish, cooked	79.0	17.5	0.0	1.0
+27029	Trout, farmed, smoked	fish, cooked	180.0	23.4	0.7	9.3
+27030	European bass, roasted/baked	fish, cooked	147.0	22.2	0.0	6.5
+27031	Gilthead seabream, roasted/baked	fish, cooked	148.0	23.6	0.0	5.9
+26001	American bass, raw	fish, raw	113.0	20.3	0.0	3.6
+26006	Alaska pollock, raw	fish, raw	70.8	16.3	0.0	0.6
+26009	Atlantic halibut, raw	fish, raw	96.5	21.2	0.0	1.3
+26011	Atlantic herring, raw	fish, raw	176.0	17.7	0.0	11.7
+26018	Anglerfish, raw	fish, raw	67.2	15.1	0.0	0.7
+26036	Salmon, raw, farmed	fish, raw	194.0	20.5	0.0	12.4
+26042	Turbot, raw, wild	fish, raw	91.5	17.2	0.0	2.5
+26043	Cod, raw	fish, raw	77.6	18.1	0.0	0.6
+26044	European hake, raw	fish, raw	82.6	17.6	0.0	1.4
+26047	Saithe, frozen, raw	fish, raw	82.4	19.8	0.0	0.4
+26048	Hake, fillet, frozen, raw	fish, raw	82.0	15.1	0.0	2.4
+26051	Mackerel, raw	fish, raw	194.0	18.1	0.0	13.5
+26052	Ray, raw	fish, raw	89.9	21.4	0.0	0.5
+26053	Tuna, raw	fish, raw	144.0	24.0	0.0	5.4
+26055	European plaice, raw	fish, raw	88.6	20.0	0.0	0.9
+26057	Common dab, raw	fish, raw	80.8	18.3	0.0	0.8
+26058	Common sole, raw	fish, raw	77.3	18.0	0.0	0.6
+26063	Spiny scorpionfish, raw	fish, raw	87.6	18.9	0.0	1.3
+26064	Yellowfin tuna, raw	fish, raw	108.0	25.0	0.0	0.9
+26065	European pilchard or sardine, raw	fish, raw	163.0	19.5	0.0	9.5
+26068	Skipjack tuna, raw	fish, raw	97.1	22.0	0.0	1.0
+26069	Atlantic bluefin tuna, raw	fish, raw	155.0	23.3	0.0	6.8
+26072	European bass, raw	fish, raw	82.5	19.1	0.0	0.7
+26074	Nursehound or lesser spotted dogfish, raw	fish, raw	97.8	23.3	0.0	0.5
+26075	Atlantic bass, raw	fish, raw	89.9	16.6	0.0	2.6
+26076	Albacore, raw	fish, raw	121.0	27.2	0.0	1.4
+26079	Common anchovy, raw	fish, raw	129.0	18.6	0.0	6.1
+26080	Gilthead seabream, raw, wild	fish, raw	93.2	18.1	0.0	2.3
+26082	Swordfish, raw	fish, raw	130.0	18.9	0.0	6.0
+26083	Pond smelt, raw	fish, raw	85.4	17.5	0.0	1.7
+26084	Megrim, raw	fish, raw	93.4	19.9	0.0	1.5
+26085	Surmullet or red mullet, raw	fish, raw	158.0	18.4	0.0	9.4
+26088	Gilthead seabream, raw, farmed	fish, raw	129.0	20.9	0.0	5.1
+26091	Mullet, raw	fish, raw	113.0	20.1	0.0	3.6
+26092	Sea trout, raw	fish, raw	111.0	19.6	0.0	3.6
+26095	Whiting, raw	fish, raw	79.3	18.8	0.0	0.5
+26098	Cod, salted, dried	fish, raw	206.0	47.6	0.0	1.7
+26099	Black seabream, raw	fish, raw	130.0	20.5	0.0	5.3
+26100	Bogue, raw	fish, raw	90.0	17.9	0.0	2.0
+26101	Bonito, raw	fish, raw	161.0	22.3	0.0	8.0
+26102	Atlantic chub mackerel, raw	fish, raw	135.0	22.1	0.0	5.2
+26103	Common dentex, raw	fish, raw	99.3	17.0	0.0	3.5
+26104	John dory, raw	fish, raw	86.7	19.9	0.0	0.8
+26106	Red gurnard, raw	fish, raw	94.0	19.0	0.0	2.0
+26107	Brown meagre, raw	fish, raw	87.2	20.0	0.0	0.8
+26108	Capelin, raw	fish, raw	90.0	18.7	0.0	1.7
+26109	Blackspot seabream, raw	fish, raw	102.0	21.0	0.0	2.0
+26110	Surmullet or red mullet, steamed	fish, raw	143.0	24.1	0.0	5.2
+26111	Salema, raw	fish, raw	94.5	18.0	0.0	2.5
+26113	Horse mackerel, raw	fish, raw	116.0	19.0	0.0	4.4
+26122	Haddock, raw	fish, raw	72.3	17.3	0.0	0.3
+26127	Conger, raw	fish, raw	115.0	18.3	0.0	4.6
+26128	Roundnose grenadier, raw	fish, raw	68.9	15.4	0.0	0.8
+26129	Pollack, raw	fish, raw	75.5	17.7	0.0	0.5
+26130	Ling, raw	fish, raw	80.8	19.2	0.0	0.4
+26133	Pouting, raw	fish, raw	81.6	19.7	0.0	0.3
+26134	Saithe, raw	fish, raw	82.5	18.8	0.0	0.8
+26135	Lemon sole, raw	fish, raw	80.6	17.0	0.0	1.4
+26141	Cod liver, raw	fish, raw	619.0	5.0	0.0	66.6
+26146	Snapper, raw	fish, raw	94.1	20.5	0.0	1.3
+26153	Largehead hairtail, raw	fish, raw	125.0	18.0	0.0	5.9
+26154	Greenland halibut, raw	fish, raw	168.0	13.5	0.0	12.7
+26157	Crevalle jack, raw	fish, raw	104.0	19.9	0.0	2.7
+26159	Bigeye scad, raw	fish, raw	70.9	17.5	0.0	0.1
+26161	Salmon, raw, wild	fish, raw	166.0	21.0	0.0	9.2
+26162	Shark, raw	fish, raw	109.0	20.8	0.0	2.9
+26166	Garfish, raw	fish, raw	133.0	20.0	0.0	5.9
+26168	Lump fish, raw	fish, raw	168.0	10.0	0.0	14.2
+26170	Freshwater bream, raw	fish, raw	104.0	16.9	0.0	4.0
+26171	Arctic char, raw	fish, raw	103.0	19.8	0.0	2.7
+26172	Spotted wolffish	fish, raw	108.0	16.3	0.0	4.8
+26173	European sprat, raw	fish, raw	186.0	19.8	0.0	11.9
+26174	Turbot, raw	fish, raw	85.5	17.9	0.0	1.6
+26175	European whitefish, raw	fish, raw	115.0	20.5	0.0	3.7
+26178	Grouper, raw	fish, raw	82.3	18.6	0.0	0.9
+26194	Blue ling, raw	fish, raw	79.6	18.9	0.0	0.4
+26200	Tonguesole, raw	fish, raw	68.2	15.7	0.0	0.6
+26201	Turbot, raw, farmed	fish, raw	109.0	18.3	0.0	3.9
+26205	Mediterranean bass, raw, wild	fish, raw	97.9	20.1	0.0	1.9
+26206	Mediterranean bass, raw, farmed	fish, raw	124.0	21.4	0.0	4.2
+26208	Anglerfish (Lophius budegassa), raw	fish, raw	70.2	16.7	0.0	0.4
+26210	Golden redfish, raw	fish, raw	89.5	18.8	0.0	1.6
+26213	Grenadier, from any fishing spot, raw	fish, raw	92.3	17.8	0.0	2.4
+26214	Blue grenadier, raw	fish, raw	75.5	15.6	0.0	1.5
+26219	Tub gurnard, raw	fish, raw	97.4	20.3	0.0	1.8
+26233	Shallow-water Cape hake, raw	fish, raw	78.0	16.1	0.0	1.5
+26235	Horse mackerel, lean (spring, summer), raw	fish, raw	96.7	18.7	0.0	2.4
+26236	Horse mackerel, oily (autumn, winter), raw	fish, raw	147.0	19.6	0.0	7.7
+26237	Atlantic herring, lean, raw	fish, raw	111.0	18.3	0.0	4.2
+26238	Atlantic herring, oily, raw	fish, raw	172.0	18.7	0.0	10.8
+26240	Big-scale sand smelt (whole small fish), to fry, raw	fish, raw	88.9	17.5	0.0	2.1
+26241	Blue shark, fillet, without skin, raw	fish, raw	73.5	15.0	0.0	1.5
+26244	Surmullet or red mullet, fillet with skin, frozen, raw (from Thailand or Senegal)	fish, raw	96.7	16.3	0.0	3.5
+27003	Carp, raw, farmed	fish, raw	114.0	17.7	0.0	4.8
+27008	Trout, farmed, raw	fish, raw	133.0	19.3	0.0	6.2
+27009	Rainbow trout, raw, farmed	fish, raw	132.0	19.0	0.0	6.2
+27010	European perch, raw	fish, raw	82.2	17.9	0.0	1.2
+27011	Northern pike, raw	fish, raw	83.7	18.8	0.0	0.9
+27012	Sturgeon, raw	fish, raw	123.0	17.7	0.0	5.8
+27016	Eel, raw	fish, raw	232.0	16.1	0.0	18.6
+27017	Brown bullhead, raw	fish, raw	65.2	13.5	0.0	1.3
+27019	Tilapia, raw	fish, raw	91.6	18.1	0.0	2.1
+27021	Salmon trout, raw	fish, raw	143.0	19.2	0.0	7.4
+27023	Burbot, raw	fish, raw	77.0	17.8	0.0	0.7
+27024	Pike-perch, raw	fish, raw	82.9	18.3	0.0	1.1
+27025	Nile perch, raw	fish, raw	82.4	19.1	0.0	0.7
+10004	Scallop, with coral, cooked	seafood, cooked	110.0	20.2	3.2	1.8
+10006	Shrimp, cooked	seafood, cooked	89.9	18.3	1.5	1.2
+10007	Shrimp or prawn, cooked	seafood, cooked	93.8	19.0	1.9	1.2
+10009	Lobster, boiled/cooked in water	seafood, cooked	90.9	19.6	0.1	1.3
+10013	Mussel, boiled/cooked in water	seafood, cooked	108.0	17.2	5.1	2.1
+10020	Whelk, cooked	seafood, cooked	97.7	20.7	2.7	0.5
+10022	Spiny lobster, boiled/cooked in water	seafood, cooked	106.0	21.8	1.3	1.5
+10025	Crab, boiled/cooked in water	seafood, cooked	124.0	19.5	1.8	4.3
+10027	Clam, boiled/cooked in water	seafood, cooked	99.2	16.2	5.3	1.5
+10031	Crayfish, cooked	seafood, cooked	73.5	16.3	0.6	0.7
+10037	Squid, boiled/cooked in water	seafood, cooked	149.0	32.5	1.6	1.4
+10043	Crustacean or mollusk (average)	seafood, cooked	104.0	18.9	3.1	1.8
+10079	Octopus, common, cooked	seafood, cooked	156.0	29.8	4.4	2.1
+10080	Seafood, cooked, frozen	seafood, cooked	79.5	13.5	2.8	1.6
+10084	Squid, fried or pan-fried with fat	seafood, cooked	173.0	17.9	8.4	7.5
+10099	Snail, without added fat, cooked	seafood, cooked	80.0	16.6	0.2	1.4
+10001	Squid, raw	seafood, raw	77.0	14.4	2.2	1.2
+10003	Scallop, with coral, raw	seafood, raw	83.0	17.0	0.8	1.3
+10008	Snail, raw	seafood, raw	77.9	16.1	1.3	0.9
+10010	Lobster, raw	seafood, raw	85.5	17.9	0.9	1.1
+10011	Oyster, raw	seafood, raw	67.2	8.6	3.9	1.9
+10014	Mussel, common, raw	seafood, raw	71.8	11.2	2.7	1.8
+10015	Spiny lobster, raw	seafood, raw	86.9	17.7	1.1	1.3
+10016	Cuttlefish, raw	seafood, raw	76.3	16.2	0.5	1.1
+10017	Clam, raw	seafood, raw	80.5	11.5	2.7	2.6
+10018	Octopus, common, raw	seafood, raw	60.1	12.9	1.0	0.5
+10019	Whelk, raw	seafood, raw	131.0	23.8	7.6	0.6
+10021	Shrimp or prawn, raw	seafood, raw	99.0	19.7	3.2	0.8
+10024	Norway lobster, raw	seafood, raw	89.8	19.1	1.5	0.8
+10026	Mediterranean mussel, raw	seafood, raw	68.7	10.7	2.8	1.7
+10030	Crayfish, raw	seafood, raw	68.3	14.8	0.8	0.6
+10035	Pacific oyster, raw	seafood, raw	67.2	8.6	3.9	1.9
+10036	European oyster, raw	seafood, raw	53.5	10.2	1.2	0.9
+10038	Shrimp, frozen, raw	seafood, raw	105.0	23.4	0.7	0.9
+10039	Crab, raw	seafood, raw	104.0	19.5	0.0	2.9
+10041	Abalone or ormer or sea ear, raw	seafood, raw	99.6	14.4	8.7	0.8
+10045	Scallop, without coral, raw	seafood, raw	83.6	17.9	1.1	0.8
+10048	American or Canadian sea scallop, without coral, raw	seafood, raw	81.3	17.3	1.8	0.5
+10049	Peru sea scallop, without coral, raw	seafood, raw	88.7	17.5	3.1	0.7
+10059	deep water pink shrimp, raw	seafood, raw	92.3	21.9	0.0	0.5
+34500	Frog, leg, raw	seafood, raw	70.0	16.2	0.7	0.3
+8059	Rillettes, crab, prepacked	fish products	192.0	12.2	3.5	13.6
+8080	Rillette, fish, prepacked	fish products	243.0	13.9	0.3	20.7
+8081	Rillettes, salmon, prepacked	fish products	237.0	15.1	2.0	18.4
+8082	Rillettes, tuna, prepacked	fish products	199.0	16.4	1.6	13.8
+8083	Rillettes, mackerel, prepacked	fish products	246.0	11.0	1.0	22.0
+8291	Fish terrine, prepacked	fish products	171.0	11.0	5.5	11.4
+8292	Seafood terrine, with or without fish, prepacked	fish products	188.0	8.4	6.5	14.0
+8293	Taramasalata, prepacked	fish products	534.0	6.8	3.2	54.8
+10002	Squid fritter, Roman-style	fish products	252.0	8.7	21.2	14.4
+10005	Flaked crab and/or decorticated crab leg, canned, drained	fish products	111.0	14.8	8.7	1.8
+10012	Scampi, breaded, fried	fish products	282.0	10.9	29.0	13.6
+10023	Shrimp fritters	fish products	222.0	6.5	26.0	10.0
+10028	Mussel, canned, drained	fish products	102.0	14.6	5.9	2.2
+10042	Snail in parsley butter, prepacked, cooked	fish products	277.0	12.9	2.3	23.7
+10081	Mussels, in Catalan-style sauce or marinade (tomatoes), canned, drained	fish products	145.0	12.5	5.0	7.9
+25433	Caribbean-style fish fritters, fish acras	fish products	275.0	12.4	15.1	17.6
+25537	Salmon carpaccio, w marinade	fish products	194.0	19.8	0.2	12.7
+25995	Mackerel, grilled filet, canned, plain, drained	fish products	246.0	19.7	0.6	18.3
+25999	Anchovy, fillets, rolled with capers, semi-preserved, drained	fish products	198.0	24.8	1.5	10.3
+26000	Anchovy, fillets, in oil, semi-preserved, drained	fish products	182.0	26.4	0.1	8.4
+26002	European plaice, breaded, fried	fish products	242.0	13.4	8.9	16.8
+26004	Lump roe, semi-preserved	fish products	111.0	10.4	1.0	7.3
+26005	Caviar, semi-preserved	fish products	254.0	25.0	0.0	17.1
+26010	Atlantic herring, marinated, or rollmops	fish products	211.0	13.7	8.0	13.8
+26016	Lemon sole, breaded, fried	fish products	206.0	16.7	11.9	10.2
+26027	Pilchard, in tomato sauce, canned, drained	fish products	167.0	13.0	4.0	11.0
+26028	Fish, croquette, fritter or nuggets, fried	fish products	255.0	13.2	18.4	13.7
+26029	Fish, breaded, frozen, raw	fish products	162.0	11.0	16.1	5.7
+26030	Fish, breaded, fried	fish products	193.0	11.9	13.4	10.0
+26034	European pilchard or sardine, in oil, canned, drained	fish products	207.0	24.4	0.5	12.0
+26035	European pilchard or sardine, in tomato sauce, canned, drained	fish products	193.0	20.2	1.4	11.6
+26039	Tuna, plain, canned, drained	fish products	111.0	26.8	0.0	0.4
+26040	European pilchard or sardine, in olive oil, canned, drained	fish products	202.0	24.3	1.1	11.2
+26046	Surimi, on sticks, in slices or grated, crab flavour	fish products	125.0	8.3	11.8	4.9
+26056	Cod roe, smoked, semi-preserved	fish products	146.0	26.9	0.1	4.2
+26077	Albacore, steamed under pressure	fish products	165.0	30.0	0.0	5.1
+26086	Mackerel, fillet, in tomato sauce, canned, drained	fish products	227.0	17.7	1.9	16.3
+26096	Mackerel, fillet, in mustard sauce, canned, drained	fish products	217.0	20.8	1.1	14.2
+26097	Mackerel, fillet, in white wine, canned, drained	fish products	207.0	17.8	2.2	14.1
+26119	Salmon, canned, drained	fish products	180.0	20.5	1.5	10.2
+26123	Mackerel, canned in brine, drained	fish products	189.0	21.6	0.0	11.4
+26124	Whiting, breaded	fish products	190.0	12.6	13.0	9.6
+26142	Cod liver, canned, drained	fish products	433.0	7.2	1.1	44.4
+26177	Anchovy, in salt (semi-preserved)	fish products	128.0	25.0	0.0	3.1
+26179	Albacore, in olive oil, canned, drained	fish products	192.0	31.3	1.0	7.0
+26180	Tuna, whole slice, in sunflower oil, canned, drained	fish products	206.0	23.3	0.8	12.2
+26181	Yellowfin tuna, canned in brine, drained	fish products	128.0	26.6	0.6	2.0
+26186	Mackerel, marinated	fish products	185.0	16.3	0.0	13.3
+26187	Common anchovy, marinated, prepacked	fish products	136.0	23.9	2.7	3.3
+26231	European pilchard or sardine, fillets without fishbone, in olive oil, canned, drained	fish products	213.0	21.5	0.6	13.9
+26239	Surimi, filled w cheese	fish products	149.0	6.6	9.2	9.3
+26242	Tuna, flaked, in tomato sauce, canned, drained	fish products	130.0	14.6	4.3	5.9
+26243	Tuna, in Catalan-style or in tomato sauce, canned	fish products	142.0	10.8	5.0	8.6
+26245	Tuna, flaked, in sunflower oil, canned, drained	fish products	227.0	23.4	0.0	14.8
+26275	Salmon roe, semi-preserved	fish products	224.0	30.8	1.5	10.5
+22008	Egg white, cooked	eggs	47.3	10.3	1.1	0.2
+22009	Egg yolk, cooked	eggs	340.0	16.0	1.3	30.1
+22010	Egg, hard-boiled	eggs	134.0	13.5	0.5	8.6
+22011	Egg, poached	eggs	138.0	12.5	0.7	9.5
+22014	Egg, soft-boiled	eggs	142.0	12.2	1.1	9.8
+22501	Egg, fried, salted	eggs	204.0	14.3	0.7	16.0
+22502	Egg, scrambled, with added fat	eggs	145.0	10.0	1.6	11.0
+22505	Egg, fried without added fat	eggs	147.0	13.8	1.0	9.7
+22000	Egg, raw	eggs	140.0	12.7	0.3	9.8
+22001	Egg white, raw	eggs	48.1	10.8	0.8	0.2
+22002	Egg yolk, raw	eggs	307.0	15.5	1.1	26.7
+22050	Quail egg, raw	eggs	154.0	13.1	0.4	11.1
+22060	Duck egg, raw	eggs	181.0	13.0	1.3	13.8
+22070	Goose egg, raw	eggs	180.0	13.8	1.4	13.3
+22080	Turkey egg, raw	eggs	166.0	13.7	1.1	11.9
+22003	Egg yolk, powder	eggs	660.0	34.1	2.8	57.0
+22004	Egg white, powder	eggs	356.0	81.2	7.7	0.0
+22013	Egg, powder	eggs	582.0	47.9	3.1	42.0
+22506	Omelette, with cheese	eggs	255.0	17.7	2.6	19.3
+22507	Omelette, with lardoons	eggs	267.0	12.5	1.5	23.5
+22508	Omelette, with mushrooms	eggs	125.0	8.1	2.3	9.2
+22509	Omelette, with herbs	eggs	147.0	9.5	2.0	11.2
+22510	Spanish-style tortilla with onions (omelette with potatoes and onions), prepacked	eggs	165.0	5.6	11.7	9.9
+22511	Omelette, with vegetables, cheese, meat	eggs	184.0	9.8	5.1	13.5
+20591	Soy protein, textured, rehydrated	meat substitute	150.0	18.6	7.0	2.9
+20904	Tofu, plain	meat substitute	148.0	13.4	2.9	8.5
+20912	Tofu, smoked	meat substitute	164.0	14.9	2.9	9.5
+25223	Soy and wheat burger or bite (vegan)	meat substitute	157.0	19.5	6.8	3.7
+25224	Soy and wheat burger or bite (not vegan)	meat substitute	185.0	17.6	8.2	7.0
+25598	Seitan	meat substitute	134.0	20.6	6.7	2.5
+19023	Milk, whole, UHT	milk	65.1	3.3	4.8	3.6
+19024	Milk, whole, pasteurised	milk	56.5	3.3	3.5	3.3
+19037	Milk, 1,2% fat, vitamin D fortified, UHT	milk	46.6	3.4	4.8	1.5
+19038	Milk, 1,2% fat, multi-vitamin fortified, UHT	milk	44.1	3.4	4.8	1.2
+19039	Milk, fat content unknown, UHT sterilized	milk	47.3	3.4	4.8	1.6
+19041	Milk, semi-skimmed, UHT	milk	47.0	3.4	4.8	1.6
+19042	Milk, semi-skimmed, pasteurised	milk	46.4	3.2	4.9	1.5
+19050	Milk, skimmed, UHT	milk	33.4	3.5	4.6	0.1
+19051	Milk, skimmed, pasteurised	milk	34.5	3.3	5.0	0.2
+19060	Milk, semi-skimmed, reduced lactose	milk	44.4	3.5	4.7	1.3
+19200	Goat milk, whole, UHT	milk	56.1	3.4	4.3	2.8
+19201	Goat milk, half skimmed, UHT pasteurized	milk	45.8	3.8	4.1	1.6
+19202	Goat milk, whole, raw	milk	57.4	3.2	4.0	3.2
+19225	Mare's milk, whole	milk	50.0	2.4	6.2	1.7
+19250	Sheep milk, whole	milk	103.0	5.7	4.5	7.0
+19021	Milk, powder, whole	milk	499.0	27.4	37.5	26.8
+19026	Condensed milk, without sugar, whole	milk	122.0	6.4	9.9	5.9
+19027	Condensed milk, with sugar, whole	milk	323.0	7.7	55.6	7.9
+19044	Milk, powder, semi-skimmed	milk	459.0	31.5	43.4	17.5
+19054	Milk, powder, skimmed	milk	361.0	35.3	54.0	0.7
+19508	Dairy drink or fermented milk or yogurt, flavoured, with sugar	dairy products and similar	73.7	3.0	11.6	1.4
+19535	Dairy drink or fermented milk or yogurt, with fruits, with sugar	dairy products and similar	82.8	3.1	13.1	1.7
+19539	Fermented milk or dairy specialty, yogurt type, flavoured, with sugar, with bifidus	dairy products and similar	94.4	3.8	11.5	3.1
+19542	Fermented milk or dairy specialty, yogurt type, with fruits, with sugar, with bifidus	dairy products and similar	97.2	3.6	13.0	3.0
+19546	Fermented milk or dairy specialty, yogurt type, plain, with bifidus	dairy products and similar	64.5	3.8	3.5	3.6
+19550	Yogurt, Greek-style, ewe's milk	dairy products and similar	69.1	3.8	5.0	3.4
+19553	Yogurt, ewe's milk, flavoured, w sugar	dairy products and similar	93.7	5.0	9.3	3.7
+19556	Yogurt, goat's milk, plain, around 5% fat	dairy products and similar	73.4	4.2	1.1	5.2
+19559	Yogurt, fermented milk or dairy specialty, flavoured, with sweetener, fat free	dairy products and similar	54.5	4.5	8.3	0.1
+19575	Yogurt, fermented milk or dairy specialty, flavoured, with sugar	dairy products and similar	89.1	3.4	12.2	2.6
+19580	Yogurt, fermented milk or dairy specialty, with chocolate shavings, with cream, with sugar	dairy products and similar	122.0	3.5	14.1	5.1
+19581	Yogurt, fermented milk or dairy specialty, with fruits, with sweetener, fat free	dairy products and similar	38.9	4.2	3.7	0.15
+19587	Yogurt, fermented milk or dairy specialty, w fruits, with sugar	dairy products and similar	95.7	3.6	14.2	2.4
+19589	Yogurt, fermented milk or dairy specialty, w fruits, with sugar, with cream	dairy products and similar	109.0	2.4	14.5	4.3
+19593	Yogurt, fermented milk or dairy specialty, plain	dairy products and similar	45.5	4.0	2.6	1.5
+19594	Yogurt, fermented milk or dairy specialty, plain, fat free	dairy products and similar	39.4	4.8	4.1	0.1
+19598	Yogurt, fermented milk or dairy specialty, plain, w cream	dairy products and similar	115.0	3.1	3.1	9.8
+19599	Yogurt, fermented milk or dairy specialty, plain, w sugar	dairy products and similar	84.3	3.5	12.5	1.9
+19600	Yoghurt, plain (average)	dairy products and similar	56.8	3.9	4.7	2.3
+19624	Yoghurt, plain or fruit (average)	dairy products and similar	69.4	3.6	7.5	2.5
+19628	Yoghurt, fruit (average)	dairy products and similar	93.1	3.2	12.8	2.9
+19669	Yoghurt, high in protein, on a fruit layer	dairy products and similar	98.3	7.5	11.5	2.3
+19671	Yogurt, fermented milk or dairy specialty, w fruits or flavoured, 0% fat (average)	dairy products and similar	42.4	4.3	4.9	0.1
+19672	Yogurt, fermented milk or dairy specialty, w fruits or flavoured, no 0% fat (average)	dairy products and similar	93.2	3.2	12.9	2.8
+19675	Yogurt, fermented milk or dairy specialty, w fruits or flavoured, w sweetener (average)	dairy products and similar	42.4	4.3	4.9	0.1
+19676	Yogurt, fermented milk or dairy specialty, w fruits or flavoured, w sugar (average)	dairy products and similar	93.3	3.2	13.0	2.8
+19677	Yogurt, fermented milk or dairy specialty, w fruits or flavoured, w sugar, no 0% fat (average)	dairy products and similar	93.2	3.2	13.0	2.8
+19682	Yogurt, fermented milk or dairy specialty, w fruits or flavoured (average)	dairy products and similar	89.3	3.3	12.4	2.6
+19801	Fermented milk drink, plain, skimmed milk	dairy products and similar	33.6	3.5	2.2	0.6
+19805	Fermented milk drink, plain, whole milk	dairy products and similar	55.7	3.4	2.0	3.2
+19501	Quark, plain or fruit (average)	dairy products and similar	87.7	7.1	5.7	4.3
+19641	Drained soft fresh cheese, around 6% fat	dairy products and similar	84.2	4.5	3.6	5.5
+19644	Fresh cream cheese, plain, fat free	dairy products and similar	49.4	8.0	3.9	0.0
+19646	Fresh cream cheese, plain, around 3% fat	dairy products and similar	76.9	8.0	3.5	3.3
+19649	Fresh cream cheese, plain, creamy, around 8% fat	dairy products and similar	116.0	6.2	5.2	7.7
+19661	Petit-Suisse, fresh cream cheese type, with fruits, 2-3% fat	dairy products and similar	92.7	6.7	9.3	2.8
+19664	Petit-Suisse, fresh cream cheese type, plain, around 4% fat	dairy products and similar	88.8	9.9	2.8	4.0
+19666	Petit-Suisse like fresh cream cheese, plain, around 9% fat	dairy products and similar	149.0	9.7	3.2	10.4
+19667	Petit-Suisse, fresh cream cheese type, flavoured or with fruits, 2-3% fat, fortified with calcium and vitamin D	dairy products and similar	90.4	5.7	10.2	2.5
+19673	Custard dessert, reduced fat, refrigerated	dairy products and similar	79.2	3.6	12.4	1.3
+19674	Flan with eggs, refrigerated	dairy products and similar	111.0	4.1	18.5	2.2
+19679	Milk jelly, flavoured, covered with caramel, refrigerated	dairy products and similar	91.9	2.5	16.7	1.3
+19685	Panna cotta, refrigerated	dairy products and similar	198.0	2.7	14.9	13.0
+23534	Semolina pudding, with raisins and caramel sauce, refrigerated	dairy products and similar	146.0	3.8	24.8	3.4
+23536	Rice pudding w caramel sauce, refrigerated	dairy products and similar	143.0	3.2	25.4	3.1
+39001	Milkshake, from fast foods restaurant	dairy products and similar	126.0	3.4	17.4	4.7
+39200	Custard dessert, chocolate, refrigerated	dairy products and similar	130.0	3.4	19.9	3.9
+39206	Chocolate mousse (milk-based), refrigerated	dairy products and similar	150.0	5.4	21.3	4.4
+39209	Custard cream with caramel sauce, refrigerated	dairy products and similar	132.0	4.5	20.6	3.6
+39211	Custard cream with eggs (a small jar of chocolate or vanilla cream or other flavour), refrigerated	dairy products and similar	176.0	4.3	19.4	8.9
+39212	Rice pudding, refrigerated	dairy products and similar	126.0	3.3	21.4	3.0
+39213	Caramelized custard cream (crème brûlée), refrigerated	dairy products and similar	272.0	4.5	16.6	20.8
+39214	Custard dessert, vanilla, canned	dairy products and similar	132.0	3.7	21.1	3.6
+39215	Floating island (meringue poached in milk and served in a light custard cream), refrigerated	dairy products and similar	129.0	5.0	19.8	3.3
+39218	Semolina pudding, refrigerated	dairy products and similar	121.0	3.5	19.4	3.2
+39228	Fruit mousse, refrigerated	dairy products and similar	53.1	6.2	5.5	0.15
+39229	Custard dessert, vanilla, refrigerated	dairy products and similar	105.0	3.1	14.4	3.6
+39230	Custard dessert, refrigerated (average)	dairy products and similar	133.0	3.4	17.9	5.1
+39235	Mousse (chocolate, coffee, caramel or vanilla) topped with whipped cream, refrigerated	dairy products and similar	186.0	3.6	20.0	10.1
+39246	Custard dessert, coffee, refrigerated	dairy products and similar	116.0	2.9	17.8	3.7
+39247	Custard dessert, caramel, refrigerated	dairy products and similar	117.0	2.9	18.6	3.5
+39505	Custard dessert, canned (average)	dairy products and similar	135.0	3.5	21.4	3.5
+39506	Custard dessert, chocolate, canned	dairy products and similar	138.0	3.2	21.8	3.4
+39511	Custard dessert, refrigerated or canned (average)	dairy products and similar	133.0	3.4	18.0	5.1
+19689	Cheesecake, prepacked	dairy products and similar	330.0	4.6	31.7	20.3
+19698	Tiramisu, prepacked	dairy products and similar	241.0	4.2	30.4	9.8
+19852	Chestnut mousse, prepacked	dairy products and similar	207.0	2.2	34.4	6.5
+23474	Profiteroles (chou pastry), with custard and chocolate sauce, prepacked	dairy products and similar	273.0	5.5	34.3	12.2
+23535	Semolina pudding, canned	dairy products and similar	150.0	2.9	27.4	3.0
+39210	Mousse, chocolate, prepacked	dairy products and similar	303.0	6.5	25.6	18.6
+39216	Fruits batter-pudding, prepacked	dairy products and similar	192.0	5.2	27.2	6.5
+39220	Fruit liegeois, prepacked	dairy products and similar	147.0	1.5	16.0	8.1
+39232	Rice pudding, cake, canned	dairy products and similar	115.0	4.3	20.0	1.9
+39234	Chocolate cake w melting centre, prepacked (refrigerated)	dairy products and similar	364.0	6.9	41.9	18.1
+39236	French toast	dairy products and similar	218.0	6.0	29.0	8.4
+39400	Eggnog, without alcohol	dairy products and similar	87.8	4.5	8.1	4.2
+39710	Pastry cream or custard	dairy products and similar	120.0	3.8	18.0	3.6
+19692	Soy dessert, w fruits, sweet, fortified with calcium, prepacked	dairy products and similar	86.7	2.7	12.9	2.3
+19693	Soy dessert, plain, not fortified, prepacked	dairy products and similar	44.7	3.8	2.0	1.9
+19694	Soy dessert, plain, fortified with calcium, prepacked	dairy products and similar	42.0	3.6	1.1	2.1
+19695	Soy dessert, w fruits, sweet, not fortified, prepacked	dairy products and similar	78.0	3.3	11.0	1.7
+19696	Soy dessert, w almonds, prepacked	dairy products and similar	56.0	3.6	2.9	2.8
+20911	Soy dessert, flavoured, sweet, fortified with calcium, prepacked	dairy products and similar	95.0	3.2	15.3	1.9
+20921	Soy dessert, flavoured, sweet, not fortified, prepacked	dairy products and similar	93.1	2.7	16.0	1.7
+20922	Plant-based dessert (almond, oat, hemp, coconut, rice), flavoured, sweet, not fortified, prepacked	dairy products and similar	148.0	1.7	15.8	8.0
+20923	Plant-based dessert without soybean (coconut, rice), with fruits, sweet, fortified with calcium, prepacked	dairy products and similar	76.6	0.21	16.0	1.0
+39248	Mousse, chocolate, plant-based, prepacked	dairy products and similar	262.0	6.7	24.3	14.0
+12999	Cheese (average)	cheese and similar	338.0	21.8	0.6	27.4
+12001	Camembert cheese, from cow's milk	cheese and similar	280.0	19.5	0.0	22.5
+12003	Soft-ripened cheese with bloomy rind (Camembert-type cheese)	cheese and similar	359.0	17.5	0.0	32.3
+12006	Camembert cheese, from cow's milk, from raw milk	cheese and similar	267.0	20.7	0.0	20.3
+12008	Soft-ripened cheese, double cream, around 30% fatwith bloomy rind	cheese and similar	333.0	17.5	0.0	29.4
+12009	Soft-ripened round cheese with bloomy rind, 5 to 11% fat, Camembert-type cheese, reduced fat	cheese and similar	173.0	22.6	0.0	9.3
+12010	Coulommiers cheese, from cow's milk	cheese and similar	279.0	18.8	0.0	22.8
+12012	Soft-ripened round cheese with bloomy rind, around 11% fat, Coulommiers-type cheese, reduced fat	cheese and similar	187.0	22.5	0.0	11.0
+12013	Soft-ripened round cheese with bloomy rind, around 5% fat, Camembert-type cheese, reduced fat	cheese and similar	150.0	25.7	0.0	5.5
+12020	Brie cheese, from cow's milk	cheese and similar	297.0	17.3	0.0	25.5
+12021	Brie de Meaux cheese, from cow's milk	cheese and similar	271.0	21.4	0.0	20.7
+12022	Brie de Melun cheese, from cow's milk	cheese and similar	288.0	22.0	0.0	22.2
+12025	Carré de l'Est cheese, from cow's milk	cheese and similar	327.0	21.4	0.0	27.0
+12028	Chaource cheese, from cow's milk	cheese and similar	276.0	17.3	0.0	22.9
+12029	Maroilles "laitier" cheese	cheese and similar	338.0	22.3	0.0	27.8
+12030	Maroilles "fermier" cheese	cheese and similar	349.0	21.2	0.0	29.5
+12031	Neufchâtel cheese, from cow's milk	cheese and similar	287.0	18.5	0.0	23.9
+12033	Soft-ripened cheese, triple cream, around 40% fat	cheese and similar	376.0	9.9	0.0	37.5
+12034	Soft-ripened cheese, washed rind (average)	cheese and similar	320.0	20.6	0.0	26.5
+12035	Soft-ripened washed-rind cheese, reduced fat, around 13% fat	cheese and similar	198.0	21.6	0.0	12.6
+12036	Maroilles cheese, from cow's milk	cheese and similar	325.0	21.9	0.0	26.4
+12037	Livarot cheese, from cow's milk	cheese and similar	301.0	24.6	0.0	22.6
+12038	Époisses cheese, from cow's milk	cheese and similar	290.0	17.8	0.0	24.5
+12039	Munster cheese, from cow's milk	cheese and similar	344.0	21.2	0.0	29.0
+12040	Langres cheese, from cow's milk	cheese and similar	281.0	16.7	0.0	23.8
+12042	Pont l'Evêque cheese, from cow's milk	cheese and similar	326.0	22.7	0.0	26.2
+12045	Reblochon cheese, from cow's milk	cheese and similar	326.0	20.4	0.0	27.4
+12047	Soft-ripened washed-rind cheese, from pasteurised milk (Vieux pané-type cheese)	cheese and similar	311.0	20.3	0.0	25.7
+12049	Saint-Marcellin cheese, from cow's milk	cheese and similar	280.0	15.1	0.0	24.3
+12050	Soft -ripened washed, bloomy and coloured rind cheese	cheese and similar	332.0	18.2	0.0	29.0
+12051	Vacherin cheese or Mont d'or cheese, from cow's milk	cheese and similar	302.0	18.9	0.0	25.4
+12052	Saint-Felicien cheese, from cow's milk	cheese and similar	281.0	13.4	0.0	25.2
+12064	Boulette d'Avesnes cheese	cheese and similar	355.0	20.9	0.0	30.0
+12801	Cheese, from goat's milk, from raw milk	cheese and similar	324.0	20.7	0.0	27.0
+12802	Cheese, from goat's milk, from pasteurised milk	cheese and similar	300.0	19.8	0.0	24.7
+12803	Cheese, from goat's milk	cheese and similar	315.0	20.4	0.0	26.2
+12807	Goat cheese from raw milk	cheese and similar	294.0	19.6	0.0	24.2
+12810	Cheese, semi-dry, from goat's milk	cheese and similar	353.0	21.6	0.0	29.8
+12812	Cheese, buche, from goat's milk	cheese and similar	285.0	18.8	0.0	23.3
+12813	Cheese, buche, from goat's milk, light	cheese and similar	179.0	22.6	0.0	10.0
+12814	Soft-ripened cheese, from goat's milk, from pasteurised milk	cheese and similar	279.0	19.3	0.0	22.6
+12815	Cheese, dry, from goat's milk	cheese and similar	440.0	30.5	0.0	35.6
+12820	Soft-ripened cheese with bloomy rind, from goat's milk, Camembert-type cheese	cheese and similar	292.0	19.9	0.0	23.8
+12824	Soft ripened cheese with bloomy rind, from ewe's milk, Camembert-type cheese	cheese and similar	276.0	16.8	0.0	23.3
+12830	Chabichou cheese, from goat's milk	cheese and similar	294.0	20.5	0.0	23.8
+12831	Pélardon cheese, from goat's milk	cheese and similar	343.0	23.8	0.0	27.8
+12832	Crottin cheese, from goat's milk, from raw milk	cheese and similar	384.0	23.2	0.0	32.6
+12833	Crottin cheese, from goat's milk	cheese and similar	340.0	22.4	0.0	28.0
+12834	Crottin de Chavignol cheese, from goat's milk	cheese and similar	296.0	19.7	0.0	24.4
+12836	Picodon cheese, from goat's milk	cheese and similar	315.0	20.7	0.0	26.0
+12839	Pouligny Saint-Pierre cheese, from goat's milk	cheese and similar	294.0	18.9	0.0	24.5
+12842	Sainte Maure cheese, from goat's milk	cheese and similar	357.0	22.1	0.0	30.0
+12845	Selles-sur-Cher cheese, from goat's milk	cheese and similar	291.0	19.2	0.0	23.9
+12846	Chevrot cheese, from goat's milk	cheese and similar	277.0	18.5	0.0	22.8
+12847	Rocamadour cheese, from goat's milk	cheese and similar	274.0	17.9	0.0	22.6
+12848	Valençay cheese, from goat's milk	cheese and similar	306.0	19.3	0.0	25.5
+12500	Roquefort cheese, from ewe's milk	cheese and similar	384.0	19.5	0.0	33.9
+12519	Fourme de Montbrison cheese	cheese and similar	365.0	22.5	0.0	30.8
+12520	Blue cheese, from cow's milk	cheese and similar	333.0	19.9	0.0	28.3
+12521	Auvergne blue cheese, from cow's milk	cheese and similar	343.0	22.4	0.0	28.4
+12522	Fourme d'Ambert cheese, from cow's milk	cheese and similar	326.0	19.9	0.0	27.6
+12523	Causses blue cheese, from cow's milk	cheese and similar	350.0	20.4	0.0	30.0
+12524	Gorgonzola cheese, from cow's milk	cheese and similar	312.0	19.0	0.0	26.4
+12526	Gex blue cheese, or Jura blue cheese or Septmoncel blue cheese, from cow's milk	cheese and similar	364.0	22.5	0.0	30.7
+12527	Bresse blue cheese, from cow's milk	cheese and similar	342.0	17.4	0.0	30.5
+12528	Bresse blue cheese, from cow's milk, reduced fat, around 15% fat	cheese and similar	246.0	27.1	0.0	15.5
+12100	Hard cheese (average)	cheese and similar	390.0	28.0	0.0	30.8
+12105	Beaufort cheese, from cow's milk	cheese and similar	410.0	26.5	0.0	34.0
+12110	Comté cheese, from cow's milk	cheese and similar	418.0	27.2	0.0	34.6
+12112	Abondance cheese, from cow's milk	cheese and similar	393.0	27.1	0.0	31.6
+12113	Gruyere cheese, France, Protected Geographical Indication, from cow's milk	cheese and similar	396.0	27.3	0.0	32.0
+12114	Gruyere cheese, from cow's milk	cheese and similar	423.0	28.4	0.0	34.6
+12115	Emmental cheese, from cow's milk	cheese and similar	373.0	27.9	0.0	28.8
+12116	Hard cheese, emmental-type cheese, reduced fat	cheese and similar	282.0	30.6	0.0	18.0
+12118	Emmental cheese, grated, from cow's milk	cheese and similar	367.0	28.1	0.0	28.6
+12119	Ossau-Iraty cheese, from ewe's milk	cheese and similar	428.0	24.2	0.0	37.0
+12120	Parmesan cheese, from cow's milk	cheese and similar	406.0	31.1	0.0	31.0
+12121	Fontina cheese, from cow's milk	cheese and similar	381.0	25.6	0.0	31.1
+12123	Grana Padano cheese, from cow's milk	cheese and similar	396.0	34.1	0.0	29.2
+12705	Firm cheese, around 14% fat, Maasdam-type cheese, reduced fat	cheese and similar	238.0	29.0	0.0	13.8
+12716	Provolone cheese, from cow's milk	cheese and similar	340.0	25.6	0.0	26.6
+12720	Firm cheese in wax casing	cheese and similar	303.0	21.7	0.0	23.7
+12722	Cantal cheese, half matured, from cow's milk	cheese and similar	383.0	26.6	0.0	30.5
+12723	Cantal, Salers or Laguiole cheese, from cow's milk	cheese and similar	378.0	25.3	0.0	31.0
+12725	Salers cheese, from cow's milk	cheese and similar	388.0	25.9	0.0	31.4
+12726	Cheddar cheese, from cow's milk	cheese and similar	399.0	24.0	0.0	33.8
+12729	Edam cheese, from cow's milk	cheese and similar	329.0	25.5	0.0	25.5
+12735	Mimolette cheese, young, from cow's milk	cheese and similar	331.0	28.9	0.0	24.2
+12736	Gouda cheese, from cow's milk	cheese and similar	374.0	23.2	0.0	31.5
+12737	Mimolette cheese, half-old, from cow's milk	cheese and similar	365.0	31.5	0.0	26.9
+12738	Mimolette cheese, old, from cow's milk	cheese and similar	397.0	34.0	0.0	28.8
+12740	Mimolette cheese, from cow's milk	cheese and similar	308.0	24.9	0.0	23.4
+12741	Firm cheese, around 27% fat, Maasdam-type cheese	cheese and similar	359.0	25.5	0.0	28.4
+12742	Mimolette cheese, extra old, from cow's milk	cheese and similar	387.0	33.9	0.0	28.2
+12743	Morbier cheese, from cow's milk	cheese and similar	355.0	22.8	0.0	29.2
+12747	Pyrénées cheese, from ewe's milk	cheese and similar	397.0	24.1	0.0	33.6
+12748	Saint-Nectaire cheese, from cow's milk, milks collected in many farms	cheese and similar	332.0	22.8	0.0	27.0
+12749	Raclette cheese, from cow's milk	cheese and similar	342.0	23.4	0.0	27.5
+12751	Saint-Nectaire cheese, from cow's milk, milk collected in an unique farm	cheese and similar	355.0	22.3	0.0	29.8
+12752	Saint-Nectaire cheese, from cow's milk	cheese and similar	344.0	22.5	0.0	28.4
+12755	Saint-Paulin cheese, from cow's milk (semi-hard cheese)	cheese and similar	327.0	22.3	0.0	26.4
+12758	Tomme cheese, from cow's milk	cheese and similar	350.0	21.6	0.0	29.4
+12759	Tomme cheese, from mountain or Savoy	cheese and similar	364.0	25.6	0.0	29.1
+12760	Tomme cheese, reduced fat, around 13% fat	cheese and similar	231.0	31.0	0.0	12.1
+12761	Asiago cheese, from cow's milk	cheese and similar	356.0	32.1	0.0	25.6
+12762	Corsica soft ripened cheese, from ewe's milk	cheese and similar	457.0	28.5	0.0	38.4
+12763	Tomme cheese (PDO) from the French Bauges munntains	cheese and similar	381.0	26.6	0.0	30.8
+12827	Semi-hard cheese, from ewe's milk	cheese and similar	384.0	23.9	0.0	32.3
+12828	Cheese, from ewe's whey	cheese and similar	190.0	10.1	4.3	14.8
+12300	Processed cheese, in slices	cheese and similar	246.0	14.1	5.3	18.5
+12310	Processed cheese, around 20% fat, in wedges or cubes	cheese and similar	242.0	10.7	6.4	19.3
+12320	Processed cheese, double cream, around 31% fat	cheese and similar	311.0	9.1	1.8	29.6
+12325	Cancoillotte (processed cheese), from cow's milk	cheese and similar	151.0	13.8	0.5	10.5
+12060	Feta-type cheese from cow's milk	cheese and similar	270.0	16.4	1.4	21.7
+12063	Feta-type cheese from cow's milk, in oil and spices	cheese and similar	283.0	17.6	0.2	23.4
+12066	Feta cheese, PDO	cheese and similar	285.0	15.1	0.7	24.3
+12315	Uncured soft cheese, spreadable, around 25% fat, in a tub	cheese and similar	255.0	5.4	4.2	23.9
+19530	Uncured soft cheese, spreadable, around 30-40% fat, flavoured (ex : garlic and herbs)	cheese and similar	366.0	7.7	4.2	35.3
+19590	Mozzarella cheese, from cow's milk	cheese and similar	227.0	16.5	0.8	17.7
+19591	Mozzarella cheese, from buffala's milk	cheese and similar	260.0	14.5	0.2	22.3
+1027	Plant-based spread-cheese type, with soybean, prepacked	cheese and similar	175.0	11.7	1.1	13.1
+1028	Plant-based cheese, with cashew, prepacked	cheese and similar	441.0	14.5	15.2	35.3
+1029	Plant-based cheese, without soybean, prepacked	cheese and similar	272.0	0.25	21.2	20.1
+19402	Cream, fat content unknown (average)	cream and similar	269.0	2.9	2.9	26.0
+19410	Thick cream 30% fat, refrigerated	cream and similar	304.0	3.0	2.8	30.7
+19415	Liquid cream 30% fat, UHT	cream and similar	297.0	2.5	1.9	30.7
+19420	Whipped cream or Chantilly cream, under pressure, UHT	cream and similar	308.0	2.1	10.6	28.2
+19430	Liquid cream, light, 15-20% fat, UHT	cream and similar	194.0	2.6	2.9	18.7
+19431	Thick cream, light, 15-20% fat, refrigerated	cream and similar	166.0	2.8	3.0	15.3
+19433	cream, light, 4 to 8% fat, liquid or thick	cream and similar	76.2	3.2	5.3	4.3
+18008	Water, bottled (average)	water	0.0	0.0	0.0	0.0
+18009	Water, bottled, low mineral (average)	water	0.0	0.0	0.0	0.0
+18044	Water, mineral, bottled (average)	water	0.0	0.0	0.0	0.0
+18045	Water, mineral, non-carbonated, bottled (average)	water	0.0	0.0	0.0	0.0
+18046	Water, mineral, carbonated, bottled (average)	water	0.0	0.0	0.0	0.0
+18066	Water, municipal	water	0.0	0.0	0.0	0.0
+18430	Water, bottled	water	0.0	0.0	0.0	0.0
+76000	Mineral still water (Abatilles), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76001	Mineral still water (Aix-les-Bains), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76002	Mineral sparkling water (Aziac), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76004	Mineral still water (Amanda), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76006	Mineral sparkling water (Arcens), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76007	Mineral sparkling water (Ardesy), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76010	Mineral still water (Celtic), bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76011	Mineral still water (Chambon), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76012	Mineral still water (Chantemerle), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76013	Mineral sparkling water (Chateauneuf), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76014	Mineral sparkling water (Chateldon), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76015	Mineral still water (Clos de l'Abbaye), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76016	Mineral still water (Contrex), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76017	Mineral still water (Dax), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76018	Mineral sparkling water (Didier), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76019	Mineral still water (Didier), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76020	Mineral still water (Evian), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76022	Mineral still water (Hépar), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76023	Mineral sparkling water (Hydroxydase), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76024	Mineral sparkling water (Vernière), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76025	Mineral still water (Luchon), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76027	Mineral water (Mont-Roucous, bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76028	Spring water (Ogeu), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76029	Mineral still water (Orée du bois), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76030	Mineral sparkling water (Orezza), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76031	Mineral sparkling water (Parot), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76032	Mineral still water (Plancoet), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76033	Mineral still water (Propiac), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76034	Mineral sparkling water (Puits St Georges), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76035	Mineral sparkling water (Quézac), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76036	Mineral sparkling water (Reine des basaltes), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76037	Mineral sparkling water (Rozana), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76038	Mineral still water (Sail-les-Bains), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76039	Mineral sparkling water (Salvetat), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76043	Mineral still water (St-Amand), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76044	Mineral still water (St-Antonin), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76046	Mineral sparkling water (St-Diéry), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76047	Mineral sparkling water (Ste-Marguerite), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76049	Mineral sparkling water (St-Yorre), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76050	Mineral still water (Thonon), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76053	Mineral sparkling water (Ventadour), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76054	Mineral sparkling water (Vernet), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76055	Mineral sparkling water (Vichy Célestins), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76056	Mineral still water (Vittel), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76057	Mineral still water (Volvic), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76058	Mineral sparkling water (Volvic active), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76059	Mineral still water (Wattwiller), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76060	Mineral sparkling water (Perrier), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76061	Mineral sparkling water (Badoit), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76062	Mineral still water (Avra), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76063	Mineral still water (Beckerich), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76065	Mineral still water (Chaudfontaine), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76066	Mineral still water (Christinen Brunnen), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76067	Mineral still water (Courmayer), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76069	Mineral still water (Levissima), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76070	Mineral still water (Luso), bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76071	Mineral still water (Néro), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76072	Mineral still water (Penacova), bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76074	Mineral water (San Bernardo), bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76075	Mineral sparkling water (San Pellegrino), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76076	Mineral still water (Spa-Reine), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76078	Mineral still water (Valvert), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76079	Mineral still water (Appollinaris), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76080	Spring still water (Cristaline), bottled	water	0.0	0.0	0.0	0.0
+76081	Mineral still water (Biovive), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76082	Mineral still water (La Cairolle), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76083	Mineral sparkling water (Cilaos), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76085	Mineral still water (La Française), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76086	Mineral still water (Montcalm), bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76087	Mineral still water (Montclar), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76088	Mineral sparkling water (Nessel), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76089	Mineral sparkling water (Ogeu), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76090	Mineral still water (Ogeu), bottled, lightly mineralized	water	0.0	0.0	0.0	0.0
+76091	Mineral still water (Prince Noir), bottled, strongly mineralized	water	0.0	0.0	0.0	0.0
+76092	Mineral sparkling water (St-Alban), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76093	Mineral sparkling water (St-Géron), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76094	Mineral sparkling water (St-Michel-de-Mourcairol), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76095	Mineral still water (Treignac), bottled, very lightly mineralized	water	0.0	0.0	0.0	0.0
+76096	Mineral sparkling water (Vals), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76097	Mineral still water (Vauban), bottled, averagely mineralized	water	0.0	0.0	0.0	0.0
+76100	Water, mineral, carbonated ou non-carbonated, CAROLA	water	0.0	0.0	0.0	0.0
+76101	Water, mineral, non-carbonated, MONT-BLANC	water	0.0	0.0	0.0	0.0
+76102	Water, mineral, non-carbonated, EDEN	water	0.0	0.0	0.0	0.0
+2000	Pineapple juice, reconstituted from a concentrate	non-alcoholic beverages	52.3	0.4	11.9	0.1
+2004	Fruit juice (average)	non-alcoholic beverages	47.0	0.5	9.6	0.1
+2012	Orange juice, reconstituted from a concentrate	non-alcoholic beverages	45.6	0.6	9.6	0.1
+2014	Apple juice, reconstituted from a concentrate	non-alcoholic beverages	48.5	0.2	11.3	0.1
+2015	Grapefruit juice, reconstituted from a concentrate	non-alcoholic beverages	40.9	0.5	8.4	0.1
+2016	Grape juice, pure juice	non-alcoholic beverages	69.2	0.2	16.3	0.1
+2019	Grape juice, reconstituted from a concentrate	non-alcoholic beverages	68.8	0.3	16.0	0.1
+2026	Tomato juice, pure juice, 3 g salt/L	non-alcoholic beverages	23.2	0.9	4.1	0.2
+2027	Grapefruit juice, pure juice	non-alcoholic beverages	42.5	0.5	8.9	0.1
+2032	Tomato juice, pure juice, salted : 6g/L	non-alcoholic beverages	20.1	0.9	3.3	0.1
+2035	Mixed fruits juice, pure juice	non-alcoholic beverages	48.9	0.25	11.2	0.15
+2053	Tomato juice, pure juice (average)	non-alcoholic beverages	21.7	0.9	3.7	0.1
+2070	Orange juice, pure juice	non-alcoholic beverages	45.4	0.6	9.6	0.1
+2072	Fruit juice, pure juice (average)	non-alcoholic beverages	46.9	0.5	9.3	0.1
+2073	Pineapple juice, pure juice	non-alcoholic beverages	52.9	0.4	12.1	0.1
+2074	Apple juice, pure juice	non-alcoholic beverages	48.9	0.2	11.4	0.1
+2075	Vegetable juice (average)	non-alcoholic beverages	21.7	0.7	4.7	0.1
+2077	Fruit juice, from concentrate (average)	non-alcoholic beverages	47.1	0.5	10.5	0.1
+2061	Mixed fruits nectar	non-alcoholic beverages	49.7	0.3	11.5	0.1
+18011	Coconut water	non-alcoholic beverages	15.2	0.21	3.3	0.15
+18018	Cola, with sugar	non-alcoholic beverages	41.8	0.1	10.2	0.1
+18019	Fruit soft drink, carbonated (10-50% of fruit juice), with sugar	non-alcoholic beverages	46.6	0.1	11.3	0.0
+18025	Kombucha, prepacked	non-alcoholic beverages	9.5	0.25	1.4	0.15
+18026	Soft drink, carbonated, without fruit juice, with sugar	non-alcoholic beverages	37.1	0.1	8.7	0.1
+18048	Fruit soft drink, carbonated (fruit juice content unknown), with sugar	non-alcoholic beverages	46.6	0.1	11.2	0.0
+18060	Cola, without sugar and with artificial sweetener(s)	non-alcoholic beverages	1.3	0.1	0.1	0.1
+18062	Still soft drink with tea extract, sugar and sweetener(s) content (average)	non-alcoholic beverages	27.3	0.0	6.1	0.0
+18063	Cola, sugar and sweetener(s) content (average)	non-alcoholic beverages	30.7	0.1	7.5	0.1
+18067	Cola, with sugar and without caffeine	non-alcoholic beverages	43.8	0.0	11.0	0.0
+18068	Cola, without sugar, with artificial sweetener(s) and with caffeine	non-alcoholic beverages	0.9	0.0	0.2	0.0
+18075	Still soft drink with tea extract, flavoured, with sugar	non-alcoholic beverages	27.3	0.0	6.8	0.01
+18343	Fruit juice with milk	non-alcoholic beverages	47.5	0.6	9.6	0.3
+19122	Chocolate flavoured milk, with sugar, partially skimmed, fortified with vitamins and chemicals elements	non-alcoholic beverages	63.8	2.8	10.8	1.0
+19127	Strawberry flavoured milk, with sugar, partially skimmed, fortified with vitamins D	non-alcoholic beverages	52.6	2.2	10.0	0.5
+18041	Coconut milk or coconut cream	non-alcoholic beverages	188.0	1.8	3.4	18.4
+18107	Almond drink not sweet, not fortified, prepacked	non-alcoholic beverages	36.3	1.1	0.7	3.2
+18110	Almond-based drink, sweet, fortified with calcium, prepacked	non-alcoholic beverages	44.4	0.7	4.0	2.8
+18900	Soy drink, plain, prepacked	non-alcoholic beverages	37.1	3.3	0.7	2.1
+18901	Soy drink, plain, fortified with calcium, prepacked	non-alcoholic beverages	44.2	3.4	2.2	2.0
+18902	Soy drink, sweet, flavoured, with sugar, prepacked	non-alcoholic beverages	60.5	3.0	7.2	1.9
+18903	Soy drink, sweet, flavoured, enriched in calcium, prepacked	non-alcoholic beverages	42.8	3.0	2.9	1.8
+18904	Rice-based drink, plain, prepacked	non-alcoholic beverages	53.7	0.23	10.8	1.0
+18905	Oat-based drink, plain, prepacked	non-alcoholic beverages	42.6	0.23	7.8	1.1
+18906	Chestnut-based drink, plain, prepacked	non-alcoholic beverages	68.9	0.21	13.5	1.4
+18907	Coconut-based drink, plain, prepacked	non-alcoholic beverages	31.4	0.21	2.8	2.1
+29209	Soy drink, w concentrated fruit juice, prepacked	non-alcoholic beverages	56.2	2.3	9.5	1.0
+18004	Not instant coffee, without sugar, ready-to-drink	non-alcoholic beverages	6.9	0.25	1.4	0.0
+18020	Tea, brewed, without sugar	non-alcoholic beverages	0.1	0.0	0.0	0.0
+18022	Infusion, brewed, without sugar	non-alcoholic beverages	0.9	0.0	0.2	0.0
+18070	Decaffeinated not instant coffee, without sugar, ready-to-drink	non-alcoholic beverages	4.4	0.1	0.6	0.2
+18071	Espresso coffee, not instant coffee, without sugar, ready-to-drink	non-alcoholic beverages	7.6	0.25	1.2	0.2
+18072	Decaffeinated instant coffee, without sugar, ready-to-drink	non-alcoholic beverages	2.1	0.1	0.4	0.0
+18073	Instant coffee, without sugar, ready-to-drink	non-alcoholic beverages	1.6	0.1	0.3	0.0
+18104	Instant cocoa or chocolate beverage, with sugar, ready-to-drink (reconstituted with standard semi-skimmed milk)	non-alcoholic beverages	69.3	3.8	9.5	1.4
+18106	Instant cocoa or chocolate beverage, with sugar, fortified with vitamins and chemical elements, ready-to-drink (reconstituted with standard semi-skimm	non-alcoholic beverages	71.9	4.1	9.9	1.7
+18151	Coffee with milk or white coffee or cappuccino, instant coffee or not, without sugar, ready-to-drink	non-alcoholic beverages	21.5	1.4	2.3	0.8
+18153	Mix of chicory and coffee, instant, without sugar, ready-to-drink (reconstituted with standard semi-skimmed milk)	non-alcoholic beverages	53.7	3.7	5.9	1.6
+18154	Black tea, brewed, without sugar	non-alcoholic beverages	1.3	0.0	0.3	0.0
+18155	Green tea, brewed, without sugar	non-alcoholic beverages	5.1	0.0	1.1	0.0
+18156	Oolong tea, brewed, without sugar	non-alcoholic beverages	0.0	0.0	0.0	0.0
+18161	Instant chicory, without sugar and artificial sweeteners, ready-to-drink (reconstituted with standard semi-skimmed milk)	non-alcoholic beverages	93.5	0.0	7.1	7.1
+18162	Mix of chicory and coffee, instant, without sugar, ready-to-drink (reconstituted with water)	non-alcoholic beverages	28.7	0.6	6.1	0.15
+18003	Coffee, ground	non-alcoholic beverages	397.0	14.4	40.2	15.4
+18005	Coffee, powder, instant	non-alcoholic beverages	296.0	19.4	42.6	1.1
+18017	Syrup, with sugar (to be diluted)	non-alcoholic beverages	255.0	0.25	62.6	0.25
+18059	Concentrate beverage (to be diluted), without sugar and with artificial sweeteners, "syrup 0%" type	non-alcoholic beverages	21.7	0.25	2.8	0.25
+18069	Decaffeinated coffee, powder, instant	non-alcoholic beverages	357.0	12.7	76.0	0.2
+18076	Tea leaf	non-alcoholic beverages	232.0	19.4	6.3	2.0
+18100	Cocoa powder, without sugar, powder, instant	non-alcoholic beverages	387.0	22.4	11.6	20.6
+18101	Cocoa or chocolate powder, for beverages, with sugar	non-alcoholic beverages	379.0	6.7	75.6	3.3
+18150	Mix of chicory and coffee, powder, instant	non-alcoholic beverages	332.0	9.3	66.9	0.3
+18152	Chicory, powder, instant	non-alcoholic beverages	323.0	3.3	57.2	2.5
+18160	Coffee with milk or Cappuccino, powder, instant	non-alcoholic beverages	416.0	12.2	70.1	8.8
+18163	Coffee with milk or Cappuccino with chocolate, powder, instant	non-alcoholic beverages	402.0	11.2	67.1	9.1
+18167	Cocoa or chocolate powder, for beverages, with sugar, fortified with vitamins and chemical elements	non-alcoholic beverages	376.0	4.7	79.3	3.0
+18168	Cocoa or chocolate powder, for beverages, with sugar, fortified with vitamins	non-alcoholic beverages	386.0	4.3	85.0	2.0
+18220	Lemon or lime base, for beverage, without sugar (to be diluted)	non-alcoholic beverages	19.7	0.25	1.3	0.0
+5214	Wine, red	alcoholic beverages	82.1	0.1	2.6	0.0
+5007	Cider, sweet	alcoholic beverages	37.5	0.25	5.1	0.3
+5009	Wheat bier	alcoholic beverages	34.6	0.25	0.4	0.3
+5021	Cider, half-dry	alcoholic beverages	48.0	0.25	4.4	0.3
+5022	Flavoured cider	alcoholic beverages	35.4	0.25	5.3	0.3
+5030	Beer, alcohol-free (<1,2° alcohol)	alcoholic beverages	25.3	0.3	4.9	0.03
+1000	Pastis (anise-flavoured spirit)	alcoholic beverages	274.0	0.0	2.9	0.0
+1001	Clear fruit brandy or eau-de-vie	alcoholic beverages	229.0	0.0	0.4	0.0
+1002	Gin	alcoholic beverages	265.0	0.0	0.0	0.0
+1003	Liqueur	alcoholic beverages	328.0	0.1	39.6	0.3
+1004	Rum	alcoholic beverages	256.0	0.0	0.0	0.0
+1005	Whisky	alcoholic beverages	252.0	0.0	0.1	0.0
+1008	Vodka	alcoholic beverages	242.0	0.0	0.0	0.0
+1010	Anis spirit, diluted (1+5)	alcoholic beverages	27.6	0.0	6.9	0.0
+1014	Pure alcohol	alcoholic beverages	660.0	0.0	0.0	0.0
+1015	Marsala wine	alcoholic beverages	211.0	0.1	27.9	0.0
+1016	Marsala w eggs	alcoholic beverages	153.0	0.0	12.4	0.0
+1021	Blackcurrant liqueur	alcoholic beverages	245.0	0.0	41.0	0.0
+1023	Spirit made from wine, armagnac or cognac type	alcoholic beverages	228.0	0.0	1.0	0.0
+1026	Sake or rice wine	alcoholic beverages	133.0	0.0	5.0	0.0
+5004	Shandy (beer + lemonade)	alcoholic beverages	36.2	0.0	5.6	0.0
+5005	Shandy, prepacked (<1° alcohol)	alcoholic beverages	25.4	0.5	4.9	0.03
+11506	Aspartame sweetener, in tablets	sugars and honey	216.0	6.3	69.3	0.0
+31087	Stevia sweetener	sugars and honey	238.0	0.0	98.0	0.2
+31000	Chocolate bar with biscuit	chocolate and chocolate products	523.0	6.1	60.5	28.1
+31001	Coated chocolate bar without biscuit	chocolate and chocolate products	496.0	3.7	66.4	24.1
+31002	Coconut bar, with chocolate coating	chocolate and chocolate products	475.0	3.9	60.2	23.8
+31004	Milk chocolate bar	chocolate and chocolate products	537.0	7.5	55.6	30.8
+31012	Chocolate confectionery or bar, with dairy filling	chocolate and chocolate products	551.0	8.8	50.9	34.2
+31020	Milk chocolate bar, without sugar, with sweeteners	chocolate and chocolate products	487.0	5.8	54.2	34.6
+31030	Dark chocolate bar, without sugar and with artificial sweeteners	chocolate and chocolate products	525.0	8.5	34.1	42.3
+31041	Chocolate confectionery, sugar coated	chocolate and chocolate products	505.0	5.5	65.0	24.3
+31042	Sugar and chocolate coated peanut	chocolate and chocolate products	499.0	9.5	55.9	25.0
+31070	Dark chocolate bar, with dried fruits (nuts, almonds, raisin, praline)	chocolate and chocolate products	567.0	8.7	40.7	39.0
+31071	Chocolate bar with dried fruits	chocolate and chocolate products	494.0	7.2	57.6	26.0
+31074	Dark chocolate bar, more than 70% cocoa	chocolate and chocolate products	591.0	10.4	26.9	46.3
+31098	Toblerone milk cholcolate bar w nougat	chocolate and chocolate products	532.0	5.8	60.5	29.0
+31120	Chocolate bar	chocolate and chocolate products	557.0	7.8	45.3	36.1
+31007	Chewing gum, with sugar	non-chocolate confectionery	372.0	0.25	90.6	0.3
+31014	Fruit jelly	non-chocolate confectionery	336.0	1.7	76.6	1.8
+31023	Iced chestnut	non-chocolate confectionery	324.0	0.9	79.5	0.25
+31027	Candied fruits	non-chocolate confectionery	298.0	0.25	72.3	0.15
+31054	Chewing gum, without sugar	non-chocolate confectionery	228.0	0.7	78.1	0.5
+31092	Melon and almond Candy on a unleavened bread layer	non-chocolate confectionery	440.0	7.9	60.3	18.0
+31121	Chewing gum, sugar level unknown (average)	non-chocolate confectionery	279.0	0.5	82.5	0.4
+30999	Jam or marmalade, sugar content not known, (average)	jam	228.0	0.4	56.5	0.3
+31006	Jam or marmalade (average)	jam	249.0	0.3	60.2	0.3
+31024	Jam, strawberry	jam	251.0	0.25	60.5	0.5
+31037	Jam, apricot	jam	247.0	0.25	59.7	0.3
+31039	Marmalade, orange	jam	246.0	0.25	59.3	0.4
+31068	Jam, blueberry	jam	246.0	0.25	58.9	0.4
+31095	Jelly, currant (red)	jam	246.0	0.25	59.6	0.15
+31110	Jam, reduced sugar	jam	162.0	0.8	38.0	0.15
+7225	Brioche or Vienna bread	Viennese pastries	356.0	9.8	55.5	9.4
+7600	Pastry, average food	Viennese pastries	380.0	7.8	49.1	16.2
+7602	Croissant	Viennese pastries	375.0	6.7	40.4	20.0
+7615	Croissant, ordinary, from bakery	Viennese pastries	412.0	6.3	47.6	21.1
+7620	Croissant, butter, from bakery	Viennese pastries	420.0	6.6	45.7	22.6
+7650	Croissant w almonds, from bakery	Viennese pastries	446.0	7.6	35.9	29.1
+7710	Milk roll, from bakery	Viennese pastries	382.0	8.6	50.6	15.4
+7711	Milk roll, prepacked	Viennese pastries	359.0	8.9	52.2	12.3
+7712	Milk roll filled with chocolate drops, prepacked	Viennese pastries	369.0	8.5	52.0	13.5
+7720	Raisin puff pastry (Viennese pastries)	Viennese pastries	333.0	5.1	55.9	9.0
+7730	Chocolate croissant, puff pastry, from bakery	Viennese pastries	423.0	7.5	45.4	22.5
+7733	Chocolate croissant, prepacked	Viennese pastries	425.0	6.9	46.8	22.3
+7735	Brioche, filled with chocolate drops, prepacked	Viennese pastries	348.0	8.6	51.6	11.2
+7737	Brioche, filled with chocolate	Viennese pastries	351.0	7.5	53.2	11.6
+7738	Brioche, filled with fruits, prepacked	Viennese pastries	346.0	6.9	50.5	12.1
+7739	Brioche, filled with custard (Chinese brioche type), prepacked	Viennese pastries	300.0	6.2	49.2	8.4
+7740	Brioche, prepacked	Viennese pastries	354.0	8.1	52.7	11.8
+7741	Brioche	Viennese pastries	401.0	11.3	46.0	19.1
+7742	Brioche, from bakery	Viennese pastries	374.0	9.8	49.2	14.7
+7744	Christmas brioche with candied fruits, prepacked	Viennese pastries	355.0	7.2	53.3	12.3
+7745	Brioche, pure butter	Viennese pastries	366.0	8.0	51.6	14.0
+23467	Chou pastry, sugar coated	Viennese pastries	381.0	7.8	42.6	18.6
+23480	Apple turnover	Viennese pastries	338.0	4.2	36.6	18.7
+24041	Breakfast biscuit (cookie) with cereals, fortified with vitamins and chemical elements	sweet biscuits	445.0	7.4	67.7	15.7
+24055	Biscuit (cookie) with nuts (no chocolate or lightly chocolate-flavoured)	sweet biscuits	511.0	5.5	59.8	27.2
+24056	Florentine biscuit (chocolate sweet biscuit (cookie) with almonds)	sweet biscuits	514.0	9.3	50.7	28.7
+24313	Wafer biscuit, plain or vanilla flavoured, prepacked	sweet biscuits	538.0	5.8	60.1	30.1
+24615	Biscuit (cookie), thin, w almonds	sweet biscuits	471.0	7.8	68.0	18.1
+24616	Biscuit (cookie), thin, w fruits	sweet biscuits	384.0	5.4	74.9	8.3
+24678	Biscuit sponge cake with fruits covering, pre-packed	sweet biscuits	341.0	4.4	74.4	2.1
+32000	Breakfast cereals, popped or puffed wheat grain, with honey or caramel, fortified with vitamins and chemical elements	breakfast cereals	391.0	8.0	82.2	2.2
+32001	Breakfast cereals, with chocolate, not filled, fortified with vitamins and chemical elements	breakfast cereals	408.0	8.1	70.4	8.9
+32002	Breakfast cereals, rich in fibre, with or without fruits, fortified with vitamins and chemical elements	breakfast cereals	360.0	11.5	59.3	4.4
+32003	Breakfast cereals, sweet (average)	breakfast cereals	398.0	7.8	75.3	6.1
+32004	Muesli (average)	breakfast cereals	418.0	7.5	66.6	12.2
+32005	Breakfast cereals, corn flakes, plain, fortified with vitamins and chemical elements	breakfast cereals	377.0	7.4	83.2	0.9
+32006	Breakfast cereals, puffed/popped rice, fortified with vitamins and chemical elements	breakfast cereals	391.0	6.7	87.0	1.5
+32008	Breakfast cereals, rich in fibre, with chocolate, fortified with vitamins and chemical elements	breakfast cereals	386.0	10.7	64.0	6.8
+32009	Breakfast cereals, chocolate wheat grain flakes, fortified with vitamins and chemical elements	breakfast cereals	388.0	9.0	77.7	3.2
+32011	Breakfast cereals, chocolate wheat grain flakes (not fortified with vitamins and chemical elements)	breakfast cereals	388.0	8.5	80.1	2.6
+32012	Breakfast cereals, chocolate puffed/popped rice (not fortified with vitamins and chemical elements)	breakfast cereals	388.0	6.0	84.2	2.2
+32013	Breakfast cereals, with chocolate, not filled (not fortified with vitamins and chemical elements)	breakfast cereals	386.0	7.7	79.6	2.9
+32014	Breakfast cereals, corn flakes, plain (not fortified with vitamins and chemical elements)	breakfast cereals	380.0	8.1	82.8	1.1
+32016	Breakfast cereals, filled with chocolate or chocolate-hazelnuts, fortified with vitamins and chemical elements	breakfast cereals	433.0	7.8	69.2	13.0
+32017	Breakfast cereals, filled with chocolate or chocolate-hazelnuts	breakfast cereals	442.0	7.3	67.2	14.8
+32018	Breakfast cereals, filled with a filling other than chocolate, fortified with vitamins and chemical elements	breakfast cereals	419.0	8.4	64.7	13.3
+32021	Breakfast cereals, diet, plain or with honey, fortified with vitamins and chemical elements	breakfast cereals	382.0	11.4	78.6	1.6
+32022	Breakfast cereals, diet, with chocolate, fortified with vitamins and chemical elements	breakfast cereals	394.0	7.5	73.9	5.9
+32023	Breakfast cereals, diet, with fruits, fortified with vitamins and chemical elements	breakfast cereals	378.0	10.5	77.9	1.7
+32025	Breakfast cereals, diet, with dried fruits, fortified with vitamins and chemical elements	breakfast cereals	394.0	8.9	75.5	4.9
+32028	Breakfast cereals, diet, with chocolate, not fortified	breakfast cereals	411.0	10.3	74.6	7.0
+32029	Breakfast cereals, diet, with fruits, not fortified	breakfast cereals	378.0	10.5	78.7	1.4
+32030	Breakfast cereals, diet, plain, not fortified	breakfast cereals	379.0	11.3	79.0	1.2
+32031	Breakfast cereals, sweet, fortified with vitamins and chemical elements (average)	breakfast cereals	401.0	7.5	75.0	6.8
+32032	Breakfast cereals, sweet, not fortified with vitamins and chemical elements (average)	breakfast cereals	388.0	8.2	79.2	3.2
+32107	Breakfast cereals, corn flakes, sugar iced (not fortified with vitamins and chemical elements)	breakfast cereals	379.0	4.4	88.0	0.6
+32108	Muesli, crunchy, with fruits and/or dried fruits, grains (not fortified with vitamins and chemical elements)	breakfast cereals	436.0	8.9	59.7	16.7
+32109	Muesli, crunchy, with chocolate (not fortified with vitamins and chemical elements)	breakfast cereals	442.0	8.6	63.2	16.7
+32110	Muesli, flakes (Bircher-style), with fruits or dried fruits, fortified with vitamins and chemical elements	breakfast cereals	361.0	9.2	65.4	5.0
+32111	Muesli, crunchy, with fruits or dried fruits, fortified with vitamins and chemical elements	breakfast cereals	460.0	5.7	68.4	17.3
+32112	Muesli, crunchy, with chocolate, with or without fruits, fortified with vitamins and chemical elements	breakfast cereals	451.0	9.1	62.7	16.7
+32113	Muesli, flakes (Bircher-style), with fruits or dried fruits, without sugar	breakfast cereals	400.0	10.7	61.6	11.0
+32115	Breakfast cereals, chocolate puffed/popped wheat grain, fortified with vitamins and chemical elements	breakfast cereals	385.0	8.8	75.2	4.0
+32116	Breakfast cereals, very rich in fibre, fortified with vitamins and chemical elements	breakfast cereals	338.0	14.0	49.0	3.5
+32121	Breakfast cereals, corn flakes, sugar iced, fortified with vitamins and chemical elements	breakfast cereals	374.0	5.8	84.7	0.6
+32123	Breakfast cereals, wheat flakes with walnuts, hazelnuts or almonds, fortified with vitamins and chemical elements	breakfast cereals	386.0	10.3	67.9	6.3
+32128	Muesli, flakes (Bircher-style)	breakfast cereals	382.0	10.6	68.5	4.8
+32129	Breakfast cereals, puffed/popped corn, with honey (not fortified with vitamins and chemical elements)	breakfast cereals	393.0	5.7	86.2	2.4
+32130	Khorasan wheat, wholemeal, puffed/popped	breakfast cereals	378.0	6.7	80.5	2.0
+32131	Breakfast cereals, chocolate puffed/popped rice, fortified with vitamins and chemical elements	breakfast cereals	390.0	6.2	83.2	2.8
+32133	Breakfast cereals, puffed/popped corn, with honey, fortified with vitamins and chemical elements	breakfast cereals	384.0	5.5	85.3	1.8
+32134	Breakfast cereals, puffed/popped cereals, wholemeal, fortified with vitamins and chemical elements	breakfast cereals	385.0	7.4	76.8	3.9
+32135	Breakfast cereals, mix of puffed or extruded cereals, fortified with vitamins and chemical elements	breakfast cereals	392.0	7.4	79.4	4.3
+32138	Muesli, flakes (Bircher-style), with fruits or dried fruits (not fortified with vitamins and chemical elements)	breakfast cereals	369.0	9.5	61.7	6.9
+32139	Muesli, flakes, fortified with vitamins and chemical elements (average food)	breakfast cereals	424.0	7.0	67.3	12.8
+32140	Oat flakes, pre-cooked, raw	breakfast cereals	370.0	11.0	58.0	7.7
+32141	Muesli, flakes, not fortified with vitamins and chemical elements (average food)	breakfast cereals	401.0	9.2	60.7	11.6
+31100	Milky cereal breakfast bar, with chocolate or not, fortified with vitamins and minerals	cereal bars	382.0	7.1	79.5	3.2
+31101	Cereal bar with fruit, fortified with vitamins and minerals	cereal bars	379.0	6.1	72.8	6.5
+31102	Cereal bar with chocolate, fortified with vitamins and minerals	cereal bars	418.0	6.0	72.9	10.9
+31104	Cereal bar, low calorie	cereal bars	386.0	5.9	65.3	11.2
+31106	Chocolate cereal bar	cereal bars	451.0	6.5	73.0	14.9
+31113	Cereal bar w fruit	cereal bars	377.0	5.5	73.5	7.1
+31114	Cereal bar with almonds or hazelnuts	cereal bars	444.0	8.7	60.6	18.2
+19688	Rum baba, prepacked	cakes and pastry	169.0	2.8	23.6	3.9
+23032	Brownie (chocolate cake)	cakes and pastry	458.0	5.9	50.6	25.4
+23481	Apple pie with custard (flour, eggs, cream, sugar, apple alcohol)	cakes and pastry	313.0	4.4	38.7	15.0
+23849	Wafer biscuit, thin, filled with honey, prepacked	cakes and pastry	455.0	4.6	67.0	18.3
+23880	Doughnut, plain	cakes and pastry	404.0	7.2	39.4	23.7
+23881	Doughnut filled with jam	cakes and pastry	378.0	6.4	45.6	18.7
+23884	Doughnut filled with fruits, prepacked	cakes and pastry	362.0	5.7	47.6	16.0
+23885	Doughnut filled with chocolate, prepacked	cakes and pastry	420.0	7.3	45.9	22.5
+23909	Fruit cake, prepacked	cakes and pastry	360.0	4.2	55.2	12.6
+31035	Ice cream, chocolate coated	ice cream	359.0	5.1	35.8	21.4
+39503	Ice cream on stick, with chocolate coating	ice cream	328.0	3.4	33.4	19.8
+23472	Profiteroles (chou pastry), with vanilla ice cream and chocolate sauce	frozen desserts	286.0	5.4	31.4	14.9
+39401	Peach melba (with vanilla ice cream and raspberry sauce)	frozen desserts	119.0	2.1	18.8	3.6
+39502	Frozen dessert, ice cream with meringue, vacherin ice cream or mystery ice cream type	frozen desserts	275.0	3.2	40.5	10.7
+39512	Frozen dessert, Sundae ice cream type	frozen desserts	230.0	2.6	32.6	9.7
+39516	Frozen dessert, puff pastry, to share	frozen desserts	262.0	2.7	26.2	16.1
+39518	baked Alaska	frozen desserts	212.0	3.6	34.8	6.5
+39519	Belle Helene pear dessert (cooked pear topped with hot chocolate sauce on a bed of vanilla ice cream)	frozen desserts	196.0	2.7	23.5	9.6
+39529	Iced nougat	frozen desserts	263.0	4.9	25.3	15.2
+39530	Frosted lemon or orange (sorbet)	frozen desserts	133.0	0.1	29.1	1.8
+39532	Goblet of ice cream, coffee or chocolate ice cream topped with whipped cream	frozen desserts	220.0	3.0	28.6	10.0
+39533	Ice cream log	frozen desserts	226.0	2.5	30.0	10.4
+39534	Goblet of ice cream, peach Melba or Belle Helene pear type	frozen desserts	163.0	0.9	32.2	3.4
+16400	Butter, 82% fat, unsalted	butters	753.0	0.7	0.9	82.9
+16402	Butter, 80% fat, lightly salted	butters	738.0	0.7	0.6	81.4
+16403	Butter, 80% fat, salted	butters	732.0	0.5	0.7	80.8
+16404	Butter, 82% fat, unsalted, easy-to-spread	butters	755.0	0.7	0.5	83.4
+16410	Butter, 60-62% fat, light, unsalted	butters	550.0	0.6	0.7	60.6
+16411	Butter, 60-62% fat, light, lightly salted	butters	555.0	0.9	0.5	61.0
+16412	Butter spread, low-fat (average)	butters	368.0	0.3	3.7	38.9
+16413	Butter, unknown fat content , half-salted (average)	butters	727.0	0.7	0.6	80.2
+16414	Butter, unknown fat content , unsalted (average)	butters	741.0	0.7	1.0	81.5
+16415	Butter, light, 39-41% fat, unsalted	butters	391.0	0.25	3.6	41.7
+16712	Dairy fat 25% fat, light, spreadable, unsalted	butters	247.0	0.4	3.8	25.6
+16713	Dairy fat 20% fat, light, spreadable, unsalted	butters	201.0	0.25	6.2	19.1
+16030	Cocoa butter	vegetable oils	900.0	0.0	0.0	100.0
+16040	Coconut fat or oil	vegetable oils	900.0	0.0	0.0	100.0
+16060	Coconut fat or oil refined	vegetable oils	900.0	0.0	0.0	100.0
+16080	Solid vegetable fat (margarine type), for frying	vegetable oils	899.0	0.25	0.0	99.8
+16110	Shea butter Africa	vegetable oils	900.0	0.0	0.0	100.0
+16128	Frying oil	vegetable oils	900.0	0.0	0.0	100.0
+16129	Palm oil	vegetable oils	900.0	0.0	0.0	100.0
+16150	Palm oil, refined	vegetable oils	900.0	0.0	0.0	100.0
+16200	Palm kernel fat	vegetable oils	900.0	0.0	0.0	100.0
+17001	Vegetable oil (average)	vegetable oils	900.0	0.2	0.0	99.9
+17020	Apricot kernel oil	vegetable oils	900.0	0.0	0.0	100.0
+17030	Almond oil	vegetable oils	900.0	0.0	0.0	100.0
+17040	Peanut oil	vegetable oils	900.0	0.25	0.0	99.9
+17100	Avocado oil	vegetable oils	900.0	0.0	0.0	100.0
+17110	Wheat germ oil	vegetable oils	900.0	0.0	0.0	100.0
+17126	Safflower oil	vegetable oils	900.0	0.0	0.0	100.0
+17130	Rapeseed oil	vegetable oils	900.0	0.0	0.0	100.0
+17170	Cottonseed oil	vegetable oils	900.0	0.0	0.0	100.0
+17180	Linseed oil	vegetable oils	900.0	0.0	0.0	100.0
+17190	Maize/corn oil	vegetable oils	900.0	0.0	0.0	100.0
+17210	Hazelnut oil	vegetable oils	900.0	0.0	0.0	100.0
+17220	Walnut oil	vegetable oils	900.0	0.0	0.0	100.0
+17270	Olive oil, extra virgin	vegetable oils	900.0	0.25	0.0	99.9
+17325	Poppyseed oil	vegetable oils	900.0	0.0	0.0	100.0
+17350	Grapeseed oil	vegetable oils	900.0	0.0	0.0	100.0
+17390	Rice bran oil	vegetable oils	900.0	0.0	0.0	100.0
+17400	Sesame oil	vegetable oils	900.0	0.0	0.0	100.0
+17420	Soy oil	vegetable oils	900.0	0.0	0.0	100.0
+17440	Sunflower oil	vegetable oils	901.0	0.25	0.0	100.0
+17700	Combined oil (blended vegetable oils)	vegetable oils	896.0	0.0	0.0	99.5
+17701	Combined oil (mix of olive oil and seeds oil)	vegetable oils	900.0	0.0	0.0	100.0
+17900	Argan oil	vegetable oils	889.0	0.0	0.0	98.7
+16614	Vegetable fat (like margarine), 80% fat, salted	margarines	722.0	0.25	0.25	80.0
+16615	Vegetable fat (margarine type), 80% fat, unsalted	margarines	726.0	0.4	0.3	80.4
+16616	Vegetable fat (margarine type), 70% fat, unsalted	margarines	631.0	0.1	0.2	70.0
+16654	Vegetable fat (margarine type), 60% fat, unsalted, sunflowerseed	margarines	548.0	0.25	0.28	60.6
+16719	Vegetable fat (margarine type), spreadable, fat content unknown, light, unsalted	margarines	608.0	0.2	0.2	67.4
+16725	Fat spreadfat content unknown, unsalted (average)	margarines	532.0	0.3	0.2	58.9
+16733	Vegetable fat (margarine type), spreadable, 30-40% fat, light, unsalted	margarines	366.0	1.4	3.0	38.6
+16734	Vegetable fat (margarine type), spreadable, 30-40% fat, light, lightly salted	margarines	358.0	0.9	3.0	38.0
+16736	Vegetable fat (margarine type), spreadable, 30-40% fat, light, unsalted, rich in omega 3	margarines	349.0	0.0	0.0	38.8
+16737	Vegetable fat (margarine type), spreadable, 50-63% fat, light, unsalted, rich in omega 3	margarines	521.0	0.1	0.2	57.8
+16738	Vegetable fat (margarine type), 50-63% fat, light, lightly salted	margarines	523.0	0.2	0.1	58.0
+16739	Vegetable fat (margarine type), spreadable, 50-63% fat, light, unsalted, with plant sterols esters	margarines	548.0	0.25	0.0	60.8
+16740	Vegetable fat (margarine type), spreadable, 50-63% fat, light, lightly salted, rich in omega 3	margarines	491.0	0.1	0.1	54.5
+16741	Vegetable fat (margarine type), spreadable, 50-63% fat, light, unsalted	margarines	536.0	0.25	0.2	59.3
+16742	Vegetable fat (margarine type), spreadable, 30-40% fat, light, lightly salted, with plant sterols esters	margarines	325.0	0.1	2.5	35.0
+16743	Blended fat (vegetable and animal origins), 50-63% fat	margarines	490.0	0.4	0.6	54.0
+16744	Blended fat (vegetable and animal origins), 50-63% fat, lightly salted	margarines	481.0	0.4	0.6	53.0
+16745	Blended fat (vegetable and animal origins), spreadable, 30-40% fat	margarines	397.0	1.7	5.6	40.9
+16746	Blended fat (vegetable and animal origins), spreadable, 30-40% fat, lightly salted	margarines	370.0	1.5	5.6	38.0
+17630	Cod liver oil	fish oils	900.0	0.0	0.0	100.0
+17640	Sardine oil	fish oils	900.0	0.0	0.0	100.0
+17645	Salmon oil	fish oils	900.0	0.0	0.0	100.0
+17650	Herring oil	fish oils	900.0	0.0	0.0	100.0
+16520	Lard or pork fat	other fats	896.0	0.0	0.0	99.5
+16530	Pork fat, raw	other fats	810.0	2.9	0.0	88.7
+16540	Chicken fat	other fats	898.0	0.0	0.0	99.8
+16550	Duck fat	other fats	898.0	0.0	0.0	99.8
+16560	Goose fat	other fats	898.0	0.0	0.0	99.8
+16570	Turkey fat	other fats	898.0	0.0	0.0	99.8
+17999	Paraffin oil	other fats	0.0	0.0	0.0	0.0
+11008	Ketchup, prepacked	sauces	99.0	1.3	21.4	0.2
+11100	Barbecue sauce, prepacked	sauces	136.0	0.6	30.3	0.6
+11104	Soy sauce, prepacked	sauces	45.5	7.1	3.6	0.1
+11194	Nuoc mam sauce or fish sauce, prepacked	sauces	81.2	9.3	10.9	0.0
+11215	Tomato caviar (a seasonned tomato puree)	sauces	218.0	2.2	6.8	19.2
+11217	Sauce for fried spring rolls, nuoc mam based	sauces	135.0	1.4	31.2	0.25
+11219	Sauce, veggie, bolognese-type	sauces	68.0	3.6	5.0	3.0
+11132	Curry sauce, prepacked	sauces	77.4	1.0	10.6	3.2
+11170	Basque-style sauce or tomato sauce with sweet peppers, prepacked	sauces	63.1	1.2	7.4	2.7
+11179	Sauce, pesto, prepacked	sauces	370.0	3.9	6.6	35.4
+25600	Celeriac in remoulade sauce, prepacked	sauces	113.0	0.9	3.1	10.2
+11300	Chocolate sauce, prepacked	sauces	277.0	3.8	26.2	16.8
+39700	Light custard cream with vanilla, prepacked	sauces	105.0	3.4	16.7	2.5
+11004	Gherkin, pickled in vinegar	condiments	19.4	1.1	0.8	0.3
+11013	Mustard	condiments	152.0	6.9	4.3	11.2
+11018	Vinegar	condiments	22.6	0.0	0.6	0.1
+11021	Mustard, with grains	condiments	142.0	6.6	2.2	9.9
+11091	Vinegar, balsamic	condiments	125.0	0.7	25.8	0.3
+11097	Gherkin, in sweet and sour sauce	condiments	36.0	1.2	5.0	0.3
+11220	Vinegar from red wine	condiments	21.6	0.25	0.0	0.0
+13033	Olives, green, in brine	condiments	155.0	1.3	0.0	15.7
+13131	Olives, black, in oil (Greek olive)	condiments	332.0	2.2	0.05	33.3
+13184	Olive (average)	condiments	162.0	1.4	0.0	16.5
+11001	Broth, stock or bouillon, beef, dehydrated	cooking aids	240.0	10.2	19.7	13.3
+11169	Veal stock for sauce and cooking, dehydrated	cooking aids	343.0	8.5	59.5	7.4
+11171	Poultry stock for sauce and cooking, dehydrated	cooking aids	341.0	7.4	66.3	4.9
+11172	Aromatic stock cube, for fish, dehydrated	cooking aids	260.0	5.0	7.0	23.0
+11174	Broth, stock or bouillon, poultry, dehydrated	cooking aids	233.0	11.3	20.8	11.5
+11175	Madeira wine aspic, dehydrated	cooking aids	248.0	44.5	17.0	0.2
+11176	Madeira wine aspic	cooking aids	11.3	2.0	0.8	0.0
+11304	Veal stock, prepacked	cooking aids	40.9	3.1	2.4	2.0
+25525	Topping sauce for pizza	cooking aids	38.5	2.1	3.2	0.7
+25918	Broth, stock or bouillon, meat and vegetables, dehydrated	cooking aids	213.0	10.3	17.7	11.1
+25970	Broth, stock or bouillon, meat and vegetables, with fat, dehydrated	cooking aids	212.0	11.6	28.9	5.4
+25971	Broth, stock or bouillon, meat and vegetables, defatted, dehydrated	cooking aids	197.0	10.8	30.9	3.1
+11017	Salt, white (sea, igneous or rock), no enrichment	salts	0.0	0.0	0.0	0.0
+11044	Celery salt	salts	49.0	1.8	4.1	2.5
+11058	Salt, white (sea, igneous or rock), iodine added, no other enrichment	salts	0.0	0.0	0.0	0.0
+11082	Pure sea salt, no enrichment	salts	0.0	0.0	0.0	0.0
+11083	Sea salt, grey, no enrichment	salts	0.0	0.0	0.0	0.0
+11096	Salt, white (sea, igneous or rock), iodine added, fluoride added 25 mg/100 g	salts	0.0	0.0	0.0	0.0
+11005	Curry, powder	spices	301.0	14.5	2.6	14.0
+11006	Ginger, powder	spices	335.0	9.0	58.3	4.2
+11015	Black pepper, powder	spices	330.0	13.3	39.5	7.5
+11019	White pepper, powder	spices	310.0	11.4	48.3	2.1
+11025	Cinnamon, powder	spices	243.0	3.9	27.5	1.2
+11026	Coriander, seed	spices	346.0	12.4	13.0	17.8
+11039	Saffron	spices	352.0	11.4	61.5	5.8
+11042	Cumin, seed	spices	427.0	17.8	33.7	22.3
+11048	Nutmeg	spices	507.0	5.3	28.5	36.3
+11049	Paprika	spices	319.0	14.1	19.1	12.9
+11052	Cloves	spices	335.0	6.0	31.6	13.0
+11053	Bay, leaves	spices	353.0	7.6	48.6	8.4
+11056	Mix of 4 spices	spices	348.0	6.1	50.5	8.7
+11061	Poppy, seed	spices	551.0	19.7	13.7	43.1
+11064	Caraway, seed	spices	334.0	19.8	11.9	14.6
+11065	Vanilla, alcoholic extract	spices	240.0	0.1	2.4	0.0
+11066	Fennel, seed	spices	326.0	15.7	12.5	14.9
+11074	Ginger, raw	spices	32.9	1.1	3.4	1.1
+11075	Cardamom, powder	spices	321.0	10.8	40.5	6.7
+11077	Fenugreek, seed	spices	350.0	27.1	33.8	6.4
+11081	Spice (average)	spices	346.0	12.3	37.7	10.4
+11088	Cayenne pepper	spices	376.0	12.0	29.4	17.3
+11089	Turmeric, powder	spices	291.0	9.7	44.4	3.2
+11098	Vanilla, aqueous extract	spices	57.7	0.0	14.4	0.0
+11000	Garlic, fresh	herbs	111.0	5.3	18.6	0.25
+11002	Chervil, fresh	herbs	39.9	3.7	3.6	0.6
+11003	Chive or spring onion, fresh	herbs	29.7	2.6	2.1	0.5
+11014	Parsley, fresh	herbs	43.0	3.7	3.5	0.6
+11027	Mint, fresh	herbs	57.6	3.5	5.3	0.8
+11033	Basil, fresh	herbs	34.8	3.4	2.5	0.5
+11068	Rosemary, fresh	herbs	121.0	3.3	6.6	5.9
+11069	Sage, fresh	herbs	36.7	4.0	1.0	0.25
+11070	Thyme, fresh	herbs	107.0	5.6	10.5	1.7
+11080	Herbs, fresh (average)	herbs	49.4	3.6	4.2	0.8
+11092	Tarragon, fresh	herbs	44.0	3.8	4.1	0.0
+11093	Dill, fresh	herbs	48.2	3.9	3.9	1.1
+11094	Coriander, fresh	herbs	22.3	2.1	0.9	0.5
+11306	Garlic, roasted/baked	herbs	127.0	5.6	23.8	0.25
+11307	Garlic, sautéed/pan-fried, without fat	herbs	130.0	6.0	22.0	0.4
+11023	Garlic, powder, dried	herbs	344.0	16.7	62.8	0.8
+11024	Parsley, dried	herbs	291.0	29.0	16.8	5.3
+11029	Mint, dried	herbs	283.0	19.9	22.2	6.0
+11032	Basil, dried	herbs	244.0	23.0	10.1	4.1
+11034	Marjoram, dried	herbs	276.0	12.7	20.3	7.0
+11035	Oregano, dried	herbs	265.0	9.0	26.4	4.3
+11036	Rosemary, dried	herbs	328.0	4.9	21.5	15.2
+11037	Sage, dried	herbs	320.0	10.6	20.4	12.8
+11038	Thyme, dried	herbs	285.0	9.1	26.9	7.4
+11060	Provence herbs, dried	herbs	283.0	11.5	23.0	7.2
+11062	Savory, dried	herbs	264.0	6.7	23.0	5.9
+51500	Molokhia powder (dried jute leaves)	herbs	239.0	23.0	12.7	1.8
+20984	Wakame (Undaria pinnatifida), dried or dehydrated	seaweed	184.0	14.1	5.7	2.5
+20985	Sea lettuce (ulva sp.), dried or dehydrated)	seaweed	206.0	15.9	13.8	2.0
+20986	Sea belt (Saccharina latissima), dried or dehydrated	seaweed	204.0	10.3	23.6	1.1
+20987	Laver (Porphyra sp.), dried or dehydrated	seaweed	255.0	31.5	10.5	1.6
+20988	Dulse (Palmaria palmata), dried or dehydrated	seaweed	227.0	17.2	22.6	1.3
+20990	Kombu or Japanese kelp (Laminaria japonica), dried or dehydrated	seaweed	224.0	8.4	24.2	2.6
+20991	Tangle (Laminaria digitata), dried or dehydrated	seaweed	217.0	9.5	25.6	1.1
+20992	Sea thong (Himanthalia elongata), dried or dehydrated	seaweed	239.0	10.1	28.3	2.6
+20993	Gracilaria seaweeds (Gracilaria verrucosa), dried or dehydrated	seaweed	243.0	16.5	18.8	3.5
+20994	Toothed wrack or bladder wrack (Fucus serratus et vesiculosus), dried or dehydrated	seaweed	194.0	7.4	15.7	1.3
+20995	Sea lettuce (Enteromorpha sp.), dried or dehydrated	seaweed	224.0	13.7	18.8	2.5
+20996	Carragheen mosses (Chondrus crispus), dried or dehydrated	seaweed	234.0	16.6	21.5	2.3
+20998	North Atlantic rockweed (Ascophyllum nodosum), dried or dehydrated	seaweed	211.0	7.2	18.5	2.8
+20999	Atlantic wakame (Alaria esculenta), dried or dehydrated	seaweed	187.0	12.3	6.3	1.5
+42000	Meal replacement low calorie, Custard cream dessert-type	foods for particular nutritional uses	96.8	6.4	11.1	2.8
+42003	Meal replacement low calorie, ready-to-drink	foods for particular nutritional uses	90.6	6.8	10.4	2.5
+42004	Meal replacement low calorie, in powder, reconstituted with skimmed milk	foods for particular nutritional uses	82.0	6.1	10.1	1.7
+42005	Meal replacement low calorie, in powder, reconstituted with skimmed milk, milkshake type	foods for particular nutritional uses	87.0	6.2	10.2	2.3
+9621	Wheat bran	miscellaneous ingredients	279.0	15.4	23.6	4.3
+9640	Oat bran	miscellaneous ingredients	359.0	15.8	51.0	6.5
+9641	Maize/corn bran	miscellaneous ingredients	226.0	8.4	6.7	0.9
+9643	Rice bran	miscellaneous ingredients	398.0	13.9	28.1	20.9
+9647	Bran (average)	miscellaneous ingredients	344.0	15.7	46.0	6.1
+9660	Wheat germ	miscellaneous ingredients	375.0	27.2	35.1	9.5
+11007	Gelatine, dried	miscellaneous ingredients	348.0	86.9	0.0	0.1
+11009	Nutritional yeast	miscellaneous ingredients	334.0	40.4	21.8	4.5
+11507	Sodium bicarbonate	miscellaneous ingredients	0.4	0.1	0.0	0.0
+20906	Tofu silky	miscellaneous ingredients	54.3	4.6	1.5	2.9
+20924	Light syrup for canned pears	miscellaneous ingredients	60.7	0.25	14.6	0.15
+31047	Gelling agent for jam	miscellaneous ingredients	278.0	0.0	62.0	0.0
+31109	Pollen, partially dried	miscellaneous ingredients	358.0	21.9	52.5	4.2
+31111	Pollen, fresh	miscellaneous ingredients	285.0	17.5	37.7	5.2
+37000	cream sauce for pizza base	miscellaneous ingredients	261.0	7.7	51.1	2.6
+37002	Tomato sauce for pizza base	miscellaneous ingredients	232.0	6.9	44.6	2.7
+42200	Soy lecithin	miscellaneous ingredients	779.0	0.0	8.0	83.0
+3000	Baby milk, first age, powder	baby milk and beverages	496.0	10.9	55.0	25.3
+3002	Baby milk, second age, powder	baby milk and beverages	484.0	11.6	56.3	23.2
+13161	Dairy cereal-based beverage with vegetables for baby's dinner from 4/6 months	baby milk and beverages	82.1	2.1	11.6	2.8
+13162	Dairy cereal-based beverage with fruits for baby's snack from 4/6 months	baby milk and beverages	67.6	1.8	7.7	3.0
+13163	Dairy cereal-based beverage for baby's breakfast from 4/6 months	baby milk and beverages	83.7	2.0	12.1	2.7
+13169	Dairy cereal-based beverage for baby's breakfast from 8/9 months	baby milk and beverages	84.2	2.4	11.6	2.8
+13170	Dairy cereal-based beverage for baby's breakfast from 12 months	baby milk and beverages	86.3	2.2	12.6	2.8
+13171	Milky beverage w fruits (without cereals) for baby's snack from 4/6 months	baby milk and beverages	75.5	1.9	10.4	2.6
+13173	Dairy cereal-based beverage for baby's breakfast	baby milk and beverages	85.5	1.9	12.7	2.9
+13182	Milky cereal-based beverage(average)	baby milk and beverages	86.3	2.2	12.6	2.8
+19012	Baby milk, growing up milk, ready to feed	baby milk and beverages	60.9	1.3	7.8	2.7
+19013	Baby milk, first milk, ready to feed	baby milk and beverages	71.8	1.2	8.0	3.8
+19014	Baby milk, follow on milk, ready to feed	baby milk and beverages	65.1	1.2	8.2	2.9
+20246	Baby food jar with vegetables, from 4-6 months	baby dishes	26.3	0.9	3.8	0.25
+20247	Baby food jar with vegetables and starch, from 4-6 months	baby dishes	41.7	1.3	6.5	0.8
+20248	Vegetable dish for baby, with starch, from 6-8 months	baby dishes	42.9	1.2	6.9	0.7
+20249	Vegetable dish for baby, with milk/cream and starch, from 6-8 months	baby dishes	70.2	2.4	9.1	2.3
+20250	Vegetable dish for baby, with milk/cream and starch, from 8-12 months	baby dishes	77.5	2.1	8.1	3.5
+20251	Vegetable dish for baby, with milk/cream and starch, from 12 months	baby dishes	71.6	2.9	8.5	2.3
+20252	Soup for baby, with vegetables and potatoes	baby dishes	38.5	1.0	5.9	0.9
+20253	Soup for baby, with vegetables, cereals and milk	baby dishes	59.5	1.5	7.2	2.5
+20254	Vegetable dish for baby, with milk/cream and starch, from 18 months	baby dishes	70.3	2.6	8.6	2.4
+42603	Vegetable dish for baby, w meat/fish and starch, from 6-8 months	baby dishes	59.0	3.6	5.9	1.6
+42604	Vegetable dish for baby, w meat/fish and starch, from 8-12 months	baby dishes	54.9	2.8	6.8	1.3
+42605	Vegetable dish for baby, w meat/fish and starch, from 12 months	baby dishes	75.7	2.5	8.9	2.9
+42606	Vegetable dish for baby, w meat/fish and starch, from 18 months	baby dishes	68.3	2.8	9.0	2.0
+13164	Dairy dessert for baby, custard type	baby deserts	90.0	3.3	11.3	3.1
+13165	Dairy dessert for baby, with rice or semolina	baby deserts	93.8	3.5	11.7	3.3
+13166	Dairy dessert for baby, plain with sugar or with fruits	baby deserts	100.0	3.2	12.5	3.5
+13167	Instant cereal (powder to be reconstituted) for baby from 4/6 months	baby biscuits and cereals	393.0	5.1	88.3	1.7
+13168	Instant cereal (powder to be reconstituted) for baby from 6 months	baby biscuits and cereals	391.0	10.0	81.1	2.0
+24689	Biscuit for baby	baby biscuits and cereals	439.0	7.5	73.3	12.3
+42501	Cocoa powder for baby beverage	baby biscuits and cereals	396.0	8.5	85.0	1.9
